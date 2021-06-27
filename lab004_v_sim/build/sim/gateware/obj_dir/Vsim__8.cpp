@@ -5,8 +5,8 @@
 #include "Vsim.h"
 #include "Vsim__Syms.h"
 
-VL_INLINE_OPT void Vsim::_settle__TOP__86(Vsim__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vsim::_settle__TOP__86\n"); );
+VL_INLINE_OPT void Vsim::_settle__TOP__87(Vsim__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vsim::_settle__TOP__87\n"); );
     Vsim* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->__Vfunc_sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT____038458__82__s 
@@ -561,8 +561,8 @@ VL_INLINE_OPT void Vsim::_settle__TOP__86(Vsim__Syms* __restrict vlSymsp) {
         = vlTOPp->__Vfunc_sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT____038458__82__Vfuncout;
 }
 
-VL_INLINE_OPT void Vsim::_settle__TOP__87(Vsim__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vsim::_settle__TOP__87\n"); );
+VL_INLINE_OPT void Vsim::_settle__TOP__88(Vsim__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vsim::_settle__TOP__88\n"); );
     Vsim* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__logical_0__DOT___058_ 
@@ -755,8 +755,8 @@ VL_INLINE_OPT void Vsim::_settle__TOP__87(Vsim__Syms* __restrict vlSymsp) {
                                               >> 0x10U))))));
 }
 
-VL_INLINE_OPT void Vsim::_settle__TOP__88(Vsim__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vsim::_settle__TOP__88\n"); );
+VL_INLINE_OPT void Vsim::_settle__TOP__89(Vsim__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vsim::_settle__TOP__89\n"); );
     Vsim* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0950_ 
@@ -943,8 +943,8 @@ VL_INLINE_OPT void Vsim::_settle__TOP__88(Vsim__Syms* __restrict vlSymsp) {
                                                     : vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__cr_in)))));
 }
 
-VL_INLINE_OPT void Vsim::_settle__TOP__94(Vsim__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vsim::_settle__TOP__94\n"); );
+VL_INLINE_OPT void Vsim::_settle__TOP__95(Vsim__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vsim::_settle__TOP__95\n"); );
     Vsim* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->__Vfunc_sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__loadstore1_0__DOT____0310570__165__s 
@@ -1313,8 +1313,8 @@ VL_INLINE_OPT void Vsim::_settle__TOP__94(Vsim__Syms* __restrict vlSymsp) {
         = vlTOPp->__Vfunc_sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__loadstore1_0__DOT____0310570__165__Vfuncout;
 }
 
-VL_INLINE_OPT void Vsim::_settle__TOP__95(Vsim__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vsim::_settle__TOP__95\n"); );
+VL_INLINE_OPT void Vsim::_settle__TOP__96(Vsim__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vsim::_settle__TOP__96\n"); );
     Vsim* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__loadstore1_0__DOT___177_ 

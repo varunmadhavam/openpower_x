@@ -98,7 +98,23 @@ class Platform(SimPlatform):
 
 # Create our soc (fpga description)
 class SimSoC(SoCCore):
-        def __init__(self,**kwargs):
+        def __init__(self,
+        with_sdram            = False,
+        with_ethernet         = False,
+        with_etherbone        = False,
+        etherbone_mac_address = 0x10e2d5000001,
+        etherbone_ip_address  = "192.168.1.51",
+        with_analyzer         = False,
+        sdram_module          = "MT48LC16M16",
+        sdram_init            = [],
+        sdram_data_width      = 32,
+        sdram_spd_data        = None,
+        sdram_verbosity       = 0,
+        with_i2c              = False,
+        with_sdcard           = False,
+        sim_debug             = False,
+        trace_reset_on        = False,
+        **kwargs):
 
             platform     = Platform()
             sys_clk_freq = int(1e6)
@@ -111,6 +127,42 @@ class SimSoC(SoCCore):
 
             # Clock Reset Generation
             self.submodules.crg = CRG(platform.request("sys_clk"))
+
+            if with_sdram:
+                sdram_clk_freq = int(100e6) # FIXME: use 100MHz timings
+                if sdram_spd_data is None:
+                    sdram_module_cls = getattr(litedram_modules, sdram_module)
+                    sdram_rate       = "1:{}".format(sdram_module_nphases[sdram_module_cls.memtype])
+                    sdram_module     = sdram_module_cls(sdram_clk_freq, sdram_rate)
+                else:
+                    sdram_module = litedram_modules.SDRAMModule.from_spd_data(sdram_spd_data, sdram_clk_freq)
+
+                phy_settings     = get_sdram_phy_settings(
+                    memtype    = sdram_module.memtype,
+                    data_width = sdram_data_width,
+                    clk_freq   = sdram_clk_freq)
+                self.submodules.sdrphy = SDRAMPHYModel(
+                    module    = sdram_module,
+                    settings  = phy_settings,
+                    clk_freq  = sdram_clk_freq,
+                    verbosity = sdram_verbosity,
+                    init      = sdram_init)
+                self.add_sdram("sdram",
+                    phy                     = self.sdrphy,
+                    module                  = sdram_module,
+                    origin                  = self.mem_map["main_ram"],
+                    size                    = kwargs.get("max_sdram_size", 0x40000000),
+                    l2_cache_size           = kwargs.get("l2_size", 8192),
+                    l2_cache_min_data_width = kwargs.get("min_l2_data_width", 128),
+                    l2_cache_reverse        = False
+                )
+                if sdram_init != []:
+                    # Skip SDRAM test to avoid corrupting pre-initialized contents.
+                    self.add_constant("SDRAM_TEST_DISABLE")
+                else:
+                    # Reduce memtest size for simulation speedup
+                    self.add_constant("MEMTEST_DATA_SIZE", 8*1024)
+                    self.add_constant("MEMTEST_ADDR_SIZE", 8*1024)
 
             # Led
             user_leds = Cat(*[platform.request("user_led", i) for i in range(16)])

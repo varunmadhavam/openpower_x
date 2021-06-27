@@ -22,28 +22,6 @@ struct pad_s sys_clk[] = {
     { NULL, 0, NULL }
 };
 
-struct pad_s user_led0[] = {
-    { (char*)"user_led", 1, NULL },
-    { NULL, 0, NULL }
-};
-
-struct pad_s user_sw0[] = {
-    { (char*)"user_sw", 1, NULL },
-    { NULL, 0, NULL }
-};
-
-struct pad_s user_btn0[] = {
-    { (char*)"user_btn", 1, NULL },
-    { NULL, 0, NULL }
-};
-
-struct pad_s user_rgb_led0[] = {
-    { (char*)"r", 1, NULL },
-    { (char*)"g", 1, NULL },
-    { (char*)"b", 1, NULL },
-    { NULL, 0, NULL }
-};
-
 #ifndef __cplusplus
 void litex_sim_init(void **out);
 #endif

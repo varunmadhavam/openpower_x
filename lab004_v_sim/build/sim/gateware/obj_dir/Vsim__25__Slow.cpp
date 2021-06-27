@@ -5,8 +5,8 @@
 #include "Vsim.h"
 #include "Vsim__Syms.h"
 
-void Vsim::_settle__TOP__165(Vsim__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vsim::_settle__TOP__165\n"); );
+void Vsim::_settle__TOP__167(Vsim__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vsim::_settle__TOP__167\n"); );
     Vsim* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->__Vfunc_sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__dcache_0__DOT____0316322__30__s 
@@ -205,8 +205,8 @@ void Vsim::_settle__TOP__165(Vsim__Syms* __restrict vlSymsp) {
         = vlTOPp->__Vfunc_sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__dcache_0__DOT____0316331__33__Vfuncout;
 }
 
-void Vsim::_settle__TOP__166(Vsim__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vsim::_settle__TOP__166\n"); );
+void Vsim::_settle__TOP__168(Vsim__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vsim::_settle__TOP__168\n"); );
     Vsim* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Variables
     WData/*95:0*/ __Vtemp2551[3];
@@ -567,8 +567,8 @@ void Vsim::_settle__TOP__166(Vsim__Syms* __restrict vlSymsp) {
                         >> 1U))));
 }
 
-void Vsim::_settle__TOP__167(Vsim__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vsim::_settle__TOP__167\n"); );
+void Vsim::_settle__TOP__169(Vsim__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vsim::_settle__TOP__169\n"); );
     Vsim* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__maybe_plrus__02Eplrus__03A1__02Eplru__DOT___3_ 
@@ -826,8 +826,8 @@ void Vsim::_settle__TOP__167(Vsim__Syms* __restrict vlSymsp) {
                         >> 1U))));
 }
 
-void Vsim::_settle__TOP__168(Vsim__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vsim::_settle__TOP__168\n"); );
+void Vsim::_settle__TOP__170(Vsim__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vsim::_settle__TOP__170\n"); );
     Vsim* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__maybe_plrus__02Eplrus__03A30__02Eplru__DOT___3_ 
@@ -1085,8 +1085,8 @@ void Vsim::_settle__TOP__168(Vsim__Syms* __restrict vlSymsp) {
                         >> 1U))));
 }
 
-void Vsim::_settle__TOP__169(Vsim__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vsim::_settle__TOP__169\n"); );
+void Vsim::_settle__TOP__171(Vsim__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vsim::_settle__TOP__171\n"); );
     Vsim* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__maybe_plrus__02Eplrus__03A51__02Eplru__DOT___3_ 

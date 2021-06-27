@@ -104,7 +104,6 @@ VM_CLASSES_SLOW += \
 	Vsim__29__Slow \
 	Vsim__30__Slow \
 	Vsim__31__Slow \
-	Vsim__32__Slow \
 
 # Generated support classes, fast-path, compile with highest optimization
 VM_SUPPORT_FAST += \

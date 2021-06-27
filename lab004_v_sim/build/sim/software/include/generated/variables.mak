@@ -10,7 +10,7 @@ CPU_DIRECTORY=/home/varun/coding/projects/openpower/litex/litex/litex/soc/cores/
 SOC_DIRECTORY=/home/varun/coding/projects/openpower/litex/litex/litex/soc
 COMPILER_RT_DIRECTORY=/home/varun/coding/projects/openpower/litex/pythondata-software-compiler_rt/pythondata_software_compiler_rt/data
 export BUILDINC_DIRECTORY
-BUILDINC_DIRECTORY=/home/varun/coding/projects/openpower/fpga_101/lab004_v_sim/build/sim/software/include
+BUILDINC_DIRECTORY=/home/varun/coding/projects/openpower/openpower_x/lab004_v_sim/build/sim/software/include
 LIBCOMPILER_RT_DIRECTORY=/home/varun/coding/projects/openpower/litex/litex/litex/soc/software/libcompiler_rt
 LIBBASE_DIRECTORY=/home/varun/coding/projects/openpower/litex/litex/litex/soc/software/libbase
 LIBFATFS_DIRECTORY=/home/varun/coding/projects/openpower/litex/litex/litex/soc/software/libfatfs

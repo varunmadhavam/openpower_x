@@ -5,14 +5,14 @@
 #include "Vsim.h"
 #include "Vsim__Syms.h"
 
-VL_INLINE_OPT void Vsim::_combo__TOP__427(Vsim__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vsim::_combo__TOP__427\n"); );
+VL_INLINE_OPT void Vsim::_combo__TOP__424(Vsim__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vsim::_combo__TOP__424\n"); );
     Vsim* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Variables
-    WData/*95:0*/ __Vtemp5721[3];
-    WData/*159:0*/ __Vtemp5723[5];
-    WData/*159:0*/ __Vtemp5735[5];
-    WData/*159:0*/ __Vtemp5736[5];
+    WData/*95:0*/ __Vtemp5718[3];
+    WData/*159:0*/ __Vtemp5720[5];
+    WData/*159:0*/ __Vtemp5732[5];
+    WData/*159:0*/ __Vtemp5733[5];
     // Body
     vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0114_[0U] 
         = ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__rst_ex1)
@@ -232,7 +232,7 @@ VL_INLINE_OPT void Vsim::_combo__TOP__427(Vsim__Syms* __restrict vlSymsp) {
                                                  ((IData)(1U) 
                                                   + (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__divider_0__DOT__count)))))
                                  : 0U)));
-    VL_EXTEND_WQ(65,64, __Vtemp5721, (((QData)((IData)(
+    VL_EXTEND_WQ(65,64, __Vtemp5718, (((QData)((IData)(
                                                        vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT____Vcellinp__divider_0__d_in[2U])) 
                                        << 0x3fU) | 
                                       (((QData)((IData)(
@@ -241,7 +241,7 @@ VL_INLINE_OPT void Vsim::_combo__TOP__427(Vsim__Syms* __restrict vlSymsp) {
                                        ((QData)((IData)(
                                                         vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT____Vcellinp__divider_0__d_in[0U])) 
                                         >> 1U))));
-    VL_EXTEND_WQ(129,64, __Vtemp5723, (((QData)((IData)(
+    VL_EXTEND_WQ(129,64, __Vtemp5720, (((QData)((IData)(
                                                         vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT____Vcellinp__divider_0__d_in[2U])) 
                                         << 0x3fU) | 
                                        (((QData)((IData)(
@@ -250,7 +250,7 @@ VL_INLINE_OPT void Vsim::_combo__TOP__427(Vsim__Syms* __restrict vlSymsp) {
                                         | ((QData)((IData)(
                                                            vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT____Vcellinp__divider_0__d_in[0U])) 
                                            >> 1U))));
-    __Vtemp5735[2U] = ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__divider_0__DOT___04_)
+    __Vtemp5732[2U] = ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__divider_0__DOT___04_)
                         ? ((1U & ((IData)(((((QData)((IData)(
                                                              vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__divider_0__DOT__dend[1U])) 
                                              << 0x20U) 
@@ -275,7 +275,7 @@ VL_INLINE_OPT void Vsim::_combo__TOP__427(Vsim__Syms* __restrict vlSymsp) {
                                       >> 0x1fU)) | 
                                (0xfffffffeU & (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__divider_0__DOT__dend[2U] 
                                                << 1U)))));
-    __Vtemp5735[3U] = ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__divider_0__DOT___04_)
+    __Vtemp5732[3U] = ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__divider_0__DOT___04_)
                         ? ((1U & ((IData)(((((QData)((IData)(
                                                              vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__divider_0__DOT__dend[3U])) 
                                              << 0x20U) 
@@ -301,7 +301,7 @@ VL_INLINE_OPT void Vsim::_combo__TOP__427(Vsim__Syms* __restrict vlSymsp) {
                                       >> 0x1fU)) | 
                                (0xfffffffeU & (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__divider_0__DOT__dend[3U] 
                                                << 1U)))));
-    __Vtemp5736[1U] = ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__divider_0__DOT__running)
+    __Vtemp5733[1U] = ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__divider_0__DOT__running)
                         ? ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__divider_0__DOT___04_)
                             ? ((1U & ((IData)((((QData)((IData)(
                                                                 vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__divider_0__DOT__dend[1U])) 
@@ -334,7 +334,7 @@ VL_INLINE_OPT void Vsim::_combo__TOP__427(Vsim__Syms* __restrict vlSymsp) {
         = ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__rst_ex1)
             ? 0U : ((1U & vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT____Vcellinp__divider_0__d_in[0U])
                      ? ((8U & vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT____Vcellinp__divider_0__d_in[4U])
-                         ? 0U : __Vtemp5723[0U]) : 
+                         ? 0U : __Vtemp5720[0U]) : 
                     ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__divider_0__DOT__running)
                       ? ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__divider_0__DOT___04_)
                           ? (0xfffffffeU & ((IData)(
@@ -354,27 +354,27 @@ VL_INLINE_OPT void Vsim::_combo__TOP__427(Vsim__Syms* __restrict vlSymsp) {
         = ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__rst_ex1)
             ? 0U : ((1U & vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT____Vcellinp__divider_0__d_in[0U])
                      ? ((8U & vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT____Vcellinp__divider_0__d_in[4U])
-                         ? 0U : __Vtemp5723[1U]) : 
-                    __Vtemp5736[1U]));
+                         ? 0U : __Vtemp5720[1U]) : 
+                    __Vtemp5733[1U]));
     vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__divider_0__DOT___40_[2U] 
         = ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__rst_ex1)
             ? 0U : ((1U & vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT____Vcellinp__divider_0__d_in[0U])
                      ? ((8U & vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT____Vcellinp__divider_0__d_in[4U])
-                         ? __Vtemp5721[0U] : __Vtemp5723[2U])
+                         ? __Vtemp5718[0U] : __Vtemp5720[2U])
                      : ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__divider_0__DOT__running)
-                         ? __Vtemp5735[2U] : vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__divider_0__DOT__dend[2U])));
+                         ? __Vtemp5732[2U] : vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__divider_0__DOT__dend[2U])));
     vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__divider_0__DOT___40_[3U] 
         = ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__rst_ex1)
             ? 0U : ((1U & vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT____Vcellinp__divider_0__d_in[0U])
                      ? ((8U & vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT____Vcellinp__divider_0__d_in[4U])
-                         ? __Vtemp5721[1U] : __Vtemp5723[3U])
+                         ? __Vtemp5718[1U] : __Vtemp5720[3U])
                      : ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__divider_0__DOT__running)
-                         ? __Vtemp5735[3U] : vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__divider_0__DOT__dend[3U])));
+                         ? __Vtemp5732[3U] : vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__divider_0__DOT__dend[3U])));
     vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__divider_0__DOT___40_[4U] 
         = ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__rst_ex1)
             ? 0U : ((1U & vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT____Vcellinp__divider_0__d_in[0U])
                      ? ((8U & vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT____Vcellinp__divider_0__d_in[4U])
-                         ? __Vtemp5721[2U] : __Vtemp5723[4U])
+                         ? __Vtemp5718[2U] : __Vtemp5720[4U])
                      : ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__divider_0__DOT__running)
                          ? ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__divider_0__DOT___04_)
                              ? (1U & ((IData)((((((QData)((IData)(
@@ -490,23 +490,23 @@ VL_INLINE_OPT void Vsim::_combo__TOP__427(Vsim__Syms* __restrict vlSymsp) {
                                                  & vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__ctrl[4U]))))))))));
 }
 
-VL_INLINE_OPT void Vsim::_combo__TOP__428(Vsim__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vsim::_combo__TOP__428\n"); );
+VL_INLINE_OPT void Vsim::_combo__TOP__425(Vsim__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vsim::_combo__TOP__425\n"); );
     Vsim* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Variables
-    WData/*191:0*/ __Vtemp5745[6];
-    WData/*191:0*/ __Vtemp5746[6];
-    WData/*95:0*/ __Vtemp5751[3];
-    WData/*95:0*/ __Vtemp5758[3];
+    WData/*191:0*/ __Vtemp5742[6];
+    WData/*191:0*/ __Vtemp5743[6];
+    WData/*95:0*/ __Vtemp5748[3];
+    WData/*95:0*/ __Vtemp5755[3];
+    WData/*95:0*/ __Vtemp5756[3];
     WData/*95:0*/ __Vtemp5759[3];
-    WData/*95:0*/ __Vtemp5762[3];
-    WData/*95:0*/ __Vtemp5763[3];
-    WData/*191:0*/ __Vtemp5770[6];
-    WData/*191:0*/ __Vtemp5771[6];
-    WData/*223:0*/ __Vtemp5772[7];
-    WData/*223:0*/ __Vtemp5773[7];
-    WData/*95:0*/ __Vtemp5774[3];
-    WData/*127:0*/ __Vtemp5775[4];
+    WData/*95:0*/ __Vtemp5760[3];
+    WData/*191:0*/ __Vtemp5767[6];
+    WData/*191:0*/ __Vtemp5768[6];
+    WData/*223:0*/ __Vtemp5769[7];
+    WData/*223:0*/ __Vtemp5770[7];
+    WData/*95:0*/ __Vtemp5771[3];
+    WData/*127:0*/ __Vtemp5772[4];
     // Body
     vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__exception_log 
         = ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0860_) 
@@ -543,10 +543,10 @@ VL_INLINE_OPT void Vsim::_combo__TOP__428(Vsim__Syms* __restrict vlSymsp) {
                                              | ((QData)((IData)(
                                                                 vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0801_[0U])) 
                                                 >> 3U))));
-    __Vtemp5745[0U] = 0U;
-    __Vtemp5745[1U] = 0U;
-    __Vtemp5745[2U] = 0U;
-    __Vtemp5745[3U] = (0x44000000U | ((0x80000000U 
+    __Vtemp5742[0U] = 0U;
+    __Vtemp5742[1U] = 0U;
+    __Vtemp5742[2U] = 0U;
+    __Vtemp5742[3U] = (0x44000000U | ((0x80000000U 
                                        & ((IData)((
                                                    ((QData)((IData)(
                                                                     vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[2U])) 
@@ -561,7 +561,7 @@ VL_INLINE_OPT void Vsim::_combo__TOP__428(Vsim__Syms* __restrict vlSymsp) {
                                       | (0xfff80000U 
                                          & ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0121_) 
                                             << 0x13U))));
-    __Vtemp5745[4U] = ((0x7fffffffU & ((IData)((((QData)((IData)(
+    __Vtemp5742[4U] = ((0x7fffffffU & ((IData)((((QData)((IData)(
                                                                  vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[2U])) 
                                                  << 0x37U) 
                                                 | (((QData)((IData)(
@@ -583,7 +583,7 @@ VL_INLINE_OPT void Vsim::_combo__TOP__428(Vsim__Syms* __restrict vlSymsp) {
                                                                      >> 9U))) 
                                                               >> 0x20U)) 
                                                      << 0x1fU)));
-    __Vtemp5745[5U] = (0x7fffffffU & ((IData)(((((QData)((IData)(
+    __Vtemp5742[5U] = (0x7fffffffU & ((IData)(((((QData)((IData)(
                                                                  vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[2U])) 
                                                  << 0x37U) 
                                                 | (((QData)((IData)(
@@ -594,8 +594,8 @@ VL_INLINE_OPT void Vsim::_combo__TOP__428(Vsim__Syms* __restrict vlSymsp) {
                                                       >> 9U))) 
                                                >> 0x20U)) 
                                       >> 1U));
-    VL_EXTEND_WW(192,191, __Vtemp5746, __Vtemp5745);
-    __Vtemp5751[1U] = ((1U & ((vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[0xaU] 
+    VL_EXTEND_WW(192,191, __Vtemp5743, __Vtemp5742);
+    __Vtemp5748[1U] = ((1U & ((vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[0xaU] 
                                >> 4U) & (~ (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0703_))))
                         ? ((0x7fU & ((IData)((VL_ULL(4) 
                                               + (((QData)((IData)(
@@ -623,7 +623,7 @@ VL_INLINE_OPT void Vsim::_combo__TOP__428(Vsim__Syms* __restrict vlSymsp) {
                                                                >> 0x20U)) 
                                                       << 7U)))
                         : vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0691_[1U]);
-    __Vtemp5758[1U] = ((0x10U & vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__r[8U])
+    __Vtemp5755[1U] = ((0x10U & vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__r[8U])
                         ? ((0x7fU & ((IData)((((QData)((IData)(
                                                                vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__r[0xaU])) 
                                                << 0x3bU) 
@@ -668,7 +668,7 @@ VL_INLINE_OPT void Vsim::_combo__TOP__428(Vsim__Syms* __restrict vlSymsp) {
                                                                       >> 9U))) 
                                                                >> 0x20U)) 
                                                       << 7U))));
-    __Vtemp5759[0U] = ((0xffffffc0U & (((0x10U & vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__r[8U])
+    __Vtemp5756[0U] = ((0xffffffc0U & (((0x10U & vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__r[8U])
                                          ? (0x41U | 
                                             (0xffffff80U 
                                              & ((IData)(
@@ -718,7 +718,7 @@ VL_INLINE_OPT void Vsim::_combo__TOP__428(Vsim__Syms* __restrict vlSymsp) {
                                                           (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__r[0xaU] 
                                                            >> 7U)) 
                                                          & (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0753_))))));
-    __Vtemp5759[1U] = ((0x3fU & (((0x10U & vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__r[8U])
+    __Vtemp5756[1U] = ((0x3fU & (((0x10U & vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__r[8U])
                                    ? (0x41U | (0xffffff80U 
                                                & ((IData)(
                                                           (((QData)((IData)(
@@ -744,9 +744,9 @@ VL_INLINE_OPT void Vsim::_combo__TOP__428(Vsim__Syms* __restrict vlSymsp) {
                                                                  >> 9U)))) 
                                                   << 7U)))) 
                                  >> 0x1aU)) | (0xffffffc0U 
-                                               & (__Vtemp5758[1U] 
+                                               & (__Vtemp5755[1U] 
                                                   << 6U)));
-    __Vtemp5759[2U] = ((0x3fU & (__Vtemp5758[1U] >> 0x1aU)) 
+    __Vtemp5756[2U] = ((0x3fU & (__Vtemp5755[1U] >> 0x1aU)) 
                        | (0xffffffc0U & (((0x10U & 
                                            vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__r[8U])
                                            ? (0x7fU 
@@ -776,7 +776,7 @@ VL_INLINE_OPT void Vsim::_combo__TOP__428(Vsim__Syms* __restrict vlSymsp) {
                                                           >> 0x20U)) 
                                                  >> 0x19U))) 
                                          << 6U)));
-    __Vtemp5762[0U] = ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__valid_in)
+    __Vtemp5759[0U] = ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__valid_in)
                         ? (0x1100U | ((0xffffe000U 
                                        & ((IData)((
                                                    ((QData)((IData)(
@@ -806,8 +806,8 @@ VL_INLINE_OPT void Vsim::_combo__TOP__428(Vsim__Syms* __restrict vlSymsp) {
                                            << 0xdU)) 
                                        | ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0121_) 
                                           << 1U))) : 
-                        __Vtemp5759[0U]));
-    __Vtemp5762[1U] = ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__valid_in)
+                        __Vtemp5756[0U]));
+    __Vtemp5759[1U] = ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__valid_in)
                         ? ((0x1fffU & ((IData)((((QData)((IData)(
                                                                  vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[2U])) 
                                                  << 0x37U) 
@@ -854,9 +854,9 @@ VL_INLINE_OPT void Vsim::_combo__TOP__428(Vsim__Syms* __restrict vlSymsp) {
                                                                  >> 9U))) 
                                                           >> 0x20U)) 
                                                  << 0xdU)))
-                            : __Vtemp5759[1U]));
-    __Vtemp5763[2U] = ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0186_)
-                        ? ((0x3fU & (__Vtemp5751[1U] 
+                            : __Vtemp5756[1U]));
+    __Vtemp5760[2U] = ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0186_)
+                        ? ((0x3fU & (__Vtemp5748[1U] 
                                      >> 0x1aU)) | (0xffffffc0U 
                                                    & (((1U 
                                                         & ((vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[0xaU] 
@@ -907,8 +907,8 @@ VL_INLINE_OPT void Vsim::_combo__TOP__428(Vsim__Syms* __restrict vlSymsp) {
                                                               >> 9U))) 
                                                        >> 0x20U)) 
                                               >> 0x13U))
-                                : __Vtemp5759[2U])));
-    __Vtemp5770[3U] = ((0xffff0000U & (((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0186_)
+                                : __Vtemp5756[2U])));
+    __Vtemp5767[3U] = ((0xffff0000U & (((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0186_)
                                          ? ((0xffffffc0U 
                                              & (((1U 
                                                   & ((vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[0xaU] 
@@ -934,7 +934,7 @@ VL_INLINE_OPT void Vsim::_combo__TOP__428(Vsim__Syms* __restrict vlSymsp) {
                                                  vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0691_[0U]) 
                                                 << 6U)) 
                                             | (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0690_))
-                                         : __Vtemp5762[0U]) 
+                                         : __Vtemp5759[0U]) 
                                        << 0x10U)) | 
                        ((0x7fU & (((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0186_)
                                     ? ((0xfffffe00U 
@@ -950,7 +950,7 @@ VL_INLINE_OPT void Vsim::_combo__TOP__428(Vsim__Syms* __restrict vlSymsp) {
                                                & (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0689_ 
                                                   >> 0x17U))
                                             : 0U) << 7U))));
-    __Vtemp5770[4U] = ((0xffffU & (((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0186_)
+    __Vtemp5767[4U] = ((0xffffU & (((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0186_)
                                      ? ((0xffffffc0U 
                                          & (((1U & 
                                               ((vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[0xaU] 
@@ -974,7 +974,7 @@ VL_INLINE_OPT void Vsim::_combo__TOP__428(Vsim__Syms* __restrict vlSymsp) {
                                               : vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0691_[0U]) 
                                             << 6U)) 
                                         | (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0690_))
-                                     : __Vtemp5762[0U]) 
+                                     : __Vtemp5759[0U]) 
                                    >> 0x10U)) | (0xffff0000U 
                                                  & (((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0186_)
                                                       ? 
@@ -1003,12 +1003,12 @@ VL_INLINE_OPT void Vsim::_combo__TOP__428(Vsim__Syms* __restrict vlSymsp) {
                                                            vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0691_[0U]) 
                                                           >> 0x1aU)) 
                                                       | (0xffffffc0U 
-                                                         & (__Vtemp5751[1U] 
+                                                         & (__Vtemp5748[1U] 
                                                             << 6U)))
                                                       : 
-                                                     __Vtemp5762[1U]) 
+                                                     __Vtemp5759[1U]) 
                                                     << 0x10U)));
-    __Vtemp5771[5U] = ((0xe0000000U & (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0801_[0U] 
+    __Vtemp5768[5U] = ((0xe0000000U & (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0801_[0U] 
                                        << 0x1dU)) | 
                        ((0xffffU & (((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0186_)
                                       ? ((0x3fU & (
@@ -1036,13 +1036,13 @@ VL_INLINE_OPT void Vsim::_combo__TOP__428(Vsim__Syms* __restrict vlSymsp) {
                                                     vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0691_[0U]) 
                                                    >> 0x1aU)) 
                                          | (0xffffffc0U 
-                                            & (__Vtemp5751[1U] 
+                                            & (__Vtemp5748[1U] 
                                                << 6U)))
-                                      : __Vtemp5762[1U]) 
+                                      : __Vtemp5759[1U]) 
                                     >> 0x10U)) | (0xffff0000U 
-                                                  & (__Vtemp5763[2U] 
+                                                  & (__Vtemp5760[2U] 
                                                      << 0x10U))));
-    __Vtemp5772[0U] = ((0xfffffffcU & ((0xfffffe00U 
+    __Vtemp5769[0U] = ((0xfffffffcU & ((0xfffffe00U 
                                         & (((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0186_)
                                              ? (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0686_)
                                              : 0U) 
@@ -1108,7 +1108,7 @@ VL_INLINE_OPT void Vsim::_combo__TOP__428(Vsim__Syms* __restrict vlSymsp) {
                                                 | ((vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__r[8U] 
                                                     >> 4U) 
                                                    | (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0758_))))))));
-    __Vtemp5772[1U] = ((3U & ((3U & (((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0186_)
+    __Vtemp5769[1U] = ((3U & ((3U & (((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0186_)
                                        ? (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0686_)
                                        : 0U) >> 0x17U)) 
                               | ((3U & (((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0186_)
@@ -1156,8 +1156,8 @@ VL_INLINE_OPT void Vsim::_combo__TOP__428(Vsim__Syms* __restrict vlSymsp) {
                                                             >> 0x20U))
                                                  : 0U) 
                                                << 9U)))));
-    __Vtemp5773[2U] = ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0184_)
-                        ? __Vtemp5746[2U] : ((3U & 
+    __Vtemp5770[2U] = ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0184_)
+                        ? __Vtemp5743[2U] : ((3U & 
                                               (((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0186_)
                                                  ? (IData)(
                                                            (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0686_ 
@@ -1186,15 +1186,15 @@ VL_INLINE_OPT void Vsim::_combo__TOP__428(Vsim__Syms* __restrict vlSymsp) {
                                                          << 9U))))));
     vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0819_[0U] 
         = ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0184_)
-            ? __Vtemp5746[0U] : __Vtemp5772[0U]);
+            ? __Vtemp5743[0U] : __Vtemp5769[0U]);
     vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0819_[1U] 
         = ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0184_)
-            ? __Vtemp5746[1U] : __Vtemp5772[1U]);
+            ? __Vtemp5743[1U] : __Vtemp5769[1U]);
     vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0819_[2U] 
-        = __Vtemp5773[2U];
+        = __Vtemp5770[2U];
     vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0819_[3U] 
         = ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0184_)
-            ? __Vtemp5746[3U] : ((3U & (((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0186_)
+            ? __Vtemp5743[3U] : ((3U & (((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0186_)
                                           ? ((0xfffffe00U 
                                               & (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0689_ 
                                                  << 9U)) 
@@ -1204,21 +1204,21 @@ VL_INLINE_OPT void Vsim::_combo__TOP__428(Vsim__Syms* __restrict vlSymsp) {
                                                 | (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0687_)))
                                           : 0U) >> 0x17U)) 
                                  | (0xfffffffcU & (
-                                                   __Vtemp5770[3U] 
+                                                   __Vtemp5767[3U] 
                                                    << 2U))));
     vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0819_[4U] 
         = ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0184_)
-            ? __Vtemp5746[4U] : ((3U & (__Vtemp5770[3U] 
+            ? __Vtemp5743[4U] : ((3U & (__Vtemp5767[3U] 
                                         >> 0x1eU)) 
                                  | (0xfffffffcU & (
-                                                   __Vtemp5770[4U] 
+                                                   __Vtemp5767[4U] 
                                                    << 2U))));
     vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0819_[5U] 
         = ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0184_)
-            ? __Vtemp5746[5U] : ((3U & (__Vtemp5770[4U] 
+            ? __Vtemp5743[5U] : ((3U & (__Vtemp5767[4U] 
                                         >> 0x1eU)) 
                                  | (0xfffffffcU & (
-                                                   __Vtemp5771[5U] 
+                                                   __Vtemp5768[5U] 
                                                    << 2U))));
     vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0819_[6U] 
         = ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0184_)
@@ -1226,7 +1226,7 @@ VL_INLINE_OPT void Vsim::_combo__TOP__428(Vsim__Syms* __restrict vlSymsp) {
                           >> 0xeU)) << 1U)) | (1U & 
                                                (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__ctrl[4U] 
                                                 >> 5U)))
-            : (3U & (__Vtemp5771[5U] >> 0x1eU)));
+            : (3U & (__Vtemp5768[5U] >> 0x1eU)));
     vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__control_0__DOT___62_ 
         = ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__control_0__DOT___56_) 
            | (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__deferred));
@@ -1237,7 +1237,7 @@ VL_INLINE_OPT void Vsim::_combo__TOP__428(Vsim__Syms* __restrict vlSymsp) {
         = (1U & ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__exception_log) 
                  | ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__loadstore1_to_execute1) 
                     >> 1U)));
-    __Vtemp5774[0U] = ((0x80000000U & (((~ ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___0520_) 
+    __Vtemp5771[0U] = ((0x80000000U & (((~ ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___0520_) 
                                             & (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1935_[3U] 
                                                >> 0xdU))) 
                                         << 0x1fU) & 
@@ -1467,7 +1467,7 @@ VL_INLINE_OPT void Vsim::_combo__TOP__428(Vsim__Syms* __restrict vlSymsp) {
                                                                                 (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1935_[3U] 
                                                                                 >> 0xdU)))) 
                                                                                 & vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1854_[1U])))))))))))))))))))))))))))))))));
-    __Vtemp5774[1U] = (IData)((((QData)((IData)(((0x80000000U 
+    __Vtemp5771[1U] = (IData)((((QData)((IData)(((0x80000000U 
                                                   & (((~ 
                                                        ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___0554_) 
                                                         & (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1935_[3U] 
@@ -1946,7 +1946,7 @@ VL_INLINE_OPT void Vsim::_combo__TOP__428(Vsim__Syms* __restrict vlSymsp) {
                                                                                 (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1935_[3U] 
                                                                                 >> 0xdU)))) 
                                                                                 & vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1854_[2U])))))))))))))))))))))))))))))))))))));
-    __Vtemp5774[2U] = (IData)(((((QData)((IData)(((0x80000000U 
+    __Vtemp5771[2U] = (IData)(((((QData)((IData)(((0x80000000U 
                                                    & (((~ 
                                                         ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___0554_) 
                                                          & (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1935_[3U] 
@@ -2426,7 +2426,7 @@ VL_INLINE_OPT void Vsim::_combo__TOP__428(Vsim__Syms* __restrict vlSymsp) {
                                                                                 >> 0xdU)))) 
                                                                                 & vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1854_[2U])))))))))))))))))))))))))))))))))))) 
                                >> 0x20U));
-    __Vtemp5775[0U] = ((0x80000000U & (((~ ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___0504_) 
+    __Vtemp5772[0U] = ((0x80000000U & (((~ ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___0504_) 
                                             & (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1935_[3U] 
                                                >> 0xdU))) 
                                         << 0x1fU) & 
@@ -2658,14 +2658,14 @@ VL_INLINE_OPT void Vsim::_combo__TOP__428(Vsim__Syms* __restrict vlSymsp) {
                                                                                 & vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1854_[0U])))))))))))))))))))))))))))))))));
     vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1872_[0U] 
         = ((1U == (3U & vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1935_[0U]))
-            ? __Vtemp5775[0U] : vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1854_[0U]);
+            ? __Vtemp5772[0U] : vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1854_[0U]);
     vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1872_[1U] 
         = ((1U == (3U & vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1935_[0U]))
-            ? __Vtemp5774[0U] : vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1854_[1U]);
+            ? __Vtemp5771[0U] : vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1854_[1U]);
     vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1872_[2U] 
         = ((1U == (3U & vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1935_[0U]))
-            ? __Vtemp5774[1U] : vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1854_[2U]);
+            ? __Vtemp5771[1U] : vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1854_[2U]);
     vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1872_[3U] 
         = ((1U == (3U & vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1935_[0U]))
-            ? __Vtemp5774[2U] : vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1854_[3U]);
+            ? __Vtemp5771[2U] : vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1854_[3U]);
 }

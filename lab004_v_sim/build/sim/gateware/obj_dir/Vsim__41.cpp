@@ -5,8 +5,8 @@
 #include "Vsim.h"
 #include "Vsim__Syms.h"
 
-VL_INLINE_OPT void Vsim::_sequent__TOP__365(Vsim__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vsim::_sequent__TOP__365\n"); );
+VL_INLINE_OPT void Vsim::_sequent__TOP__363(Vsim__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vsim::_sequent__TOP__363\n"); );
     Vsim* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->__Vfunc_sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__dcache_0__DOT____0316328__32__s 
@@ -236,8 +236,8 @@ VL_INLINE_OPT void Vsim::_sequent__TOP__365(Vsim__Syms* __restrict vlSymsp) {
         = vlTOPp->__Vfunc_sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__dcache_0__DOT____0316325__31__Vfuncout;
 }
 
-VL_INLINE_OPT void Vsim::_sequent__TOP__366(Vsim__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vsim::_sequent__TOP__366\n"); );
+VL_INLINE_OPT void Vsim::_sequent__TOP__364(Vsim__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vsim::_sequent__TOP__364\n"); );
     Vsim* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Variables
     IData/*31:0*/ __Vilp;
@@ -2032,137 +2032,144 @@ VL_INLINE_OPT void Vsim::_sequent__TOP__366(Vsim__Syms* __restrict vlSymsp) {
             = vlTOPp->__Vfunc_sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT____031797__130__Vfuncout[__Vilp];
         __Vilp = ((IData)(1U) + __Vilp);
     }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank0_in_we = 0U;
-    if (((2U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
-                          >> 9U))) & (0U == (0x1ffU 
-                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank0_in_we 
-            = (1U & (~ (IData)(vlTOPp->sim__DOT__simsoc_we)));
-    }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank0_in_re = 0U;
-    if (((2U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
-                          >> 9U))) & (0U == (0x1ffU 
-                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank0_in_re 
-            = vlTOPp->sim__DOT__simsoc_we;
-    }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank1_reset0_we = 0U;
-    if (((4U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
-                          >> 9U))) & (0U == (0x1ffU 
-                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank1_reset0_we 
-            = (1U & (~ (IData)(vlTOPp->sim__DOT__simsoc_we)));
-    }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank1_reset0_re = 0U;
-    if (((4U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
-                          >> 9U))) & (0U == (0x1ffU 
-                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank1_reset0_re 
-            = vlTOPp->sim__DOT__simsoc_we;
-    }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank1_scratch0_re = 0U;
-    if (((4U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
-                          >> 9U))) & (1U == (0x1ffU 
-                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank1_scratch0_re 
-            = vlTOPp->sim__DOT__simsoc_we;
-    }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank1_scratch0_we = 0U;
-    if (((4U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
-                          >> 9U))) & (1U == (0x1ffU 
-                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank1_scratch0_we 
-            = (1U & (~ (IData)(vlTOPp->sim__DOT__simsoc_we)));
-    }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank1_bus_errors_we = 0U;
-    if (((4U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
-                          >> 9U))) & (2U == (0x1ffU 
-                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank1_bus_errors_we 
-            = (1U & (~ (IData)(vlTOPp->sim__DOT__simsoc_we)));
-    }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank1_bus_errors_re = 0U;
-    if (((4U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
-                          >> 9U))) & (2U == (0x1ffU 
-                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank1_bus_errors_re 
-            = vlTOPp->sim__DOT__simsoc_we;
-    }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank2_out0_re = 0U;
+    vlTOPp->sim__DOT__csr_bankarray_csrbank0_reset0_we = 0U;
     if (((0U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
                           >> 9U))) & (0U == (0x1ffU 
                                              & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank2_out0_re 
-            = vlTOPp->sim__DOT__simsoc_we;
+        vlTOPp->sim__DOT__csr_bankarray_csrbank0_reset0_we 
+            = (1U & (~ (IData)(vlTOPp->sim__DOT__simsoc_we)));
     }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank2_out0_we = 0U;
+    vlTOPp->sim__DOT__csr_bankarray_csrbank0_reset0_re = 0U;
     if (((0U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
                           >> 9U))) & (0U == (0x1ffU 
                                              & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank2_out0_we 
-            = (1U & (~ (IData)(vlTOPp->sim__DOT__simsoc_we)));
-    }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank3_r_enable0_re = 0U;
-    if (((3U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
-                          >> 9U))) & (0U == (0x1ffU 
-                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank3_r_enable0_re 
+        vlTOPp->sim__DOT__csr_bankarray_csrbank0_reset0_re 
             = vlTOPp->sim__DOT__simsoc_we;
     }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank3_r_enable0_we = 0U;
-    if (((3U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
-                          >> 9U))) & (0U == (0x1ffU 
-                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank3_r_enable0_we 
-            = (1U & (~ (IData)(vlTOPp->sim__DOT__simsoc_we)));
-    }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank3_r_width0_we = 0U;
-    if (((3U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
+    vlTOPp->sim__DOT__csr_bankarray_csrbank0_scratch0_re = 0U;
+    if (((0U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
                           >> 9U))) & (1U == (0x1ffU 
                                              & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank3_r_width0_we 
-            = (1U & (~ (IData)(vlTOPp->sim__DOT__simsoc_we)));
+        vlTOPp->sim__DOT__csr_bankarray_csrbank0_scratch0_re 
+            = vlTOPp->sim__DOT__simsoc_we;
     }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank3_r_width0_re = 0U;
-    if (((3U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
+    vlTOPp->sim__DOT__csr_bankarray_csrbank0_scratch0_we = 0U;
+    if (((0U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
                           >> 9U))) & (1U == (0x1ffU 
                                              & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank3_r_width0_re 
-            = vlTOPp->sim__DOT__simsoc_we;
-    }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank3_r_period0_re = 0U;
-    if (((3U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
-                          >> 9U))) & (2U == (0x1ffU 
-                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank3_r_period0_re 
-            = vlTOPp->sim__DOT__simsoc_we;
-    }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank3_r_period0_we = 0U;
-    if (((3U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
-                          >> 9U))) & (2U == (0x1ffU 
-                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank3_r_period0_we 
+        vlTOPp->sim__DOT__csr_bankarray_csrbank0_scratch0_we 
             = (1U & (~ (IData)(vlTOPp->sim__DOT__simsoc_we)));
     }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank3_g_enable0_re = 0U;
-    if (((3U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
-                          >> 9U))) & (3U == (0x1ffU 
+    vlTOPp->sim__DOT__csr_bankarray_csrbank0_bus_errors_we = 0U;
+    if (((0U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
+                          >> 9U))) & (2U == (0x1ffU 
                                              & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank3_g_enable0_re 
-            = vlTOPp->sim__DOT__simsoc_we;
-    }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank3_g_enable0_we = 0U;
-    if (((3U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
-                          >> 9U))) & (3U == (0x1ffU 
-                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank3_g_enable0_we 
+        vlTOPp->sim__DOT__csr_bankarray_csrbank0_bus_errors_we 
             = (1U & (~ (IData)(vlTOPp->sim__DOT__simsoc_we)));
     }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank3_g_width0_we = 0U;
-    if (((3U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
+    vlTOPp->sim__DOT__csr_bankarray_csrbank0_bus_errors_re = 0U;
+    if (((0U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
+                          >> 9U))) & (2U == (0x1ffU 
+                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
+        vlTOPp->sim__DOT__csr_bankarray_csrbank0_bus_errors_re 
+            = vlTOPp->sim__DOT__simsoc_we;
+    }
+    vlTOPp->sim__DOT__csr_bankarray_csrbank1_load0_re = 0U;
+    if (((2U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
+                          >> 9U))) & (0U == (0x1ffU 
+                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
+        vlTOPp->sim__DOT__csr_bankarray_csrbank1_load0_re 
+            = vlTOPp->sim__DOT__simsoc_we;
+    }
+    vlTOPp->sim__DOT__csr_bankarray_csrbank1_load0_we = 0U;
+    if (((2U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
+                          >> 9U))) & (0U == (0x1ffU 
+                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
+        vlTOPp->sim__DOT__csr_bankarray_csrbank1_load0_we 
+            = (1U & (~ (IData)(vlTOPp->sim__DOT__simsoc_we)));
+    }
+    vlTOPp->sim__DOT__csr_bankarray_csrbank1_reload0_we = 0U;
+    if (((2U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
+                          >> 9U))) & (1U == (0x1ffU 
+                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
+        vlTOPp->sim__DOT__csr_bankarray_csrbank1_reload0_we 
+            = (1U & (~ (IData)(vlTOPp->sim__DOT__simsoc_we)));
+    }
+    vlTOPp->sim__DOT__csr_bankarray_csrbank1_reload0_re = 0U;
+    if (((2U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
+                          >> 9U))) & (1U == (0x1ffU 
+                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
+        vlTOPp->sim__DOT__csr_bankarray_csrbank1_reload0_re 
+            = vlTOPp->sim__DOT__simsoc_we;
+    }
+    vlTOPp->sim__DOT__csr_bankarray_csrbank1_en0_we = 0U;
+    if (((2U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
+                          >> 9U))) & (2U == (0x1ffU 
+                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
+        vlTOPp->sim__DOT__csr_bankarray_csrbank1_en0_we 
+            = (1U & (~ (IData)(vlTOPp->sim__DOT__simsoc_we)));
+    }
+    vlTOPp->sim__DOT__csr_bankarray_csrbank1_en0_re = 0U;
+    if (((2U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
+                          >> 9U))) & (2U == (0x1ffU 
+                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
+        vlTOPp->sim__DOT__csr_bankarray_csrbank1_en0_re 
+            = vlTOPp->sim__DOT__simsoc_we;
+    }
+    vlTOPp->sim__DOT__csr_bankarray_csrbank1_update_value0_re = 0U;
+    if (((2U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
+                          >> 9U))) & (3U == (0x1ffU 
+                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
+        vlTOPp->sim__DOT__csr_bankarray_csrbank1_update_value0_re 
+            = vlTOPp->sim__DOT__simsoc_we;
+    }
+    vlTOPp->sim__DOT__csr_bankarray_csrbank1_update_value0_we = 0U;
+    if (((2U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
+                          >> 9U))) & (3U == (0x1ffU 
+                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
+        vlTOPp->sim__DOT__csr_bankarray_csrbank1_update_value0_we 
+            = (1U & (~ (IData)(vlTOPp->sim__DOT__simsoc_we)));
+    }
+    vlTOPp->sim__DOT__csr_bankarray_csrbank1_value_we = 0U;
+    if (((2U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
                           >> 9U))) & (4U == (0x1ffU 
                                              & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank3_g_width0_we 
+        vlTOPp->sim__DOT__csr_bankarray_csrbank1_value_we 
+            = (1U & (~ (IData)(vlTOPp->sim__DOT__simsoc_we)));
+    }
+    vlTOPp->sim__DOT__csr_bankarray_csrbank1_value_re = 0U;
+    if (((2U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
+                          >> 9U))) & (4U == (0x1ffU 
+                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
+        vlTOPp->sim__DOT__csr_bankarray_csrbank1_value_re 
+            = vlTOPp->sim__DOT__simsoc_we;
+    }
+    vlTOPp->sim__DOT__csr_bankarray_csrbank1_ev_status_we = 0U;
+    if (((2U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
+                          >> 9U))) & (5U == (0x1ffU 
+                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
+        vlTOPp->sim__DOT__csr_bankarray_csrbank1_ev_status_we 
+            = (1U & (~ (IData)(vlTOPp->sim__DOT__simsoc_we)));
+    }
+    vlTOPp->sim__DOT__csr_bankarray_csrbank1_ev_status_re = 0U;
+    if (((2U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
+                          >> 9U))) & (5U == (0x1ffU 
+                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
+        vlTOPp->sim__DOT__csr_bankarray_csrbank1_ev_status_re 
+            = vlTOPp->sim__DOT__simsoc_we;
+    }
+    vlTOPp->sim__DOT__csr_bankarray_csrbank1_ev_pending_re = 0U;
+    if (((2U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
+                          >> 9U))) & (6U == (0x1ffU 
+                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
+        vlTOPp->sim__DOT__csr_bankarray_csrbank1_ev_pending_re 
+            = vlTOPp->sim__DOT__simsoc_we;
+    }
+    vlTOPp->sim__DOT__csr_bankarray_csrbank1_ev_pending_we = 0U;
+    if (((2U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
+                          >> 9U))) & (6U == (0x1ffU 
+                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
+        vlTOPp->sim__DOT__csr_bankarray_csrbank1_ev_pending_we 
             = (1U & (~ (IData)(vlTOPp->sim__DOT__simsoc_we)));
     }
 }

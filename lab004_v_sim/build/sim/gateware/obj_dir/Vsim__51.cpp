@@ -11,7 +11,6 @@ void Vsim::_eval(Vsim__Syms* __restrict vlSymsp) {
     // Body
     if (((IData)(vlTOPp->sys_clk) & (~ (IData)(vlTOPp->__Vclklast__TOP__sys_clk)))) {
         vlTOPp->__Vm_traceActivity = (2U | vlTOPp->__Vm_traceActivity);
-        vlTOPp->_sequent__TOP__223(vlSymsp);
         vlTOPp->_sequent__TOP__224(vlSymsp);
         vlTOPp->_sequent__TOP__225(vlSymsp);
         vlTOPp->_sequent__TOP__226(vlSymsp);
@@ -26,23 +25,23 @@ void Vsim::_eval(Vsim__Syms* __restrict vlSymsp) {
         vlTOPp->_sequent__TOP__236(vlSymsp);
         vlTOPp->_sequent__TOP__237(vlSymsp);
         vlTOPp->_sequent__TOP__238(vlSymsp);
-        vlTOPp->_settle__TOP__8(vlSymsp);
-        vlTOPp->_settle__TOP__9(vlSymsp);
+        vlTOPp->_settle__TOP__10(vlSymsp);
+        vlTOPp->_sequent__TOP__240(vlSymsp);
         vlTOPp->_sequent__TOP__241(vlSymsp);
         vlTOPp->_sequent__TOP__242(vlSymsp);
         vlTOPp->_sequent__TOP__243(vlSymsp);
         vlTOPp->_sequent__TOP__244(vlSymsp);
         vlTOPp->_sequent__TOP__245(vlSymsp);
         vlTOPp->_sequent__TOP__246(vlSymsp);
-        vlTOPp->_sequent__TOP__247(vlSymsp);
-        vlTOPp->_sequent__TOP__248(vlSymsp);
-        vlTOPp->_settle__TOP__15(vlSymsp);
         vlTOPp->_settle__TOP__16(vlSymsp);
         vlTOPp->_settle__TOP__17(vlSymsp);
         vlTOPp->_settle__TOP__18(vlSymsp);
         vlTOPp->_settle__TOP__19(vlSymsp);
         vlTOPp->_settle__TOP__20(vlSymsp);
         vlTOPp->_settle__TOP__21(vlSymsp);
+        vlTOPp->_settle__TOP__22(vlSymsp);
+        vlTOPp->_sequent__TOP__254(vlSymsp);
+        vlTOPp->_sequent__TOP__255(vlSymsp);
         vlTOPp->_sequent__TOP__256(vlSymsp);
         vlTOPp->_sequent__TOP__257(vlSymsp);
         vlTOPp->_sequent__TOP__258(vlSymsp);
@@ -59,31 +58,31 @@ void Vsim::_eval(Vsim__Syms* __restrict vlSymsp) {
         vlTOPp->_sequent__TOP__269(vlSymsp);
         vlTOPp->_sequent__TOP__270(vlSymsp);
         vlTOPp->_sequent__TOP__271(vlSymsp);
-        vlTOPp->_sequent__TOP__272(vlSymsp);
-        vlTOPp->_sequent__TOP__273(vlSymsp);
-        vlTOPp->_settle__TOP__31(vlSymsp);
         vlTOPp->_settle__TOP__32(vlSymsp);
-        vlTOPp->_sequent__TOP__276(vlSymsp);
+        vlTOPp->_settle__TOP__33(vlSymsp);
+        vlTOPp->_sequent__TOP__274(vlSymsp);
+        vlTOPp->_sequent__TOP__275(vlSymsp);
+        vlTOPp->_settle__TOP__36(vlSymsp);
         vlTOPp->_sequent__TOP__277(vlSymsp);
-        vlTOPp->_settle__TOP__35(vlSymsp);
+        vlTOPp->_sequent__TOP__278(vlSymsp);
         vlTOPp->_sequent__TOP__279(vlSymsp);
         vlTOPp->_sequent__TOP__280(vlSymsp);
         vlTOPp->_sequent__TOP__281(vlSymsp);
         vlTOPp->_sequent__TOP__282(vlSymsp);
-        vlTOPp->_sequent__TOP__283(vlSymsp);
-        vlTOPp->_sequent__TOP__284(vlSymsp);
-        vlTOPp->_settle__TOP__48(vlSymsp);
         vlTOPp->_settle__TOP__49(vlSymsp);
         vlTOPp->_settle__TOP__50(vlSymsp);
         vlTOPp->_settle__TOP__51(vlSymsp);
         vlTOPp->_settle__TOP__52(vlSymsp);
         vlTOPp->_settle__TOP__53(vlSymsp);
         vlTOPp->_settle__TOP__54(vlSymsp);
-        vlTOPp->_sequent__TOP__292(vlSymsp);
-        vlTOPp->_sequent__TOP__293(vlSymsp);
-        vlTOPp->_settle__TOP__94(vlSymsp);
+        vlTOPp->_settle__TOP__55(vlSymsp);
+        vlTOPp->_sequent__TOP__290(vlSymsp);
+        vlTOPp->_sequent__TOP__291(vlSymsp);
         vlTOPp->_settle__TOP__95(vlSymsp);
         vlTOPp->_settle__TOP__96(vlSymsp);
+        vlTOPp->_settle__TOP__97(vlSymsp);
+        vlTOPp->_sequent__TOP__295(vlSymsp);
+        vlTOPp->_sequent__TOP__296(vlSymsp);
         vlTOPp->_sequent__TOP__297(vlSymsp);
         vlTOPp->_sequent__TOP__298(vlSymsp);
         vlTOPp->_sequent__TOP__299(vlSymsp);
@@ -96,16 +95,13 @@ void Vsim::_eval(Vsim__Syms* __restrict vlSymsp) {
         vlTOPp->_sequent__TOP__306(vlSymsp);
         vlTOPp->_sequent__TOP__307(vlSymsp);
         vlTOPp->_sequent__TOP__308(vlSymsp);
-        vlTOPp->_sequent__TOP__309(vlSymsp);
+        vlTOPp->_settle__TOP__122(vlSymsp);
         vlTOPp->_sequent__TOP__310(vlSymsp);
-        vlTOPp->_settle__TOP__121(vlSymsp);
+        vlTOPp->_sequent__TOP__311(vlSymsp);
         vlTOPp->_sequent__TOP__312(vlSymsp);
         vlTOPp->_sequent__TOP__313(vlSymsp);
         vlTOPp->_sequent__TOP__314(vlSymsp);
         vlTOPp->_sequent__TOP__315(vlSymsp);
-        vlTOPp->_sequent__TOP__316(vlSymsp);
-        vlTOPp->_sequent__TOP__317(vlSymsp);
-        vlTOPp->_settle__TOP__57(vlSymsp);
         vlTOPp->_settle__TOP__58(vlSymsp);
         vlTOPp->_settle__TOP__59(vlSymsp);
         vlTOPp->_settle__TOP__60(vlSymsp);
@@ -118,17 +114,17 @@ void Vsim::_eval(Vsim__Syms* __restrict vlSymsp) {
         vlTOPp->_settle__TOP__67(vlSymsp);
         vlTOPp->_settle__TOP__68(vlSymsp);
         vlTOPp->_settle__TOP__69(vlSymsp);
+        vlTOPp->_settle__TOP__70(vlSymsp);
+        vlTOPp->_sequent__TOP__329(vlSymsp);
+        vlTOPp->_settle__TOP__148(vlSymsp);
         vlTOPp->_sequent__TOP__331(vlSymsp);
-        vlTOPp->_sequent__TOP__332(vlSymsp);
+        vlTOPp->_settle__TOP__126(vlSymsp);
         vlTOPp->_sequent__TOP__333(vlSymsp);
-        vlTOPp->_settle__TOP__125(vlSymsp);
+        vlTOPp->_settle__TOP__114(vlSymsp);
         vlTOPp->_sequent__TOP__335(vlSymsp);
-        vlTOPp->_settle__TOP__113(vlSymsp);
+        vlTOPp->_sequent__TOP__336(vlSymsp);
         vlTOPp->_sequent__TOP__337(vlSymsp);
         vlTOPp->_sequent__TOP__338(vlSymsp);
-        vlTOPp->_sequent__TOP__339(vlSymsp);
-        vlTOPp->_sequent__TOP__340(vlSymsp);
-        vlTOPp->_settle__TOP__79(vlSymsp);
         vlTOPp->_settle__TOP__80(vlSymsp);
         vlTOPp->_settle__TOP__81(vlSymsp);
         vlTOPp->_settle__TOP__82(vlSymsp);
@@ -138,6 +134,9 @@ void Vsim::_eval(Vsim__Syms* __restrict vlSymsp) {
         vlTOPp->_settle__TOP__86(vlSymsp);
         vlTOPp->_settle__TOP__87(vlSymsp);
         vlTOPp->_settle__TOP__88(vlSymsp);
+        vlTOPp->_settle__TOP__89(vlSymsp);
+        vlTOPp->_sequent__TOP__349(vlSymsp);
+        vlTOPp->_sequent__TOP__350(vlSymsp);
         vlTOPp->_sequent__TOP__351(vlSymsp);
         vlTOPp->_sequent__TOP__352(vlSymsp);
         vlTOPp->_sequent__TOP__353(vlSymsp);
@@ -146,9 +145,9 @@ void Vsim::_eval(Vsim__Syms* __restrict vlSymsp) {
         vlTOPp->_sequent__TOP__356(vlSymsp);
         vlTOPp->_sequent__TOP__357(vlSymsp);
         vlTOPp->_sequent__TOP__358(vlSymsp);
-        vlTOPp->_sequent__TOP__359(vlSymsp);
+        vlTOPp->_settle__TOP__105(vlSymsp);
         vlTOPp->_sequent__TOP__360(vlSymsp);
-        vlTOPp->_settle__TOP__104(vlSymsp);
+        vlTOPp->_sequent__TOP__361(vlSymsp);
         vlTOPp->_sequent__TOP__362(vlSymsp);
         vlTOPp->_sequent__TOP__363(vlSymsp);
         vlTOPp->_sequent__TOP__364(vlSymsp);
@@ -159,11 +158,6 @@ void Vsim::_eval(Vsim__Syms* __restrict vlSymsp) {
         vlTOPp->_sequent__TOP__369(vlSymsp);
         vlTOPp->_sequent__TOP__370(vlSymsp);
         vlTOPp->_sequent__TOP__371(vlSymsp);
-        vlTOPp->_sequent__TOP__372(vlSymsp);
-        vlTOPp->_sequent__TOP__373(vlSymsp);
-        vlTOPp->_sequent__TOP__374(vlSymsp);
-        vlTOPp->_settle__TOP__173(vlSymsp);
-        vlTOPp->_settle__TOP__174(vlSymsp);
         vlTOPp->_settle__TOP__175(vlSymsp);
         vlTOPp->_settle__TOP__176(vlSymsp);
         vlTOPp->_settle__TOP__177(vlSymsp);
@@ -173,6 +167,11 @@ void Vsim::_eval(Vsim__Syms* __restrict vlSymsp) {
         vlTOPp->_settle__TOP__181(vlSymsp);
         vlTOPp->_settle__TOP__182(vlSymsp);
         vlTOPp->_settle__TOP__183(vlSymsp);
+        vlTOPp->_settle__TOP__184(vlSymsp);
+        vlTOPp->_settle__TOP__185(vlSymsp);
+        vlTOPp->_sequent__TOP__383(vlSymsp);
+        vlTOPp->_sequent__TOP__384(vlSymsp);
+        vlTOPp->_sequent__TOP__385(vlSymsp);
         vlTOPp->_sequent__TOP__386(vlSymsp);
         vlTOPp->_sequent__TOP__387(vlSymsp);
         vlTOPp->_sequent__TOP__388(vlSymsp);
@@ -181,45 +180,40 @@ void Vsim::_eval(Vsim__Syms* __restrict vlSymsp) {
         vlTOPp->_sequent__TOP__391(vlSymsp);
         vlTOPp->_sequent__TOP__392(vlSymsp);
         vlTOPp->_sequent__TOP__393(vlSymsp);
-        vlTOPp->_sequent__TOP__394(vlSymsp);
-        vlTOPp->_sequent__TOP__395(vlSymsp);
-        vlTOPp->_sequent__TOP__396(vlSymsp);
-        vlTOPp->_settle__TOP__153(vlSymsp);
-        vlTOPp->_settle__TOP__154(vlSymsp);
         vlTOPp->_settle__TOP__155(vlSymsp);
         vlTOPp->_settle__TOP__156(vlSymsp);
         vlTOPp->_settle__TOP__157(vlSymsp);
-        vlTOPp->_sequent__TOP__402(vlSymsp);
         vlTOPp->_settle__TOP__158(vlSymsp);
         vlTOPp->_settle__TOP__159(vlSymsp);
+        vlTOPp->_sequent__TOP__399(vlSymsp);
         vlTOPp->_settle__TOP__160(vlSymsp);
         vlTOPp->_settle__TOP__161(vlSymsp);
         vlTOPp->_settle__TOP__162(vlSymsp);
-        vlTOPp->_sequent__TOP__408(vlSymsp);
+        vlTOPp->_settle__TOP__163(vlSymsp);
+        vlTOPp->_settle__TOP__164(vlSymsp);
+        vlTOPp->_sequent__TOP__405(vlSymsp);
     }
-    vlTOPp->_combo__TOP__409(vlSymsp);
+    vlTOPp->_combo__TOP__406(vlSymsp);
     vlTOPp->__Vm_traceActivity = (4U | vlTOPp->__Vm_traceActivity);
+    vlTOPp->_combo__TOP__407(vlSymsp);
+    vlTOPp->_combo__TOP__408(vlSymsp);
+    vlTOPp->_settle__TOP__134(vlSymsp);
     vlTOPp->_combo__TOP__410(vlSymsp);
     vlTOPp->_combo__TOP__411(vlSymsp);
-    vlTOPp->_combo__TOP__412(vlSymsp);
-    vlTOPp->_combo__TOP__413(vlSymsp);
-    vlTOPp->_combo__TOP__414(vlSymsp);
-    vlTOPp->_settle__TOP__134(vlSymsp);
-    vlTOPp->_settle__TOP__135(vlSymsp);
     vlTOPp->_settle__TOP__136(vlSymsp);
     vlTOPp->_settle__TOP__137(vlSymsp);
     vlTOPp->_settle__TOP__138(vlSymsp);
     vlTOPp->_settle__TOP__139(vlSymsp);
     vlTOPp->_settle__TOP__140(vlSymsp);
+    vlTOPp->_settle__TOP__141(vlSymsp);
+    vlTOPp->_settle__TOP__142(vlSymsp);
+    vlTOPp->_combo__TOP__419(vlSymsp);
+    vlTOPp->_combo__TOP__420(vlSymsp);
+    vlTOPp->_combo__TOP__421(vlSymsp);
     vlTOPp->_combo__TOP__422(vlSymsp);
     vlTOPp->_combo__TOP__423(vlSymsp);
     vlTOPp->_combo__TOP__424(vlSymsp);
     vlTOPp->_combo__TOP__425(vlSymsp);
-    vlTOPp->_combo__TOP__426(vlSymsp);
-    vlTOPp->_combo__TOP__427(vlSymsp);
-    vlTOPp->_combo__TOP__428(vlSymsp);
-    vlTOPp->_settle__TOP__198(vlSymsp);
-    vlTOPp->_settle__TOP__199(vlSymsp);
     vlTOPp->_settle__TOP__200(vlSymsp);
     vlTOPp->_settle__TOP__201(vlSymsp);
     vlTOPp->_settle__TOP__202(vlSymsp);
@@ -235,6 +229,8 @@ void Vsim::_eval(Vsim__Syms* __restrict vlSymsp) {
     vlTOPp->_settle__TOP__212(vlSymsp);
     vlTOPp->_settle__TOP__213(vlSymsp);
     vlTOPp->_settle__TOP__214(vlSymsp);
+    vlTOPp->_settle__TOP__215(vlSymsp);
+    vlTOPp->_settle__TOP__216(vlSymsp);
     // Final
     vlTOPp->__Vclklast__TOP__sys_clk = vlTOPp->sys_clk;
 }
@@ -286,17 +282,11 @@ VL_INLINE_OPT QData Vsim::_change_request_1(Vsim__Syms* __restrict vlSymsp) {
 void Vsim::_eval_debug_assertions() {
     VL_DEBUG_IF(VL_DBG_MSGF("+    Vsim::_eval_debug_assertions\n"); );
     // Body
-    if (VL_UNLIKELY((sim_trace & 0xfeU))) {
-        Verilated::overWidthError("sim_trace");}
     if (VL_UNLIKELY((serial_source_ready & 0xfeU))) {
         Verilated::overWidthError("serial_source_ready");}
     if (VL_UNLIKELY((serial_sink_valid & 0xfeU))) {
         Verilated::overWidthError("serial_sink_valid");}
     if (VL_UNLIKELY((sys_clk & 0xfeU))) {
         Verilated::overWidthError("sys_clk");}
-    if (VL_UNLIKELY((user_sw0 & 0xfeU))) {
-        Verilated::overWidthError("user_sw0");}
-    if (VL_UNLIKELY((user_btn0 & 0xfeU))) {
-        Verilated::overWidthError("user_btn0");}
 }
 #endif  // VL_DEBUG

@@ -5,313 +5,132 @@
 #include "Vsim.h"
 #include "Vsim__Syms.h"
 
-VL_INLINE_OPT void Vsim::_sequent__TOP__367(Vsim__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vsim::_sequent__TOP__367\n"); );
+VL_INLINE_OPT void Vsim::_sequent__TOP__365(Vsim__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vsim::_sequent__TOP__365\n"); );
     Vsim* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
-    vlTOPp->sim__DOT__csr_bankarray_csrbank3_g_width0_re = 0U;
-    if (((3U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
-                          >> 9U))) & (4U == (0x1ffU 
-                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank3_g_width0_re 
-            = vlTOPp->sim__DOT__simsoc_we;
-    }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank3_g_period0_re = 0U;
-    if (((3U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
-                          >> 9U))) & (5U == (0x1ffU 
-                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank3_g_period0_re 
-            = vlTOPp->sim__DOT__simsoc_we;
-    }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank3_g_period0_we = 0U;
-    if (((3U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
-                          >> 9U))) & (5U == (0x1ffU 
-                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank3_g_period0_we 
-            = (1U & (~ (IData)(vlTOPp->sim__DOT__simsoc_we)));
-    }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank3_b_enable0_we = 0U;
-    if (((3U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
-                          >> 9U))) & (6U == (0x1ffU 
-                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank3_b_enable0_we 
-            = (1U & (~ (IData)(vlTOPp->sim__DOT__simsoc_we)));
-    }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank3_b_enable0_re = 0U;
-    if (((3U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
-                          >> 9U))) & (6U == (0x1ffU 
-                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank3_b_enable0_re 
-            = vlTOPp->sim__DOT__simsoc_we;
-    }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank3_b_width0_we = 0U;
-    if (((3U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
+    vlTOPp->sim__DOT__csr_bankarray_csrbank1_ev_enable0_we = 0U;
+    if (((2U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
                           >> 9U))) & (7U == (0x1ffU 
                                              & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank3_b_width0_we 
+        vlTOPp->sim__DOT__csr_bankarray_csrbank1_ev_enable0_we 
             = (1U & (~ (IData)(vlTOPp->sim__DOT__simsoc_we)));
     }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank3_b_width0_re = 0U;
-    if (((3U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
+    vlTOPp->sim__DOT__csr_bankarray_csrbank1_ev_enable0_re = 0U;
+    if (((2U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
                           >> 9U))) & (7U == (0x1ffU 
                                              & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank3_b_width0_re 
-            = vlTOPp->sim__DOT__simsoc_we;
-    }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank3_b_period0_re = 0U;
-    if (((3U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
-                          >> 9U))) & (8U == (0x1ffU 
-                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank3_b_period0_re 
-            = vlTOPp->sim__DOT__simsoc_we;
-    }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank3_b_period0_we = 0U;
-    if (((3U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
-                          >> 9U))) & (8U == (0x1ffU 
-                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank3_b_period0_we 
-            = (1U & (~ (IData)(vlTOPp->sim__DOT__simsoc_we)));
-    }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank4_in_re = 0U;
-    if (((1U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
-                          >> 9U))) & (0U == (0x1ffU 
-                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank4_in_re 
-            = vlTOPp->sim__DOT__simsoc_we;
-    }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank4_in_we = 0U;
-    if (((1U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
-                          >> 9U))) & (0U == (0x1ffU 
-                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank4_in_we 
-            = (1U & (~ (IData)(vlTOPp->sim__DOT__simsoc_we)));
-    }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank5_load0_re = 0U;
-    if (((6U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
-                          >> 9U))) & (0U == (0x1ffU 
-                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank5_load0_re 
-            = vlTOPp->sim__DOT__simsoc_we;
-    }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank5_load0_we = 0U;
-    if (((6U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
-                          >> 9U))) & (0U == (0x1ffU 
-                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank5_load0_we 
-            = (1U & (~ (IData)(vlTOPp->sim__DOT__simsoc_we)));
-    }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank5_reload0_we = 0U;
-    if (((6U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
-                          >> 9U))) & (1U == (0x1ffU 
-                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank5_reload0_we 
-            = (1U & (~ (IData)(vlTOPp->sim__DOT__simsoc_we)));
-    }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank5_reload0_re = 0U;
-    if (((6U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
-                          >> 9U))) & (1U == (0x1ffU 
-                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank5_reload0_re 
-            = vlTOPp->sim__DOT__simsoc_we;
-    }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank5_en0_re = 0U;
-    if (((6U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
-                          >> 9U))) & (2U == (0x1ffU 
-                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank5_en0_re 
-            = vlTOPp->sim__DOT__simsoc_we;
-    }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank5_en0_we = 0U;
-    if (((6U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
-                          >> 9U))) & (2U == (0x1ffU 
-                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank5_en0_we 
-            = (1U & (~ (IData)(vlTOPp->sim__DOT__simsoc_we)));
-    }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank5_update_value0_we = 0U;
-    if (((6U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
-                          >> 9U))) & (3U == (0x1ffU 
-                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank5_update_value0_we 
-            = (1U & (~ (IData)(vlTOPp->sim__DOT__simsoc_we)));
-    }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank5_update_value0_re = 0U;
-    if (((6U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
-                          >> 9U))) & (3U == (0x1ffU 
-                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank5_update_value0_re 
-            = vlTOPp->sim__DOT__simsoc_we;
-    }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank5_value_we = 0U;
-    if (((6U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
-                          >> 9U))) & (4U == (0x1ffU 
-                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank5_value_we 
-            = (1U & (~ (IData)(vlTOPp->sim__DOT__simsoc_we)));
-    }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank5_value_re = 0U;
-    if (((6U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
-                          >> 9U))) & (4U == (0x1ffU 
-                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank5_value_re 
-            = vlTOPp->sim__DOT__simsoc_we;
-    }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank5_ev_status_re = 0U;
-    if (((6U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
-                          >> 9U))) & (5U == (0x1ffU 
-                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank5_ev_status_re 
-            = vlTOPp->sim__DOT__simsoc_we;
-    }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank5_ev_status_we = 0U;
-    if (((6U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
-                          >> 9U))) & (5U == (0x1ffU 
-                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank5_ev_status_we 
-            = (1U & (~ (IData)(vlTOPp->sim__DOT__simsoc_we)));
-    }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank5_ev_pending_re = 0U;
-    if (((6U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
-                          >> 9U))) & (6U == (0x1ffU 
-                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank5_ev_pending_re 
-            = vlTOPp->sim__DOT__simsoc_we;
-    }
-}
-
-VL_INLINE_OPT void Vsim::_sequent__TOP__368(Vsim__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vsim::_sequent__TOP__368\n"); );
-    Vsim* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
-    // Body
-    vlTOPp->sim__DOT__csr_bankarray_csrbank5_ev_pending_we = 0U;
-    if (((6U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
-                          >> 9U))) & (6U == (0x1ffU 
-                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank5_ev_pending_we 
-            = (1U & (~ (IData)(vlTOPp->sim__DOT__simsoc_we)));
-    }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank5_ev_enable0_we = 0U;
-    if (((6U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
-                          >> 9U))) & (7U == (0x1ffU 
-                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank5_ev_enable0_we 
-            = (1U & (~ (IData)(vlTOPp->sim__DOT__simsoc_we)));
-    }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank5_ev_enable0_re = 0U;
-    if (((6U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
-                          >> 9U))) & (7U == (0x1ffU 
-                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank5_ev_enable0_re 
+        vlTOPp->sim__DOT__csr_bankarray_csrbank1_ev_enable0_re 
             = vlTOPp->sim__DOT__simsoc_we;
     }
     vlTOPp->sim__DOT__uart_rxtx_we = 0U;
-    if (((7U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
+    if (((3U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
                           >> 9U))) & (0U == (0x1ffU 
                                              & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
         vlTOPp->sim__DOT__uart_rxtx_we = (1U & (~ (IData)(vlTOPp->sim__DOT__simsoc_we)));
     }
     vlTOPp->sim__DOT__uart_rxtx_re = 0U;
-    if (((7U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
+    if (((3U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
                           >> 9U))) & (0U == (0x1ffU 
                                              & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
         vlTOPp->sim__DOT__uart_rxtx_re = vlTOPp->sim__DOT__simsoc_we;
     }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank6_txfull_re = 0U;
-    if (((7U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
+    vlTOPp->sim__DOT__csr_bankarray_csrbank2_txfull_we = 0U;
+    if (((3U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
                           >> 9U))) & (1U == (0x1ffU 
                                              & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank6_txfull_re 
-            = vlTOPp->sim__DOT__simsoc_we;
+        vlTOPp->sim__DOT__csr_bankarray_csrbank2_txfull_we 
+            = (1U & (~ (IData)(vlTOPp->sim__DOT__simsoc_we)));
     }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank6_txfull_we = 0U;
-    if (((7U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
+    vlTOPp->sim__DOT__csr_bankarray_csrbank2_txfull_re = 0U;
+    if (((3U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
                           >> 9U))) & (1U == (0x1ffU 
                                              & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank6_txfull_we 
-            = (1U & (~ (IData)(vlTOPp->sim__DOT__simsoc_we)));
+        vlTOPp->sim__DOT__csr_bankarray_csrbank2_txfull_re 
+            = vlTOPp->sim__DOT__simsoc_we;
     }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank6_rxempty_re = 0U;
-    if (((7U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
+    vlTOPp->sim__DOT__csr_bankarray_csrbank2_rxempty_re = 0U;
+    if (((3U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
                           >> 9U))) & (2U == (0x1ffU 
                                              & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank6_rxempty_re 
+        vlTOPp->sim__DOT__csr_bankarray_csrbank2_rxempty_re 
             = vlTOPp->sim__DOT__simsoc_we;
     }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank6_rxempty_we = 0U;
-    if (((7U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
+    vlTOPp->sim__DOT__csr_bankarray_csrbank2_rxempty_we = 0U;
+    if (((3U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
                           >> 9U))) & (2U == (0x1ffU 
                                              & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank6_rxempty_we 
+        vlTOPp->sim__DOT__csr_bankarray_csrbank2_rxempty_we 
             = (1U & (~ (IData)(vlTOPp->sim__DOT__simsoc_we)));
     }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank6_ev_status_we = 0U;
-    if (((7U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
+    vlTOPp->sim__DOT__csr_bankarray_csrbank2_ev_status_re = 0U;
+    if (((3U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
                           >> 9U))) & (3U == (0x1ffU 
                                              & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank6_ev_status_we 
-            = (1U & (~ (IData)(vlTOPp->sim__DOT__simsoc_we)));
+        vlTOPp->sim__DOT__csr_bankarray_csrbank2_ev_status_re 
+            = vlTOPp->sim__DOT__simsoc_we;
     }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank6_ev_status_re = 0U;
-    if (((7U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
+    vlTOPp->sim__DOT__csr_bankarray_csrbank2_ev_status_we = 0U;
+    if (((3U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
                           >> 9U))) & (3U == (0x1ffU 
                                              & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank6_ev_status_re 
-            = vlTOPp->sim__DOT__simsoc_we;
+        vlTOPp->sim__DOT__csr_bankarray_csrbank2_ev_status_we 
+            = (1U & (~ (IData)(vlTOPp->sim__DOT__simsoc_we)));
     }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank6_ev_pending_we = 0U;
-    if (((7U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
+    vlTOPp->sim__DOT__csr_bankarray_csrbank2_ev_pending_we = 0U;
+    if (((3U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
                           >> 9U))) & (4U == (0x1ffU 
                                              & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank6_ev_pending_we 
+        vlTOPp->sim__DOT__csr_bankarray_csrbank2_ev_pending_we 
             = (1U & (~ (IData)(vlTOPp->sim__DOT__simsoc_we)));
     }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank6_ev_pending_re = 0U;
-    if (((7U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
+    vlTOPp->sim__DOT__csr_bankarray_csrbank2_ev_pending_re = 0U;
+    if (((3U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
                           >> 9U))) & (4U == (0x1ffU 
                                              & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank6_ev_pending_re 
+        vlTOPp->sim__DOT__csr_bankarray_csrbank2_ev_pending_re 
             = vlTOPp->sim__DOT__simsoc_we;
     }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank6_ev_enable0_re = 0U;
-    if (((7U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
+    vlTOPp->sim__DOT__csr_bankarray_csrbank2_ev_enable0_we = 0U;
+    if (((3U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
                           >> 9U))) & (5U == (0x1ffU 
                                              & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank6_ev_enable0_re 
-            = vlTOPp->sim__DOT__simsoc_we;
+        vlTOPp->sim__DOT__csr_bankarray_csrbank2_ev_enable0_we 
+            = (1U & (~ (IData)(vlTOPp->sim__DOT__simsoc_we)));
     }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank6_ev_enable0_we = 0U;
-    if (((7U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
+    vlTOPp->sim__DOT__csr_bankarray_csrbank2_ev_enable0_re = 0U;
+    if (((3U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
                           >> 9U))) & (5U == (0x1ffU 
                                              & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank6_ev_enable0_we 
-            = (1U & (~ (IData)(vlTOPp->sim__DOT__simsoc_we)));
-    }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank6_txempty_we = 0U;
-    if (((7U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
-                          >> 9U))) & (6U == (0x1ffU 
-                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank6_txempty_we 
-            = (1U & (~ (IData)(vlTOPp->sim__DOT__simsoc_we)));
-    }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank6_txempty_re = 0U;
-    if (((7U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
-                          >> 9U))) & (6U == (0x1ffU 
-                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank6_txempty_re 
+        vlTOPp->sim__DOT__csr_bankarray_csrbank2_ev_enable0_re 
             = vlTOPp->sim__DOT__simsoc_we;
     }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank6_rxfull_we = 0U;
-    if (((7U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
-                          >> 9U))) & (7U == (0x1ffU 
+    vlTOPp->sim__DOT__csr_bankarray_csrbank2_txempty_re = 0U;
+    if (((3U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
+                          >> 9U))) & (6U == (0x1ffU 
                                              & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank6_rxfull_we 
+        vlTOPp->sim__DOT__csr_bankarray_csrbank2_txempty_re 
+            = vlTOPp->sim__DOT__simsoc_we;
+    }
+    vlTOPp->sim__DOT__csr_bankarray_csrbank2_txempty_we = 0U;
+    if (((3U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
+                          >> 9U))) & (6U == (0x1ffU 
+                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
+        vlTOPp->sim__DOT__csr_bankarray_csrbank2_txempty_we 
             = (1U & (~ (IData)(vlTOPp->sim__DOT__simsoc_we)));
     }
-    vlTOPp->sim__DOT__csr_bankarray_csrbank6_rxfull_re = 0U;
-    if (((7U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
+    vlTOPp->sim__DOT__csr_bankarray_csrbank2_rxfull_we = 0U;
+    if (((3U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
                           >> 9U))) & (7U == (0x1ffU 
                                              & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
-        vlTOPp->sim__DOT__csr_bankarray_csrbank6_rxfull_re 
+        vlTOPp->sim__DOT__csr_bankarray_csrbank2_rxfull_we 
+            = (1U & (~ (IData)(vlTOPp->sim__DOT__simsoc_we)));
+    }
+    vlTOPp->sim__DOT__csr_bankarray_csrbank2_rxfull_re = 0U;
+    if (((3U == (0x1fU & ((IData)(vlTOPp->sim__DOT__simsoc_adr) 
+                          >> 9U))) & (7U == (0x1ffU 
+                                             & (IData)(vlTOPp->sim__DOT__simsoc_adr))))) {
+        vlTOPp->sim__DOT__csr_bankarray_csrbank2_rxfull_re 
             = vlTOPp->sim__DOT__simsoc_we;
     }
     vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode1_0__DOT___094_ 
@@ -385,8 +204,8 @@ VL_INLINE_OPT void Vsim::_sequent__TOP__368(Vsim__Syms* __restrict vlSymsp) {
                                : vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode1_0__DOT___089_));
 }
 
-VL_INLINE_OPT void Vsim::_sequent__TOP__369(Vsim__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vsim::_sequent__TOP__369\n"); );
+VL_INLINE_OPT void Vsim::_sequent__TOP__366(Vsim__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vsim::_sequent__TOP__366\n"); );
     Vsim* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1934_ 
@@ -657,11 +476,11 @@ VL_INLINE_OPT void Vsim::_sequent__TOP__369(Vsim__Syms* __restrict vlSymsp) {
         = vlTOPp->__Vfunc_sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__logical_0__DOT____0321909__122__Vfuncout;
 }
 
-VL_INLINE_OPT void Vsim::_sequent__TOP__370(Vsim__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vsim::_sequent__TOP__370\n"); );
+VL_INLINE_OPT void Vsim::_sequent__TOP__367(Vsim__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vsim::_sequent__TOP__367\n"); );
     Vsim* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Variables
-    WData/*95:0*/ __Vtemp5203[3];
+    WData/*95:0*/ __Vtemp5200[3];
     // Body
     vlTOPp->__Vfunc_sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__logical_0__DOT____0321914__123__s 
         = (((0xaU == (0x3fU & ((vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[1U] 
@@ -677,7 +496,7 @@ VL_INLINE_OPT void Vsim::_sequent__TOP__370(Vsim__Syms* __restrict vlSymsp) {
                                                 | (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[0U] 
                                                    >> 3U)))) 
                                   << 1U) | (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__logical_0__DOT___099_))));
-    __Vtemp5203[0U] = ((((0U == (3U & (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[0xbU] 
+    __Vtemp5200[0U] = ((((0U == (3U & (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[0xbU] 
                                        >> 0x12U))) ? (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__logical_0__DOT___055_)
                           : 0U) << 0x18U) | ((((0U 
                                                 == 
@@ -714,7 +533,7 @@ VL_INLINE_OPT void Vsim::_sequent__TOP__370(Vsim__Syms* __restrict vlSymsp) {
                                                               >> 0x12U)))
                                                           ? (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__logical_0__DOT___052_)
                                                           : (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__logical_0__DOT___067_)))))));
-    __Vtemp5203[1U] = (IData)((((QData)((IData)((((
+    __Vtemp5200[1U] = (IData)((((QData)((IData)((((
                                                    ((0xffU 
                                                      & (IData)(
                                                                (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__c_in 
@@ -767,7 +586,7 @@ VL_INLINE_OPT void Vsim::_sequent__TOP__370(Vsim__Syms* __restrict vlSymsp) {
                                                               (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[0xbU] 
                                                                >> 0x13U)) 
                                                              & (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__logical_0__DOT__par1))))));
-    __Vtemp5203[2U] = (IData)(((((QData)((IData)(((
+    __Vtemp5200[2U] = (IData)(((((QData)((IData)(((
                                                    (((0xffU 
                                                       & (IData)(
                                                                 (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__c_in 
@@ -825,11 +644,11 @@ VL_INLINE_OPT void Vsim::_sequent__TOP__370(Vsim__Syms* __restrict vlSymsp) {
         = (IData)((vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__logical_0__DOT___094_ 
                    >> 0x20U));
     vlTOPp->__Vfunc_sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__logical_0__DOT____0321914__123__b[1U] 
-        = __Vtemp5203[0U];
+        = __Vtemp5200[0U];
     vlTOPp->__Vfunc_sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__logical_0__DOT____0321914__123__b[2U] 
-        = __Vtemp5203[1U];
+        = __Vtemp5200[1U];
     vlTOPp->__Vfunc_sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__logical_0__DOT____0321914__123__b[3U] 
-        = __Vtemp5203[2U];
+        = __Vtemp5200[2U];
     vlTOPp->__Vfunc_sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__logical_0__DOT____0321914__123__a 
         = VL_NEGATE_I((IData)((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__logical_0__DOT___123_)));
     vlTOPp->__Vfunc_sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__logical_0__DOT____0321914__123__Vfuncout 
@@ -995,8 +814,8 @@ VL_INLINE_OPT void Vsim::_sequent__TOP__370(Vsim__Syms* __restrict vlSymsp) {
            & vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__rotator_0__DOT__ml);
 }
 
-VL_INLINE_OPT void Vsim::_sequent__TOP__371(Vsim__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vsim::_sequent__TOP__371\n"); );
+VL_INLINE_OPT void Vsim::_sequent__TOP__368(Vsim__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vsim::_sequent__TOP__368\n"); );
     Vsim* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__rotator_0__DOT___289_ 
@@ -1255,15 +1074,15 @@ VL_INLINE_OPT void Vsim::_sequent__TOP__371(Vsim__Syms* __restrict vlSymsp) {
            | vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__rotator_0__DOT__ml);
 }
 
-VL_INLINE_OPT void Vsim::_sequent__TOP__372(Vsim__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vsim::_sequent__TOP__372\n"); );
+VL_INLINE_OPT void Vsim::_sequent__TOP__369(Vsim__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vsim::_sequent__TOP__369\n"); );
     Vsim* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Variables
-    WData/*191:0*/ __Vtemp5211[6];
-    WData/*127:0*/ __Vtemp5212[4];
-    WData/*191:0*/ __Vtemp5217[6];
-    WData/*127:0*/ __Vtemp5225[4];
-    WData/*191:0*/ __Vtemp5230[6];
+    WData/*191:0*/ __Vtemp5208[6];
+    WData/*127:0*/ __Vtemp5209[4];
+    WData/*191:0*/ __Vtemp5214[6];
+    WData/*127:0*/ __Vtemp5222[4];
+    WData/*191:0*/ __Vtemp5227[6];
     // Body
     vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__rotator_0__DOT___296_ 
         = ((((QData)((IData)(((VL_GTES_III(1,32,32, 0U, (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__rotator_0__DOT__mb)) 
@@ -1392,7 +1211,7 @@ VL_INLINE_OPT void Vsim::_sequent__TOP__372(Vsim__Syms* __restrict vlSymsp) {
                                                                                 << 1U) 
                                                                                 | VL_GTES_III(1,32,32, 0x3fU, (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__rotator_0__DOT__mb)))))))))))))))))))))))))))))))))))) 
            | vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__rotator_0__DOT__ml);
-    __Vtemp5211[3U] = (0x44040000U | ((0x80000000U 
+    __Vtemp5208[3U] = (0x44040000U | ((0x80000000U 
                                        & ((IData)((
                                                    ((QData)((IData)(
                                                                     vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[2U])) 
@@ -1423,13 +1242,13 @@ VL_INLINE_OPT void Vsim::_sequent__TOP__372(Vsim__Syms* __restrict vlSymsp) {
                                                       (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__c_in 
                                                        & (~ vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT__rotator_0__DOT__ml)))) 
                                                   << 0x13U))))));
-    VL_EXTEND_WI(115,9, __Vtemp5212, (1U | (0x1f8U 
+    VL_EXTEND_WI(115,9, __Vtemp5209, (1U | (0x1f8U 
                                             & ((vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[3U] 
                                                 << 0x1aU) 
                                                | (0x3fffff8U 
                                                   & (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[2U] 
                                                      >> 6U))))));
-    __Vtemp5217[4U] = ((0x800U & vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[0xaU])
+    __Vtemp5214[4U] = ((0x800U & vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[0xaU])
                         ? ((0x7fffffffU & ((IData)(
                                                    (((QData)((IData)(
                                                                      vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[2U])) 
@@ -1482,16 +1301,16 @@ VL_INLINE_OPT void Vsim::_sequent__TOP__372(Vsim__Syms* __restrict vlSymsp) {
                                 << 0x1aU) | (0x3fffff8U 
                                              & (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[2U] 
                                                 >> 6U)))))
-            : __Vtemp5212[0U]);
+            : __Vtemp5209[0U]);
     vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0640_[1U] 
         = ((0x800U & vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[0xaU])
-            ? 0U : __Vtemp5212[1U]);
+            ? 0U : __Vtemp5209[1U]);
     vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0640_[2U] 
         = ((0x800U & vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[0xaU])
-            ? 0U : __Vtemp5212[2U]);
+            ? 0U : __Vtemp5209[2U]);
     vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0640_[3U] 
         = ((0x800U & vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[0xaU])
-            ? __Vtemp5211[3U] : (0x44000000U | ((0x80000000U 
+            ? __Vtemp5208[3U] : (0x44000000U | ((0x80000000U 
                                                  & ((IData)(
                                                             (((QData)((IData)(
                                                                               vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[2U])) 
@@ -1506,9 +1325,9 @@ VL_INLINE_OPT void Vsim::_sequent__TOP__372(Vsim__Syms* __restrict vlSymsp) {
                                                 | ((0xfff80000U 
                                                     & ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0121_) 
                                                        << 0x13U)) 
-                                                   | __Vtemp5212[3U]))));
+                                                   | __Vtemp5209[3U]))));
     vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0640_[4U] 
-        = __Vtemp5217[4U];
+        = __Vtemp5214[4U];
     vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0640_[5U] 
         = ((0x800U & vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[0xaU])
             ? (0x7fffffffU & ((IData)(((((QData)((IData)(
@@ -1536,13 +1355,13 @@ VL_INLINE_OPT void Vsim::_sequent__TOP__372(Vsim__Syms* __restrict vlSymsp) {
             & (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0208_)) 
            | ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0223_) 
               & vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0206_[2U]));
-    VL_EXTEND_WI(115,9, __Vtemp5225, (1U | (0x1f8U 
+    VL_EXTEND_WI(115,9, __Vtemp5222, (1U | (0x1f8U 
                                             & ((vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[3U] 
                                                 << 0x1aU) 
                                                | (0x3fffff8U 
                                                   & (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[2U] 
                                                      >> 6U))))));
-    __Vtemp5230[3U] = ((0x800U & vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[0xaU])
+    __Vtemp5227[3U] = ((0x800U & vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[0xaU])
                         ? (0x44040000U | ((0x80000000U 
                                            & ((IData)(
                                                       (((QData)((IData)(
@@ -1579,8 +1398,8 @@ VL_INLINE_OPT void Vsim::_sequent__TOP__372(Vsim__Syms* __restrict vlSymsp) {
                                           | ((0xfff80000U 
                                               & ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0121_) 
                                                  << 0x13U)) 
-                                             | __Vtemp5225[3U]))));
-    __Vtemp5230[4U] = ((0x800U & vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[0xaU])
+                                             | __Vtemp5222[3U]))));
+    __Vtemp5227[4U] = ((0x800U & vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[0xaU])
                         ? ((0x7fffffffU & ((IData)(
                                                    (((QData)((IData)(
                                                                      vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[2U])) 
@@ -1633,17 +1452,17 @@ VL_INLINE_OPT void Vsim::_sequent__TOP__372(Vsim__Syms* __restrict vlSymsp) {
                                 << 0x1aU) | (0x3fffff8U 
                                              & (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[2U] 
                                                 >> 6U)))))
-            : __Vtemp5225[0U]);
+            : __Vtemp5222[0U]);
     vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0210_[1U] 
         = ((0x800U & vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[0xaU])
-            ? 0U : __Vtemp5225[1U]);
+            ? 0U : __Vtemp5222[1U]);
     vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0210_[2U] 
         = ((0x800U & vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[0xaU])
-            ? 0U : __Vtemp5225[2U]);
+            ? 0U : __Vtemp5222[2U]);
     vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0210_[3U] 
-        = __Vtemp5230[3U];
+        = __Vtemp5227[3U];
     vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0210_[4U] 
-        = __Vtemp5230[4U];
+        = __Vtemp5227[4U];
     vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0210_[5U] 
         = ((0x800U & vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[0xaU])
             ? (0x7fffffffU & ((IData)(((((QData)((IData)(
@@ -1731,4 +1550,613 @@ VL_INLINE_OPT void Vsim::_sequent__TOP__372(Vsim__Syms* __restrict vlSymsp) {
                                                                 >> 3U)))))
                                                       ? 1U
                                                       : 0U))))))));
+}
+
+VL_INLINE_OPT void Vsim::_sequent__TOP__370(Vsim__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vsim::_sequent__TOP__370\n"); );
+    Vsim* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    // Body
+    vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0604_ 
+        = ((1U & ((~ ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0589_) 
+                      & ((vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[0xaU] 
+                          >> 0x1cU) & (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0589_)))) 
+                  & ((~ ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0580_) 
+                         & ((vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[0xaU] 
+                             >> 0x1dU) & (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0580_)))) 
+                     & ((~ ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0571_) 
+                            & ((vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[0xaU] 
+                                >> 0x1eU) & (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0571_)))) 
+                        & ((~ ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0562_) 
+                               & ((vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[0xaU] 
+                                   >> 0x1fU) & (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0562_)))) 
+                           & ((~ ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0553_) 
+                                  & (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[0xbU] 
+                                     & (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0553_)))) 
+                              & ((~ ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0544_) 
+                                     & ((vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[0xbU] 
+                                         >> 1U) & (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0544_)))) 
+                                 & ((~ ((~ (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[0xbU] 
+                                            >> 3U)) 
+                                        & ((vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[0xbU] 
+                                            >> 2U) 
+                                           & (~ (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[0xbU] 
+                                                 >> 3U))))) 
+                                    & (~ (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[0xbU] 
+                                          >> 3U))))))))))
+            ? 7U : (((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0589_) 
+                     & ((vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[0xaU] 
+                         >> 0x1cU) & (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0589_)))
+                     ? 7U : (((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0580_) 
+                              & ((vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[0xaU] 
+                                  >> 0x1dU) & (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0580_)))
+                              ? 6U : (((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0571_) 
+                                       & ((vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[0xaU] 
+                                           >> 0x1eU) 
+                                          & (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0571_)))
+                                       ? 5U : (((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0562_) 
+                                                & ((vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[0xaU] 
+                                                    >> 0x1fU) 
+                                                   & (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0562_)))
+                                                ? 4U
+                                                : (
+                                                   ((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0553_) 
+                                                    & (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[0xbU] 
+                                                       & (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0553_)))
+                                                    ? 3U
+                                                    : 
+                                                   (((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0544_) 
+                                                     & ((vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[0xbU] 
+                                                         >> 1U) 
+                                                        & (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__execute1_0__DOT___0544_)))
+                                                     ? 2U
+                                                     : 
+                                                    ((1U 
+                                                      & ((~ 
+                                                          (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[0xbU] 
+                                                           >> 3U)) 
+                                                         & ((vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[0xbU] 
+                                                             >> 2U) 
+                                                            & (~ 
+                                                               (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__decode2_0__DOT__r[0xbU] 
+                                                                >> 3U)))))
+                                                      ? 1U
+                                                      : 0U))))))));
+    vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1793_ 
+        = ((1U & vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__mmu_to_icache[0U])
+            ? (((QData)((IData)(((0x80000000U & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2222_) 
+                                                   & ((IData)(1U) 
+                                                      - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_))) 
+                                                  | (IData)(
+                                                            (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                             >> 0x3fU))) 
+                                                 << 0x1fU)) 
+                                 | ((0x40000000U & 
+                                     ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2222_) 
+                                        & (~ ((IData)(1U) 
+                                              - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_)))) 
+                                       | (IData)((vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                  >> 0x3eU))) 
+                                      << 0x1eU)) | 
+                                    ((0x20000000U & 
+                                      ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2221_) 
+                                         & ((IData)(1U) 
+                                            - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_))) 
+                                        | (IData)((vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                   >> 0x3dU))) 
+                                       << 0x1dU)) | 
+                                     ((0x10000000U 
+                                       & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2221_) 
+                                            & (~ ((IData)(1U) 
+                                                  - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_)))) 
+                                           | (IData)(
+                                                     (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                      >> 0x3cU))) 
+                                          << 0x1cU)) 
+                                      | ((0x8000000U 
+                                          & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2220_) 
+                                               & ((IData)(1U) 
+                                                  - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_))) 
+                                              | (IData)(
+                                                        (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                         >> 0x3bU))) 
+                                             << 0x1bU)) 
+                                         | ((0x4000000U 
+                                             & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2220_) 
+                                                  & (~ 
+                                                     ((IData)(1U) 
+                                                      - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_)))) 
+                                                 | (IData)(
+                                                           (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                            >> 0x3aU))) 
+                                                << 0x1aU)) 
+                                            | ((0x2000000U 
+                                                & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2219_) 
+                                                     & ((IData)(1U) 
+                                                        - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_))) 
+                                                    | (IData)(
+                                                              (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                               >> 0x39U))) 
+                                                   << 0x19U)) 
+                                               | ((0x1000000U 
+                                                   & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2219_) 
+                                                        & (~ 
+                                                           ((IData)(1U) 
+                                                            - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_)))) 
+                                                       | (IData)(
+                                                                 (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                  >> 0x38U))) 
+                                                      << 0x18U)) 
+                                                  | ((0x800000U 
+                                                      & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2218_) 
+                                                           & ((IData)(1U) 
+                                                              - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_))) 
+                                                          | (IData)(
+                                                                    (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                     >> 0x37U))) 
+                                                         << 0x17U)) 
+                                                     | ((0x400000U 
+                                                         & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2218_) 
+                                                              & (~ 
+                                                                 ((IData)(1U) 
+                                                                  - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_)))) 
+                                                             | (IData)(
+                                                                       (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                        >> 0x36U))) 
+                                                            << 0x16U)) 
+                                                        | ((0x200000U 
+                                                            & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2217_) 
+                                                                 & ((IData)(1U) 
+                                                                    - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_))) 
+                                                                | (IData)(
+                                                                          (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                           >> 0x35U))) 
+                                                               << 0x15U)) 
+                                                           | ((0x100000U 
+                                                               & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2217_) 
+                                                                    & (~ 
+                                                                       ((IData)(1U) 
+                                                                        - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_)))) 
+                                                                   | (IData)(
+                                                                             (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                              >> 0x34U))) 
+                                                                  << 0x14U)) 
+                                                              | ((0x80000U 
+                                                                  & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2216_) 
+                                                                       & ((IData)(1U) 
+                                                                          - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_))) 
+                                                                      | (IData)(
+                                                                                (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                                >> 0x33U))) 
+                                                                     << 0x13U)) 
+                                                                 | ((0x40000U 
+                                                                     & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2216_) 
+                                                                          & (~ 
+                                                                             ((IData)(1U) 
+                                                                              - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_)))) 
+                                                                         | (IData)(
+                                                                                (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                                >> 0x32U))) 
+                                                                        << 0x12U)) 
+                                                                    | ((0x20000U 
+                                                                        & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2215_) 
+                                                                             & ((IData)(1U) 
+                                                                                - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_))) 
+                                                                            | (IData)(
+                                                                                (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                                >> 0x31U))) 
+                                                                           << 0x11U)) 
+                                                                       | ((0x10000U 
+                                                                           & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2215_) 
+                                                                                & (~ 
+                                                                                ((IData)(1U) 
+                                                                                - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_)))) 
+                                                                               | (IData)(
+                                                                                (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                                >> 0x30U))) 
+                                                                              << 0x10U)) 
+                                                                          | ((0x8000U 
+                                                                              & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2214_) 
+                                                                                & ((IData)(1U) 
+                                                                                - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_))) 
+                                                                                | (IData)(
+                                                                                (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                                >> 0x2fU))) 
+                                                                                << 0xfU)) 
+                                                                             | ((0x4000U 
+                                                                                & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2214_) 
+                                                                                & (~ 
+                                                                                ((IData)(1U) 
+                                                                                - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_)))) 
+                                                                                | (IData)(
+                                                                                (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                                >> 0x2eU))) 
+                                                                                << 0xeU)) 
+                                                                                | ((0x2000U 
+                                                                                & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2213_) 
+                                                                                & ((IData)(1U) 
+                                                                                - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_))) 
+                                                                                | (IData)(
+                                                                                (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                                >> 0x2dU))) 
+                                                                                << 0xdU)) 
+                                                                                | ((0x1000U 
+                                                                                & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2213_) 
+                                                                                & (~ 
+                                                                                ((IData)(1U) 
+                                                                                - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_)))) 
+                                                                                | (IData)(
+                                                                                (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                                >> 0x2cU))) 
+                                                                                << 0xcU)) 
+                                                                                | ((0x800U 
+                                                                                & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2212_) 
+                                                                                & ((IData)(1U) 
+                                                                                - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_))) 
+                                                                                | (IData)(
+                                                                                (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                                >> 0x2bU))) 
+                                                                                << 0xbU)) 
+                                                                                | ((0x400U 
+                                                                                & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2212_) 
+                                                                                & (~ 
+                                                                                ((IData)(1U) 
+                                                                                - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_)))) 
+                                                                                | (IData)(
+                                                                                (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                                >> 0x2aU))) 
+                                                                                << 0xaU)) 
+                                                                                | ((0x200U 
+                                                                                & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2211_) 
+                                                                                & ((IData)(1U) 
+                                                                                - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_))) 
+                                                                                | (IData)(
+                                                                                (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                                >> 0x29U))) 
+                                                                                << 9U)) 
+                                                                                | ((0x100U 
+                                                                                & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2211_) 
+                                                                                & (~ 
+                                                                                ((IData)(1U) 
+                                                                                - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_)))) 
+                                                                                | (IData)(
+                                                                                (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                                >> 0x28U))) 
+                                                                                << 8U)) 
+                                                                                | ((0x80U 
+                                                                                & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2210_) 
+                                                                                & ((IData)(1U) 
+                                                                                - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_))) 
+                                                                                | (IData)(
+                                                                                (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                                >> 0x27U))) 
+                                                                                << 7U)) 
+                                                                                | ((0x40U 
+                                                                                & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2210_) 
+                                                                                & (~ 
+                                                                                ((IData)(1U) 
+                                                                                - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_)))) 
+                                                                                | (IData)(
+                                                                                (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                                >> 0x26U))) 
+                                                                                << 6U)) 
+                                                                                | ((0x20U 
+                                                                                & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2209_) 
+                                                                                & ((IData)(1U) 
+                                                                                - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_))) 
+                                                                                | (IData)(
+                                                                                (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                                >> 0x25U))) 
+                                                                                << 5U)) 
+                                                                                | ((0x10U 
+                                                                                & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2209_) 
+                                                                                & (~ 
+                                                                                ((IData)(1U) 
+                                                                                - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_)))) 
+                                                                                | (IData)(
+                                                                                (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                                >> 0x24U))) 
+                                                                                << 4U)) 
+                                                                                | ((8U 
+                                                                                & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2208_) 
+                                                                                & ((IData)(1U) 
+                                                                                - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_))) 
+                                                                                | (IData)(
+                                                                                (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                                >> 0x23U))) 
+                                                                                << 3U)) 
+                                                                                | ((4U 
+                                                                                & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2208_) 
+                                                                                & (~ 
+                                                                                ((IData)(1U) 
+                                                                                - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_)))) 
+                                                                                | (IData)(
+                                                                                (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                                >> 0x22U))) 
+                                                                                << 2U)) 
+                                                                                | ((2U 
+                                                                                & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2207_) 
+                                                                                & ((IData)(1U) 
+                                                                                - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_))) 
+                                                                                | (IData)(
+                                                                                (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                                >> 0x21U))) 
+                                                                                << 1U)) 
+                                                                                | (1U 
+                                                                                & (((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2207_) 
+                                                                                & (~ 
+                                                                                ((IData)(1U) 
+                                                                                - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_)))) 
+                                                                                | (IData)(
+                                                                                (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                                >> 0x20U))))))))))))))))))))))))))))))))))))) 
+                << 0x20U) | (QData)((IData)(((0x80000000U 
+                                              & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2206_) 
+                                                   & ((IData)(1U) 
+                                                      - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_))) 
+                                                  | (IData)(
+                                                            (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                             >> 0x1fU))) 
+                                                 << 0x1fU)) 
+                                             | ((0x40000000U 
+                                                 & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2206_) 
+                                                      & (~ 
+                                                         ((IData)(1U) 
+                                                          - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_)))) 
+                                                     | (IData)(
+                                                               (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                >> 0x1eU))) 
+                                                    << 0x1eU)) 
+                                                | ((0x20000000U 
+                                                    & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2205_) 
+                                                         & ((IData)(1U) 
+                                                            - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_))) 
+                                                        | (IData)(
+                                                                  (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                   >> 0x1dU))) 
+                                                       << 0x1dU)) 
+                                                   | ((0x10000000U 
+                                                       & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2205_) 
+                                                            & (~ 
+                                                               ((IData)(1U) 
+                                                                - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_)))) 
+                                                           | (IData)(
+                                                                     (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                      >> 0x1cU))) 
+                                                          << 0x1cU)) 
+                                                      | ((0x8000000U 
+                                                          & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2204_) 
+                                                               & ((IData)(1U) 
+                                                                  - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_))) 
+                                                              | (IData)(
+                                                                        (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                         >> 0x1bU))) 
+                                                             << 0x1bU)) 
+                                                         | ((0x4000000U 
+                                                             & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2204_) 
+                                                                  & (~ 
+                                                                     ((IData)(1U) 
+                                                                      - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_)))) 
+                                                                 | (IData)(
+                                                                           (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                            >> 0x1aU))) 
+                                                                << 0x1aU)) 
+                                                            | ((0x2000000U 
+                                                                & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2203_) 
+                                                                     & ((IData)(1U) 
+                                                                        - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_))) 
+                                                                    | (IData)(
+                                                                              (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                               >> 0x19U))) 
+                                                                   << 0x19U)) 
+                                                               | ((0x1000000U 
+                                                                   & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2203_) 
+                                                                        & (~ 
+                                                                           ((IData)(1U) 
+                                                                            - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_)))) 
+                                                                       | (IData)(
+                                                                                (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                                >> 0x18U))) 
+                                                                      << 0x18U)) 
+                                                                  | ((0x800000U 
+                                                                      & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2202_) 
+                                                                           & ((IData)(1U) 
+                                                                              - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_))) 
+                                                                          | (IData)(
+                                                                                (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                                >> 0x17U))) 
+                                                                         << 0x17U)) 
+                                                                     | ((0x400000U 
+                                                                         & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2202_) 
+                                                                              & (~ 
+                                                                                ((IData)(1U) 
+                                                                                - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_)))) 
+                                                                             | (IData)(
+                                                                                (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                                >> 0x16U))) 
+                                                                            << 0x16U)) 
+                                                                        | ((0x200000U 
+                                                                            & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2201_) 
+                                                                                & ((IData)(1U) 
+                                                                                - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_))) 
+                                                                                | (IData)(
+                                                                                (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                                >> 0x15U))) 
+                                                                               << 0x15U)) 
+                                                                           | ((0x100000U 
+                                                                               & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2201_) 
+                                                                                & (~ 
+                                                                                ((IData)(1U) 
+                                                                                - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_)))) 
+                                                                                | (IData)(
+                                                                                (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                                >> 0x14U))) 
+                                                                                << 0x14U)) 
+                                                                              | ((0x80000U 
+                                                                                & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2200_) 
+                                                                                & ((IData)(1U) 
+                                                                                - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_))) 
+                                                                                | (IData)(
+                                                                                (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                                >> 0x13U))) 
+                                                                                << 0x13U)) 
+                                                                                | ((0x40000U 
+                                                                                & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2200_) 
+                                                                                & (~ 
+                                                                                ((IData)(1U) 
+                                                                                - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_)))) 
+                                                                                | (IData)(
+                                                                                (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                                >> 0x12U))) 
+                                                                                << 0x12U)) 
+                                                                                | ((0x20000U 
+                                                                                & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2199_) 
+                                                                                & ((IData)(1U) 
+                                                                                - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_))) 
+                                                                                | (IData)(
+                                                                                (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                                >> 0x11U))) 
+                                                                                << 0x11U)) 
+                                                                                | ((0x10000U 
+                                                                                & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2199_) 
+                                                                                & (~ 
+                                                                                ((IData)(1U) 
+                                                                                - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_)))) 
+                                                                                | (IData)(
+                                                                                (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                                >> 0x10U))) 
+                                                                                << 0x10U)) 
+                                                                                | ((0x8000U 
+                                                                                & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2198_) 
+                                                                                & ((IData)(1U) 
+                                                                                - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_))) 
+                                                                                | (IData)(
+                                                                                (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                                >> 0xfU))) 
+                                                                                << 0xfU)) 
+                                                                                | ((0x4000U 
+                                                                                & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2198_) 
+                                                                                & (~ 
+                                                                                ((IData)(1U) 
+                                                                                - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_)))) 
+                                                                                | (IData)(
+                                                                                (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                                >> 0xeU))) 
+                                                                                << 0xeU)) 
+                                                                                | ((0x2000U 
+                                                                                & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2197_) 
+                                                                                & ((IData)(1U) 
+                                                                                - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_))) 
+                                                                                | (IData)(
+                                                                                (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                                >> 0xdU))) 
+                                                                                << 0xdU)) 
+                                                                                | ((0x1000U 
+                                                                                & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2197_) 
+                                                                                & (~ 
+                                                                                ((IData)(1U) 
+                                                                                - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_)))) 
+                                                                                | (IData)(
+                                                                                (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                                >> 0xcU))) 
+                                                                                << 0xcU)) 
+                                                                                | ((0x800U 
+                                                                                & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2196_) 
+                                                                                & ((IData)(1U) 
+                                                                                - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_))) 
+                                                                                | (IData)(
+                                                                                (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                                >> 0xbU))) 
+                                                                                << 0xbU)) 
+                                                                                | ((0x400U 
+                                                                                & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2196_) 
+                                                                                & (~ 
+                                                                                ((IData)(1U) 
+                                                                                - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_)))) 
+                                                                                | (IData)(
+                                                                                (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                                >> 0xaU))) 
+                                                                                << 0xaU)) 
+                                                                                | ((0x200U 
+                                                                                & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2195_) 
+                                                                                & ((IData)(1U) 
+                                                                                - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_))) 
+                                                                                | (IData)(
+                                                                                (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                                >> 9U))) 
+                                                                                << 9U)) 
+                                                                                | ((0x100U 
+                                                                                & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2195_) 
+                                                                                & (~ 
+                                                                                ((IData)(1U) 
+                                                                                - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_)))) 
+                                                                                | (IData)(
+                                                                                (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                                >> 8U))) 
+                                                                                << 8U)) 
+                                                                                | ((0x80U 
+                                                                                & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2194_) 
+                                                                                & ((IData)(1U) 
+                                                                                - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_))) 
+                                                                                | (IData)(
+                                                                                (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                                >> 7U))) 
+                                                                                << 7U)) 
+                                                                                | ((0x40U 
+                                                                                & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2194_) 
+                                                                                & (~ 
+                                                                                ((IData)(1U) 
+                                                                                - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_)))) 
+                                                                                | (IData)(
+                                                                                (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                                >> 6U))) 
+                                                                                << 6U)) 
+                                                                                | ((0x20U 
+                                                                                & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2193_) 
+                                                                                & ((IData)(1U) 
+                                                                                - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_))) 
+                                                                                | (IData)(
+                                                                                (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                                >> 5U))) 
+                                                                                << 5U)) 
+                                                                                | ((0x10U 
+                                                                                & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2193_) 
+                                                                                & (~ 
+                                                                                ((IData)(1U) 
+                                                                                - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_)))) 
+                                                                                | (IData)(
+                                                                                (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                                >> 4U))) 
+                                                                                << 4U)) 
+                                                                                | ((8U 
+                                                                                & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2192_) 
+                                                                                & ((IData)(1U) 
+                                                                                - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_))) 
+                                                                                | (IData)(
+                                                                                (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                                >> 3U))) 
+                                                                                << 3U)) 
+                                                                                | ((4U 
+                                                                                & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2192_) 
+                                                                                & (~ 
+                                                                                ((IData)(1U) 
+                                                                                - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_)))) 
+                                                                                | (IData)(
+                                                                                (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                                >> 2U))) 
+                                                                                << 2U)) 
+                                                                                | ((2U 
+                                                                                & ((((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2191_) 
+                                                                                & ((IData)(1U) 
+                                                                                - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_))) 
+                                                                                | (IData)(
+                                                                                (vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids 
+                                                                                >> 1U))) 
+                                                                                << 1U)) 
+                                                                                | (1U 
+                                                                                & (((IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___2191_) 
+                                                                                & (~ 
+                                                                                ((IData)(1U) 
+                                                                                - (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT___1788_)))) 
+                                                                                | (IData)(vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids)))))))))))))))))))))))))))))))))))))
+            : vlTOPp->sim__DOT__microwatt_wrapper__DOT__microwatt_core__DOT__icache_0__DOT__itlb_valids);
 }

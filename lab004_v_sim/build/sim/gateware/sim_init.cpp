@@ -34,19 +34,5 @@ extern "C" void litex_sim_init(void **out)
     sys_clk[0].signal = &sim->sys_clk;
     litex_sim_register_pads(sys_clk, (char*)"sys_clk", 0);
 
-    user_led0[0].signal = &sim->user_led;
-    litex_sim_register_pads(user_led0, (char*)"user_led", 0);
-
-    user_sw0[0].signal = &sim->user_sw;
-    litex_sim_register_pads(user_sw0, (char*)"user_sw", 0);
-
-    user_btn0[0].signal = &sim->user_btn;
-    litex_sim_register_pads(user_btn0, (char*)"user_btn", 0);
-
-    user_rgb_led0[0].signal = &sim->user_rgb_led0_r;
-    user_rgb_led0[1].signal = &sim->user_rgb_led0_g;
-    user_rgb_led0[2].signal = &sim->user_rgb_led0_b;
-    litex_sim_register_pads(user_rgb_led0, (char*)"user_rgb_led", 0);
-
     *out=sim;
 }
