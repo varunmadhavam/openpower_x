@@ -6,7 +6,7 @@
     5. source /path/to/Xilinix/Vivado/2020.2/settings64.sh
     6. install [ghdl](https://ghdl.github.io/ghdl/development/building/index.html)
     7. install [yosys-ghdl-plugin](https://github.com/ghdl/ghdl-yosys-plugin#build-as-a-module-shared-library)
-    8. install [sbt]https://www.scala-sbt.org/release/docs/Installing-sbt-on-Linux.html
+    8. install [sbt](https://www.scala-sbt.org/release/docs/Installing-sbt-on-Linux.html)
 
 2. Build a sample SoC using litex with microwatt core
     1. build the soc bitstream
