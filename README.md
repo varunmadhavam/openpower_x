@@ -60,14 +60,17 @@
         5. sudo apt install sbt
 
 2. Build a sample SoC using litex with microwatt core
-    1. build the soc bitstream
+    1. git clone https://github.com/varunmadhavam/openpower_x.git
+    2. cd openpower_x
+    3. build the soc bitstream
         1. cd lab004_microwatt
         2. python base_microwatt_vivado.py
-    2. build the firmware for the soc
+    4. build the firmware for the soc
         1. cd firmware
         2. make clean
         3. make
             
 3. Simulate SOC with microwatt core
-    1. cd microwatt_sim
+    1. git clone https://github.com/varunmadhavam/openpower_x.git
+    1. cd openpower_x/microwatt_sim
     2. ./runsim.sh
