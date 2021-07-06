@@ -6,13 +6,12 @@
         1. mkdir /tmp/yosys
         2. cd /tmp/yosys
         3. sudo apt install build-essential clang bison flex libreadline-dev gawk tcl-dev libffi-dev git graphviz xdot pkg-config python3 libboost-system-dev libboost-python-dev      libboost-filesystem-dev zlib1g-dev
-        4. wget https://github.com/YosysHQ/yosys/archive/refs/tags/yosys-0.9.zip
-        5. unzip yosys-0.9.zip
-        6. cd yosys-yosys-0.9
-        7. make clean
-        8. make config-gcc
-        9. make
-        10. sudo make install
+        4. git clone https://github.com/YosysHQ/yosys.git
+        5. cd yosys
+        6. make clean
+        7. make config-gcc
+        8. make
+        9. sudo make install
     3. Install [Litex](https://github.com/enjoy-digital/litex)
         1. sudo apt install libevent-dev libjson-c-dev verilator
         2. wget https://raw.githubusercontent.com/enjoy-digital/litex/master/litex_setup.py
