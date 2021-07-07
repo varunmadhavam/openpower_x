@@ -2,6 +2,8 @@
     1. Install python3
         1. sudo apt install python3
         2. sudo apt install python-is-python3
+        3. sudo apt install python3-pip
+        4. sudo apt install python3-setuptools
     2. Insall [yosys]()
         1. mkdir /tmp/yosys
         2. cd /tmp/yosys
