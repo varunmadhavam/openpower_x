@@ -4,6 +4,8 @@
         2. sudo apt install python-is-python3
         3. sudo apt install python3-pip
         4. sudo apt install python3-setuptools
+        5. sudo apt install gnat-10
+        6. sudo apt install texinfo
     2. Insall [yosys]()
         1. mkdir /tmp/yosys
         2. cd /tmp/yosys
@@ -18,7 +20,7 @@
         1. sudo apt install libevent-dev libjson-c-dev verilator
         2. wget https://raw.githubusercontent.com/enjoy-digital/litex/master/litex_setup.py
         3. chmod +x litex_setup.py
-        4. ./litex_setup.py init install --user
+        4. sudo ./litex_setup.py init install
     4. Install [Vivado](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/2020-2.html)
     5. Download [powerpc cross compiler](https://toolchains.bootlin.com/downloads/releases/toolchains/powerpc64le-power8/tarballs/powerpc64le-power8--glibc--stable-2020.08-1.tar.bz2) and add its bin directory   to the path env variable
         1. wget https://toolchains.bootlin.com/downloads/releases/toolchains/powerpc64le-power8/tarballs/powerpc64le-power8--glibc--stable-2020.08-1.tar.bz2
@@ -45,13 +47,18 @@
         17. cd /tmp/ghdl/ghdl-1.0.0/build
         18. make ghdllib
         19. sudo make install
+        20. cd /usr/local/bin
+        21. sudo mv gcc baK-gcc;sudo mv gcc-ar bak_gcc-ar;sudo mv gcc-nm bak_gcc-nm;sudo mv gcc-ranlib bak_gcc-ranlib
+        22. cd /usr/local/include
+        23. sudo mkdir ghdl
+        24. sudo cp ghdlsynth.h ghdl/synth.h
     8. install [yosys-ghdl-plugin](https://github.com/ghdl/ghdl-yosys-plugin#build-as-a-module-shared-library)
         1. mkdir /tmp/plugin
         2. cd /tmp/plugin
         3. git clone https://github.com/ghdl/ghdl-yosys-plugin.git
         4. cd ghdl-yosys-plugin
         5. make
-        6. make install
+        6. sudo make install
 
     9. install [sbt](https://www.scala-sbt.org/release/docs/Installing-sbt-on-Linux.html)
         1. echo "deb https://repo.scala-sbt.org/scalasbt/debian all main" | sudo tee /etc/apt/sources.list.d/sbt.list

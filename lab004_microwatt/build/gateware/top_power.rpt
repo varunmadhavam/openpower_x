@@ -1,8 +1,8 @@
-Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------
-| Tool Version     : Vivado v.2020.2 (lin64) Build 3064766 Wed Nov 18 09:12:47 MST 2020
-| Date             : Tue Jun 29 20:26:48 2021
-| Host             : varun-UX430UNR running 64-bit Ubuntu 20.04.2 LTS
+| Tool Version     : Vivado v.2021.1 (lin64) Build 3247384 Thu Jun 10 19:36:07 MDT 2021
+| Date             : Thu Aug  5 21:59:12 2021
+| Host             : varuns5600x running 64-bit Ubuntu 20.04.2 LTS
 | Command          : report_power -file top_power.rpt
 | Design           : top
 | Device           : xc7a100tcsg324-1
@@ -29,20 +29,20 @@ Table of Contents
 1. Summary
 ----------
 
-+--------------------------+----------------------------------+
-| Total On-Chip Power (W)  | 80.548 (Junction temp exceeded!) |
-| Design Power Budget (W)  | Unspecified*                     |
-| Power Budget Margin (W)  | NA                               |
-| Dynamic (W)              | 79.738                           |
-| Device Static (W)        | 0.810                            |
-| Effective TJA (C/W)      | 4.6                              |
-| Max Ambient (C)          | 0.0                              |
-| Junction Temperature (C) | 125.0                            |
-| Confidence Level         | Low                              |
-| Setting File             | ---                              |
-| Simulation Activity File | ---                              |
-| Design Nets Matched      | NA                               |
-+--------------------------+----------------------------------+
++--------------------------+-----------------------------------+
+| Total On-Chip Power (W)  | 102.172 (Junction temp exceeded!) |
+| Design Power Budget (W)  | Unspecified*                      |
+| Power Budget Margin (W)  | NA                                |
+| Dynamic (W)              | 101.361                           |
+| Device Static (W)        | 0.810                             |
+| Effective TJA (C/W)      | 4.6                               |
+| Max Ambient (C)          | 0.0                               |
+| Junction Temperature (C) | 125.0                             |
+| Confidence Level         | Low                               |
+| Setting File             | ---                               |
+| Simulation Activity File | ---                               |
+| Design Nets Matched      | NA                                |
++--------------------------+-----------------------------------+
 * Specify Design Power Budget using, set_operating_conditions -design_power_budget <value in Watts>
 
 
@@ -52,21 +52,21 @@ Table of Contents
 +--------------------------+-----------+----------+-----------+-----------------+
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
-| Slice Logic              |    30.655 |    19486 |       --- |             --- |
-|   LUT as Logic           |    27.861 |    10203 |     63400 |           16.09 |
-|   CARRY4                 |     1.232 |      497 |     15850 |            3.14 |
-|   LUT as Distributed RAM |     0.784 |     1024 |     19000 |            5.39 |
-|   Register               |     0.720 |     5995 |    126800 |            4.73 |
-|   F7/F8 Muxes            |     0.051 |      133 |     63400 |            0.21 |
+| Slice Logic              |    38.191 |    19368 |       --- |             --- |
+|   LUT as Logic           |    34.487 |    10195 |     63400 |           16.08 |
+|   CARRY4                 |     1.720 |      497 |     15850 |            3.14 |
+|   LUT as Distributed RAM |     1.121 |     1018 |     19000 |            5.36 |
+|   Register               |     0.796 |     5910 |    126800 |            4.66 |
+|   F7/F8 Muxes            |     0.060 |      129 |     63400 |            0.20 |
 |   BUFG                   |     0.006 |        1 |        32 |            3.13 |
 |   LUT as Shift Register  |    <0.001 |        3 |     19000 |            0.02 |
 |   Others                 |     0.000 |      247 |       --- |             --- |
-| Signals                  |    44.628 |    16452 |       --- |             --- |
-| Block RAM                |     4.078 |     21.5 |       135 |           15.93 |
-| DSPs                     |     0.092 |       16 |       240 |            6.67 |
-| I/O                      |     0.286 |       44 |       210 |           20.95 |
+| Signals                  |    51.609 |    16348 |       --- |             --- |
+| Block RAM                |     4.014 |     21.5 |       135 |           15.93 |
+| DSPs                     |     7.437 |       16 |       240 |            6.67 |
+| I/O                      |     0.111 |       19 |       210 |            9.05 |
 | Static Power             |     0.810 |          |           |                 |
-| Total                    |    80.548 |          |           |                 |
+| Total                    |   102.172 |          |           |                 |
 +--------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -76,16 +76,16 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
-| Vccint    |       1.000 |    79.899 |      79.330 |      0.569 |       NA    | Unspecified | NA         |
-| Vccaux    |       1.800 |     0.100 |       0.007 |      0.093 |       NA    | Unspecified | NA         |
-| Vcco33    |       3.300 |     0.059 |       0.055 |      0.004 |       NA    | Unspecified | NA         |
+| Vccint    |       1.000 |   101.648 |     101.079 |      0.569 |       NA    | Unspecified | NA         |
+| Vccaux    |       1.800 |     0.095 |       0.003 |      0.093 |       NA    | Unspecified | NA         |
+| Vcco33    |       3.300 |     0.024 |       0.020 |      0.004 |       NA    | Unspecified | NA         |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco135   |       1.350 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco12    |       1.200 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vccaux_io |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
-| Vccbram   |       1.000 |     0.239 |       0.215 |      0.025 |       NA    | Unspecified | NA         |
+| Vccbram   |       1.000 |     0.236 |       0.211 |      0.025 |       NA    | Unspecified | NA         |
 | MGTAVcc   |       1.000 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | MGTAVtt   |       1.200 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vccadc    |       1.800 |     0.020 |       0.000 |      0.020 |       NA    | Unspecified | NA         |
@@ -143,19 +143,19 @@ Table of Contents
 +-----------------------+-----------+
 | Name                  | Power (W) |
 +-----------------------+-----------+
-| top                   |    79.738 |
-|   microwatt_wrapper   |    74.142 |
-|     microwatt_core    |    74.142 |
-|       dcache_0        |    16.808 |
-|       debug_0         |     4.639 |
-|       decode1_0       |     7.161 |
-|       decode2_0       |    18.981 |
-|       execute1_0      |     7.637 |
-|       fetch1_0        |     0.146 |
-|       icache_0        |    12.020 |
-|       loadstore1_0    |     2.630 |
-|       mmu_0           |     3.819 |
-|       register_file_0 |     0.014 |
+| top                   |   101.361 |
+|   microwatt_wrapper   |    95.841 |
+|     microwatt_core    |    95.841 |
+|       dcache_0        |    12.552 |
+|       debug_0         |     4.735 |
+|       decode1_0       |     6.532 |
+|       decode2_0       |    22.688 |
+|       execute1_0      |    26.027 |
+|       fetch1_0        |     1.637 |
+|       icache_0        |    12.949 |
+|       loadstore1_0    |     3.578 |
+|       mmu_0           |     4.179 |
+|       register_file_0 |     0.686 |
 +-----------------------+-----------+
 
 

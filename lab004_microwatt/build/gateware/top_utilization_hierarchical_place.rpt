@@ -1,8 +1,8 @@
-Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------
-| Tool Version : Vivado v.2020.2 (lin64) Build 3064766 Wed Nov 18 09:12:47 MST 2020
-| Date         : Tue Jun 29 20:25:43 2021
-| Host         : varun-UX430UNR running 64-bit Ubuntu 20.04.2 LTS
+| Tool Version : Vivado v.2021.1 (lin64) Build 3247384 Thu Jun 10 19:36:07 MDT 2021
+| Date         : Thu Aug  5 21:58:49 2021
+| Host         : varuns5600x running 64-bit Ubuntu 20.04.2 LTS
 | Command      : report_utilization -hierarchical -file top_utilization_hierarchical_place.rpt
 | Design       : top
 | Device       : 7a100tcsg324-1
@@ -21,21 +21,21 @@ Table of Contents
 +------------------------------------------------+-------------------------------+------------+------------+---------+------+------+--------+--------+------------+
 |                    Instance                    |             Module            | Total LUTs | Logic LUTs | LUTRAMs | SRLs |  FFs | RAMB36 | RAMB18 | DSP Blocks |
 +------------------------------------------------+-------------------------------+------------+------------+---------+------+------+--------+--------+------------+
-| top                                            |                         (top) |      11230 |      10203 |    1024 |    3 | 5995 |     21 |      1 |         16 |
-|   (top)                                        |                         (top) |        387 |        371 |      16 |    0 |  966 |     14 |      0 |          0 |
-|   microwatt_wrapper                            |             microwatt_wrapper |      10843 |       9832 |    1008 |    3 | 5029 |      7 |      1 |         16 |
-|     microwatt_core                             |                          core |      10843 |       9832 |    1008 |    3 | 5029 |      7 |      1 |         16 |
+| top                                            |                         (top) |      11216 |      10195 |    1018 |    3 | 5910 |     21 |      1 |         16 |
+|   (top)                                        |                         (top) |        383 |        371 |      12 |    0 |  889 |     14 |      0 |          0 |
+|   microwatt_wrapper                            |             microwatt_wrapper |      10833 |       9824 |    1006 |    3 | 5021 |      7 |      1 |         16 |
+|     microwatt_core                             |                          core |      10833 |       9824 |    1006 |    3 | 5021 |      7 |      1 |         16 |
 |       (microwatt_core)                         |                          core |         13 |         13 |       0 |    0 |    1 |      0 |      0 |          0 |
 |       cr_file_0                                |                       cr_file |          2 |          2 |       0 |    0 |   50 |      0 |      0 |          0 |
-|       dcache_0                                 |                        dcache |       2500 |       2052 |     448 |    0 | 1380 |      2 |      0 |          0 |
-|         (dcache_0)                             |                        dcache |       1423 |        975 |     448 |    0 | 1252 |      0 |      0 |          0 |
+|       dcache_0                                 |                        dcache |       2264 |       1816 |     448 |    0 | 1379 |      2 |      0 |          0 |
+|         (dcache_0)                             |                        dcache |       1200 |        752 |     448 |    0 | 1251 |      0 |      0 |          0 |
 |         maybe_plrus.plrus[0].plru              |                       plru_66 |          1 |          1 |       0 |    0 |    1 |      0 |      0 |          0 |
 |         maybe_plrus.plrus[10].plru             |                       plru_67 |          1 |          1 |       0 |    0 |    1 |      0 |      0 |          0 |
 |         maybe_plrus.plrus[11].plru             |                       plru_68 |          2 |          2 |       0 |    0 |    1 |      0 |      0 |          0 |
 |         maybe_plrus.plrus[12].plru             |                       plru_69 |          1 |          1 |       0 |    0 |    1 |      0 |      0 |          0 |
 |         maybe_plrus.plrus[13].plru             |                       plru_70 |          1 |          1 |       0 |    0 |    1 |      0 |      0 |          0 |
 |         maybe_plrus.plrus[14].plru             |                       plru_71 |          1 |          1 |       0 |    0 |    1 |      0 |      0 |          0 |
-|         maybe_plrus.plrus[15].plru             |                       plru_72 |          3 |          3 |       0 |    0 |    1 |      0 |      0 |          0 |
+|         maybe_plrus.plrus[15].plru             |                       plru_72 |          2 |          2 |       0 |    0 |    1 |      0 |      0 |          0 |
 |         maybe_plrus.plrus[16].plru             |                       plru_73 |          1 |          1 |       0 |    0 |    1 |      0 |      0 |          0 |
 |         maybe_plrus.plrus[17].plru             |                       plru_74 |          1 |          1 |       0 |    0 |    1 |      0 |      0 |          0 |
 |         maybe_plrus.plrus[18].plru             |                       plru_75 |          1 |          1 |       0 |    0 |    1 |      0 |      0 |          0 |
@@ -44,7 +44,7 @@ Table of Contents
 |         maybe_plrus.plrus[20].plru             |                       plru_78 |          1 |          1 |       0 |    0 |    1 |      0 |      0 |          0 |
 |         maybe_plrus.plrus[21].plru             |                       plru_79 |          1 |          1 |       0 |    0 |    1 |      0 |      0 |          0 |
 |         maybe_plrus.plrus[22].plru             |                       plru_80 |          1 |          1 |       0 |    0 |    1 |      0 |      0 |          0 |
-|         maybe_plrus.plrus[23].plru             |                       plru_81 |          3 |          3 |       0 |    0 |    1 |      0 |      0 |          0 |
+|         maybe_plrus.plrus[23].plru             |                       plru_81 |          2 |          2 |       0 |    0 |    1 |      0 |      0 |          0 |
 |         maybe_plrus.plrus[24].plru             |                       plru_82 |          1 |          1 |       0 |    0 |    1 |      0 |      0 |          0 |
 |         maybe_plrus.plrus[25].plru             |                       plru_83 |          1 |          1 |       0 |    0 |    1 |      0 |      0 |          0 |
 |         maybe_plrus.plrus[26].plru             |                       plru_84 |          1 |          1 |       0 |    0 |    1 |      0 |      0 |          0 |
@@ -53,7 +53,7 @@ Table of Contents
 |         maybe_plrus.plrus[29].plru             |                       plru_87 |          1 |          1 |       0 |    0 |    1 |      0 |      0 |          0 |
 |         maybe_plrus.plrus[2].plru              |                       plru_88 |          1 |          1 |       0 |    0 |    1 |      0 |      0 |          0 |
 |         maybe_plrus.plrus[30].plru             |                       plru_89 |          1 |          1 |       0 |    0 |    1 |      0 |      0 |          0 |
-|         maybe_plrus.plrus[31].plru             |                       plru_90 |          2 |          2 |       0 |    0 |    1 |      0 |      0 |          0 |
+|         maybe_plrus.plrus[31].plru             |                       plru_90 |          3 |          3 |       0 |    0 |    1 |      0 |      0 |          0 |
 |         maybe_plrus.plrus[32].plru             |                       plru_91 |          1 |          1 |       0 |    0 |    1 |      0 |      0 |          0 |
 |         maybe_plrus.plrus[33].plru             |                       plru_92 |          1 |          1 |       0 |    0 |    1 |      0 |      0 |          0 |
 |         maybe_plrus.plrus[34].plru             |                       plru_93 |          1 |          1 |       0 |    0 |    1 |      0 |      0 |          0 |
@@ -61,7 +61,7 @@ Table of Contents
 |         maybe_plrus.plrus[36].plru             |                       plru_95 |          1 |          1 |       0 |    0 |    1 |      0 |      0 |          0 |
 |         maybe_plrus.plrus[37].plru             |                       plru_96 |          1 |          1 |       0 |    0 |    1 |      0 |      0 |          0 |
 |         maybe_plrus.plrus[38].plru             |                       plru_97 |          1 |          1 |       0 |    0 |    1 |      0 |      0 |          0 |
-|         maybe_plrus.plrus[39].plru             |                       plru_98 |          2 |          2 |       0 |    0 |    1 |      0 |      0 |          0 |
+|         maybe_plrus.plrus[39].plru             |                       plru_98 |          3 |          3 |       0 |    0 |    1 |      0 |      0 |          0 |
 |         maybe_plrus.plrus[3].plru              |                       plru_99 |          2 |          2 |       0 |    0 |    1 |      0 |      0 |          0 |
 |         maybe_plrus.plrus[40].plru             |                      plru_100 |          1 |          1 |       0 |    0 |    1 |      0 |      0 |          0 |
 |         maybe_plrus.plrus[41].plru             |                      plru_101 |          1 |          1 |       0 |    0 |    1 |      0 |      0 |          0 |
@@ -70,7 +70,7 @@ Table of Contents
 |         maybe_plrus.plrus[44].plru             |                      plru_104 |          1 |          1 |       0 |    0 |    1 |      0 |      0 |          0 |
 |         maybe_plrus.plrus[45].plru             |                      plru_105 |          1 |          1 |       0 |    0 |    1 |      0 |      0 |          0 |
 |         maybe_plrus.plrus[46].plru             |                      plru_106 |          1 |          1 |       0 |    0 |    1 |      0 |      0 |          0 |
-|         maybe_plrus.plrus[47].plru             |                      plru_107 |          2 |          2 |       0 |    0 |    1 |      0 |      0 |          0 |
+|         maybe_plrus.plrus[47].plru             |                      plru_107 |          3 |          3 |       0 |    0 |    1 |      0 |      0 |          0 |
 |         maybe_plrus.plrus[48].plru             |                      plru_108 |          1 |          1 |       0 |    0 |    1 |      0 |      0 |          0 |
 |         maybe_plrus.plrus[49].plru             |                      plru_109 |          1 |          1 |       0 |    0 |    1 |      0 |      0 |          0 |
 |         maybe_plrus.plrus[4].plru              |                      plru_110 |          1 |          1 |       0 |    0 |    1 |      0 |      0 |          0 |
@@ -79,7 +79,7 @@ Table of Contents
 |         maybe_plrus.plrus[52].plru             |                      plru_113 |          1 |          1 |       0 |    0 |    1 |      0 |      0 |          0 |
 |         maybe_plrus.plrus[53].plru             |                      plru_114 |          1 |          1 |       0 |    0 |    1 |      0 |      0 |          0 |
 |         maybe_plrus.plrus[54].plru             |                      plru_115 |          1 |          1 |       0 |    0 |    1 |      0 |      0 |          0 |
-|         maybe_plrus.plrus[55].plru             |                      plru_116 |          3 |          3 |       0 |    0 |    1 |      0 |      0 |          0 |
+|         maybe_plrus.plrus[55].plru             |                      plru_116 |          2 |          2 |       0 |    0 |    1 |      0 |      0 |          0 |
 |         maybe_plrus.plrus[56].plru             |                      plru_117 |          1 |          1 |       0 |    0 |    1 |      0 |      0 |          0 |
 |         maybe_plrus.plrus[57].plru             |                      plru_118 |          2 |          2 |       0 |    0 |    1 |      0 |      0 |          0 |
 |         maybe_plrus.plrus[58].plru             |                      plru_119 |          1 |          1 |       0 |    0 |    1 |      0 |      0 |          0 |
@@ -88,7 +88,7 @@ Table of Contents
 |         maybe_plrus.plrus[60].plru             |                      plru_122 |          1 |          1 |       0 |    0 |    1 |      0 |      0 |          0 |
 |         maybe_plrus.plrus[61].plru             |                      plru_123 |          2 |          2 |       0 |    0 |    1 |      0 |      0 |          0 |
 |         maybe_plrus.plrus[62].plru             |                      plru_124 |          1 |          1 |       0 |    0 |    1 |      0 |      0 |          0 |
-|         maybe_plrus.plrus[63].plru             |                      plru_125 |        263 |        263 |       0 |    0 |    1 |      0 |      0 |          0 |
+|         maybe_plrus.plrus[63].plru             |                      plru_125 |        259 |        259 |       0 |    0 |    1 |      0 |      0 |          0 |
 |         maybe_plrus.plrus[6].plru              |                      plru_126 |          1 |          1 |       0 |    0 |    1 |      0 |      0 |          0 |
 |         maybe_plrus.plrus[7].plru              |                      plru_127 |          3 |          3 |       0 |    0 |    1 |      0 |      0 |          0 |
 |         maybe_plrus.plrus[8].plru              |                      plru_128 |          1 |          1 |       0 |    0 |    1 |      0 |      0 |          0 |
@@ -157,27 +157,27 @@ Table of Contents
 |         maybe_tlb_plrus.tlb_plrus[7].tlb_plru  |                      plru_191 |          2 |          2 |       0 |    0 |    1 |      0 |      0 |          0 |
 |         maybe_tlb_plrus.tlb_plrus[8].tlb_plru  |                      plru_192 |          1 |          1 |       0 |    0 |    1 |      0 |      0 |          0 |
 |         maybe_tlb_plrus.tlb_plrus[9].tlb_plru  |                      plru_193 |          1 |          1 |       0 |    0 |    1 |      0 |      0 |          0 |
-|         rams[0].way                            |     cache_ram__parameterized0 |         20 |         20 |       0 |    0 |    0 |      1 |      0 |          0 |
-|         rams[1].way                            | cache_ram__parameterized0_194 |        236 |        236 |       0 |    0 |    0 |      1 |      0 |          0 |
+|         rams[0].way                            |     cache_ram__parameterized0 |         21 |         21 |       0 |    0 |    0 |      1 |      0 |          0 |
+|         rams[1].way                            | cache_ram__parameterized0_194 |        226 |        226 |       0 |    0 |    0 |      1 |      0 |          0 |
 |       debug_0                                  |                    core_debug |         72 |         72 |       0 |    0 |   83 |      3 |      1 |          0 |
-|       decode1_0                                |                       decode1 |        505 |        505 |       0 |    0 |  301 |      0 |      0 |          0 |
-|       decode2_0                                |                       decode2 |       3413 |       3413 |       0 |    0 |  428 |      0 |      0 |          0 |
-|         (decode2_0)                            |                       decode2 |       3375 |       3375 |       0 |    0 |  385 |      0 |      0 |          0 |
-|         control_0                              |                       control |         38 |         38 |       0 |    0 |   43 |      0 |      0 |          0 |
-|           (control_0)                          |                       control |          0 |          0 |       0 |    0 |    5 |      0 |      0 |          0 |
+|       decode1_0                                |                       decode1 |        502 |        502 |       0 |    0 |  299 |      0 |      0 |          0 |
+|       decode2_0                                |                       decode2 |       3391 |       3391 |       0 |    0 |  427 |      0 |      0 |          0 |
+|         (decode2_0)                            |                       decode2 |       3349 |       3349 |       0 |    0 |  384 |      0 |      0 |          0 |
+|         control_0                              |                       control |         42 |         42 |       0 |    0 |   43 |      0 |      0 |          0 |
+|           (control_0)                          |                       control |          2 |          2 |       0 |    0 |    5 |      0 |      0 |          0 |
 |           cr_hazard0                           |                     cr_hazard |          3 |          3 |       0 |    0 |    4 |      0 |      0 |          0 |
-|           gpr_hazard0                          |                    gpr_hazard |          5 |          5 |       0 |    0 |    9 |      0 |      0 |          0 |
+|           gpr_hazard0                          |                    gpr_hazard |          6 |          6 |       0 |    0 |    9 |      0 |      0 |          0 |
 |           gpr_hazard1                          |                 gpr_hazard_64 |         29 |         29 |       0 |    0 |   23 |      0 |      0 |          0 |
-|           gpr_hazard2                          |                 gpr_hazard_65 |          1 |          1 |       0 |    0 |    2 |      0 |      0 |          0 |
-|       execute1_0                               |                      execute1 |       1531 |       1528 |       0 |    3 | 1300 |      0 |      0 |         16 |
-|         (execute1_0)                           |                      execute1 |        502 |        502 |       0 |    0 |  760 |      0 |      0 |          0 |
-|         countzero_0                            |                  zero_counter |         17 |         17 |       0 |    0 |   20 |      0 |      0 |          0 |
+|           gpr_hazard2                          |                 gpr_hazard_65 |          2 |          2 |       0 |    0 |    2 |      0 |      0 |          0 |
+|       execute1_0                               |                      execute1 |       1527 |       1524 |       0 |    3 | 1297 |      0 |      0 |         16 |
+|         (execute1_0)                           |                      execute1 |        495 |        495 |       0 |    0 |  757 |      0 |      0 |          0 |
+|         countzero_0                            |                  zero_counter |         18 |         18 |       0 |    0 |   20 |      0 |      0 |          0 |
 |         divider_0                              |                       divider |        462 |        462 |       0 |    0 |  337 |      0 |      0 |          0 |
-|         multiply_0                             |                      multiply |        551 |        548 |       0 |    3 |  183 |      0 |      0 |         16 |
-|       fetch1_0                                 |                        fetch1 |        218 |        218 |       0 |    0 |  115 |      0 |      0 |          0 |
-|       icache_0                                 |                        icache |       1288 |        986 |     302 |    0 |  488 |      2 |      0 |          0 |
-|         (icache_0)                             |                        icache |        858 |        556 |     302 |    0 |  424 |      0 |      0 |          0 |
-|         maybe_plrus.plrus[0].plru              |                          plru |         59 |         59 |       0 |    0 |    1 |      0 |      0 |          0 |
+|         multiply_0                             |                      multiply |        552 |        549 |       0 |    3 |  183 |      0 |      0 |         16 |
+|       fetch1_0                                 |                        fetch1 |        220 |        220 |       0 |    0 |  115 |      0 |      0 |          0 |
+|       icache_0                                 |                        icache |       1535 |       1235 |     300 |    0 |  487 |      2 |      0 |          0 |
+|         (icache_0)                             |                        icache |       1077 |        777 |     300 |    0 |  423 |      0 |      0 |          0 |
+|         maybe_plrus.plrus[0].plru              |                          plru |         58 |         58 |       0 |    0 |    1 |      0 |      0 |          0 |
 |         maybe_plrus.plrus[10].plru             |                        plru_0 |          0 |          0 |       0 |    0 |    1 |      0 |      0 |          0 |
 |         maybe_plrus.plrus[11].plru             |                        plru_1 |          1 |          1 |       0 |    0 |    1 |      0 |      0 |          0 |
 |         maybe_plrus.plrus[12].plru             |                        plru_2 |          0 |          0 |       0 |    0 |    1 |      0 |      0 |          0 |
@@ -242,8 +242,8 @@ Table of Contents
 |         maybe_plrus.plrus[8].plru              |                       plru_61 |          0 |          0 |       0 |    0 |    1 |      0 |      0 |          0 |
 |         maybe_plrus.plrus[9].plru              |                       plru_62 |          0 |          0 |       0 |    0 |    1 |      0 |      0 |          0 |
 |         rams[0].way                            |                     cache_ram |          3 |          3 |       0 |    0 |    0 |      1 |      0 |          0 |
-|         rams[1].way                            |                  cache_ram_63 |        347 |        347 |       0 |    0 |    0 |      1 |      0 |          0 |
-|       loadstore1_0                             |                    loadstore1 |        534 |        534 |       0 |    0 |  409 |      0 |      0 |          0 |
+|         rams[1].way                            |                  cache_ram_63 |        376 |        376 |       0 |    0 |    0 |      1 |      0 |          0 |
+|       loadstore1_0                             |                    loadstore1 |        539 |        539 |       0 |    0 |  409 |      0 |      0 |          0 |
 |       mmu_0                                    |                           mmu |        512 |        512 |       0 |    0 |  403 |      0 |      0 |          0 |
 |       register_file_0                          |                 register_file |        258 |          0 |     258 |    0 |   71 |      0 |      0 |          0 |
 +------------------------------------------------+-------------------------------+------------+------------+---------+------+------+--------+--------+------------+

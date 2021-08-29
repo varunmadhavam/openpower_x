@@ -1,8 +1,8 @@
-Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
-| Tool Version : Vivado v.2020.2 (lin64) Build 3064766 Wed Nov 18 09:12:47 MST 2020
-| Date         : Tue Jun 29 20:26:42 2021
-| Host         : varun-UX430UNR running 64-bit Ubuntu 20.04.2 LTS
+| Tool Version : Vivado v.2021.1 (lin64) Build 3247384 Thu Jun 10 19:36:07 MDT 2021
+| Date         : Thu Aug  5 21:59:10 2021
+| Host         : varuns5600x running 64-bit Ubuntu 20.04.2 LTS
 | Command      : report_drc -file top_drc.rpt
 | Design       : top
 | Device       : xc7a100tcsg324-1

@@ -85,7 +85,7 @@ static void led_test(void)
 {
 	int i;
 	printf("led_test...\n");
-	for(i=0; i<32; i++) {
+	for(i=0; i<16; i++) {
 		leds_out_write(i);
 		busy_wait(1);
 	}

@@ -6,71 +6,71 @@ set_msg_config -id {Common 17-55} -new_severity {Warning}
 
 # Add Sources
 
-read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/decode_types.vhdl}
-set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/decode_types.vhdl}]
-read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/wishbone_types.vhdl}
-set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/wishbone_types.vhdl}]
-read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/utils.vhdl}
-set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/utils.vhdl}]
-read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/common.vhdl}
-set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/common.vhdl}]
-read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/helpers.vhdl}
-set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/helpers.vhdl}]
-read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/fetch1.vhdl}
-set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/fetch1.vhdl}]
-read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/cache_ram.vhdl}
-set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/cache_ram.vhdl}]
-read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/plru.vhdl}
-set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/plru.vhdl}]
-read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/dcache.vhdl}
-set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/dcache.vhdl}]
-read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/icache.vhdl}
-set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/icache.vhdl}]
-read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/insn_helpers.vhdl}
-set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/insn_helpers.vhdl}]
-read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/decode1.vhdl}
-set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/decode1.vhdl}]
-read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/gpr_hazard.vhdl}
-set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/gpr_hazard.vhdl}]
-read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/cr_hazard.vhdl}
-set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/cr_hazard.vhdl}]
-read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/control.vhdl}
-set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/control.vhdl}]
-read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/decode2.vhdl}
-set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/decode2.vhdl}]
-read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/register_file.vhdl}
-set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/register_file.vhdl}]
-read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/crhelpers.vhdl}
-set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/crhelpers.vhdl}]
-read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/cr_file.vhdl}
-set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/cr_file.vhdl}]
-read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/ppc_fx_insns.vhdl}
-set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/ppc_fx_insns.vhdl}]
-read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/logical.vhdl}
-set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/logical.vhdl}]
-read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/rotator.vhdl}
-set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/rotator.vhdl}]
-read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/countzero.vhdl}
-set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/countzero.vhdl}]
-read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/execute1.vhdl}
-set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/execute1.vhdl}]
-read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/loadstore1.vhdl}
-set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/loadstore1.vhdl}]
-read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/multiply.vhdl}
-set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/multiply.vhdl}]
-read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/divider.vhdl}
-set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/divider.vhdl}]
-read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/writeback.vhdl}
-set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/writeback.vhdl}]
-read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/mmu.vhdl}
-set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/mmu.vhdl}]
-read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/core_debug.vhdl}
-set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/core_debug.vhdl}]
-read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/core.vhdl}
-set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/core.vhdl}]
-read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/litex/litex/soc/cores/cpu/microwatt/microwatt_wrapper.vhdl}
-set_property library work [get_files {/home/varun/coding/projects/openpower/litex/litex/litex/soc/cores/cpu/microwatt/microwatt_wrapper.vhdl}]
-read_verilog {/home/varun/coding/projects/openpower/openpower_x/lab004_v_sim/build/gateware/top.v}
+read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/decode_types.vhdl}
+set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/decode_types.vhdl}]
+read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/wishbone_types.vhdl}
+set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/wishbone_types.vhdl}]
+read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/utils.vhdl}
+set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/utils.vhdl}]
+read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/common.vhdl}
+set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/common.vhdl}]
+read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/helpers.vhdl}
+set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/helpers.vhdl}]
+read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/fetch1.vhdl}
+set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/fetch1.vhdl}]
+read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/cache_ram.vhdl}
+set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/cache_ram.vhdl}]
+read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/plru.vhdl}
+set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/plru.vhdl}]
+read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/dcache.vhdl}
+set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/dcache.vhdl}]
+read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/icache.vhdl}
+set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/icache.vhdl}]
+read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/insn_helpers.vhdl}
+set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/insn_helpers.vhdl}]
+read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/decode1.vhdl}
+set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/decode1.vhdl}]
+read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/gpr_hazard.vhdl}
+set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/gpr_hazard.vhdl}]
+read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/cr_hazard.vhdl}
+set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/cr_hazard.vhdl}]
+read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/control.vhdl}
+set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/control.vhdl}]
+read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/decode2.vhdl}
+set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/decode2.vhdl}]
+read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/register_file.vhdl}
+set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/register_file.vhdl}]
+read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/crhelpers.vhdl}
+set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/crhelpers.vhdl}]
+read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/cr_file.vhdl}
+set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/cr_file.vhdl}]
+read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/ppc_fx_insns.vhdl}
+set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/ppc_fx_insns.vhdl}]
+read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/logical.vhdl}
+set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/logical.vhdl}]
+read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/rotator.vhdl}
+set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/rotator.vhdl}]
+read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/countzero.vhdl}
+set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/countzero.vhdl}]
+read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/execute1.vhdl}
+set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/execute1.vhdl}]
+read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/loadstore1.vhdl}
+set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/loadstore1.vhdl}]
+read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/multiply.vhdl}
+set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/multiply.vhdl}]
+read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/divider.vhdl}
+set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/divider.vhdl}]
+read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/writeback.vhdl}
+set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/writeback.vhdl}]
+read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/mmu.vhdl}
+set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/mmu.vhdl}]
+read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/core_debug.vhdl}
+set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/core_debug.vhdl}]
+read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/core.vhdl}
+set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/core.vhdl}]
+read_vhdl -vhdl2008 {/tmp/litex/litex/soc/cores/cpu/microwatt/microwatt_wrapper.vhdl}
+set_property library work [get_files {/tmp/litex/litex/soc/cores/cpu/microwatt/microwatt_wrapper.vhdl}]
+read_verilog {/home/varun/coding/projects/openpower/openpower_x/lab004_microwatt/build/gateware/top.v}
 
 # Add EDIFs
 

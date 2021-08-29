@@ -18,61 +18,39 @@ from display import SevenSegmentDisplay
 # IOs ----------------------------------------------------------------------------------------------
 
 _io = [
-    ("user_led",  0, Pins("H17"), IOStandard("LVCMOS33")),
-    ("user_led",  1, Pins("K15"), IOStandard("LVCMOS33")),
-    ("user_led",  2, Pins("J13"), IOStandard("LVCMOS33")),
-    ("user_led",  3, Pins("N14"), IOStandard("LVCMOS33")),
-    ("user_led",  4, Pins("R18"), IOStandard("LVCMOS33")),
-    ("user_led",  5, Pins("V17"), IOStandard("LVCMOS33")),
-    ("user_led",  6, Pins("U17"), IOStandard("LVCMOS33")),
-    ("user_led",  7, Pins("U16"), IOStandard("LVCMOS33")),
-    ("user_led",  8, Pins("V16"), IOStandard("LVCMOS33")),
-    ("user_led",  9, Pins("T15"), IOStandard("LVCMOS33")),
-    ("user_led", 10, Pins("U14"), IOStandard("LVCMOS33")),
-    ("user_led", 11, Pins("T16"), IOStandard("LVCMOS33")),
-    ("user_led", 12, Pins("V15"), IOStandard("LVCMOS33")),
-    ("user_led", 13, Pins("V14"), IOStandard("LVCMOS33")),
-    ("user_led", 14, Pins("V12"), IOStandard("LVCMOS33")),
-    ("user_led", 15, Pins("V11"), IOStandard("LVCMOS33")),
+    ("user_led",  0, Pins("H5"), IOStandard("LVCMOS33")),
+    ("user_led",  1, Pins("J5"), IOStandard("LVCMOS33")),
+    ("user_led",  2, Pins("T9"), IOStandard("LVCMOS33")),
+    ("user_led",  3, Pins("T10"), IOStandard("LVCMOS33")),
 
-    ("user_sw",  0, Pins("J15"), IOStandard("LVCMOS33")),
-    ("user_sw",  1, Pins("L16"), IOStandard("LVCMOS33")),
-    ("user_sw",  2, Pins("M13"), IOStandard("LVCMOS33")),
-    ("user_sw",  3, Pins("R15"), IOStandard("LVCMOS33")),
-    ("user_sw",  4, Pins("R17"), IOStandard("LVCMOS33")),
-    ("user_sw",  5, Pins("T18"), IOStandard("LVCMOS33")),
-    ("user_sw",  6, Pins("U18"), IOStandard("LVCMOS33")),
-    ("user_sw",  7, Pins("R13"), IOStandard("LVCMOS33")),
-    ("user_sw",  8, Pins("T8"), IOStandard("LVCMOS33")),
-    ("user_sw",  9, Pins("U8"), IOStandard("LVCMOS33")),
-    ("user_sw", 10, Pins("R16"), IOStandard("LVCMOS33")),
-    ("user_sw", 11, Pins("T13"), IOStandard("LVCMOS33")),
-    ("user_sw", 12, Pins("H6"), IOStandard("LVCMOS33")),
-    ("user_sw", 13, Pins("U12"), IOStandard("LVCMOS33")),
-    ("user_sw", 14, Pins("U11"), IOStandard("LVCMOS33")),
-    ("user_sw", 15, Pins("V10"), IOStandard("LVCMOS33")),
 
-    ("user_btn", 0, Pins("N17"), IOStandard("LVCMOS33")),
-    ("user_btn", 1, Pins("P18"), IOStandard("LVCMOS33")),
-    ("user_btn", 2, Pins("P17"), IOStandard("LVCMOS33")),
-    ("user_btn", 3, Pins("M17"), IOStandard("LVCMOS33")),
-    ("user_btn", 4, Pins("M18"), IOStandard("LVCMOS33")),
+    ("user_sw",  0, Pins("A8"), IOStandard("LVCMOS33")),
+    ("user_sw",  1, Pins("C11"), IOStandard("LVCMOS33")),
+    ("user_sw",  2, Pins("C10"), IOStandard("LVCMOS33")),
+    ("user_sw",  3, Pins("A10"), IOStandard("LVCMOS33")),
+
+
+    ("user_btn", 0, Pins("D9"), IOStandard("LVCMOS33")),
+    ("user_btn", 1, Pins("C9"), IOStandard("LVCMOS33")),
+    ("user_btn", 2, Pins("B9"), IOStandard("LVCMOS33")),
+    ("user_btn", 3, Pins("B8"), IOStandard("LVCMOS33")),
+
 
     ("user_rgb_led", 0,
-        Subsignal("r", Pins("N16")),
-        Subsignal("g", Pins("R11")),
-        Subsignal("b", Pins("G14")),
+        Subsignal("r", Pins("G6")),
+        Subsignal("g", Pins("F6")),
+        Subsignal("b", Pins("E1")),
         IOStandard("LVCMOS33"),
     ),
 
 
     ("clk100", 0, Pins("E3"), IOStandard("LVCMOS33")),
 
-    ("cpu_reset", 0, Pins("C12"), IOStandard("LVCMOS33")),
+    ("cpu_reset", 0, Pins("C2"), IOStandard("LVCMOS33")),
 
     ("serial", 0,
-        Subsignal("tx", Pins("D4")),
-        Subsignal("rx", Pins("C4")),
+        Subsignal("tx", Pins("D10")),
+        Subsignal("rx", Pins("A9")),
         IOStandard("LVCMOS33"),
     ),
 
@@ -109,17 +87,17 @@ class BaseSoC(SoCCore):
         self.submodules.crg = CRG(platform.request("clk100"), ~platform.request("cpu_reset"))
 
         # Led
-        user_leds = Cat(*[platform.request("user_led", i) for i in range(16)])
+        user_leds = Cat(*[platform.request("user_led", i) for i in range(4)])
         self.submodules.leds = Led(user_leds)
         self.add_csr("leds")
 
         # Switches
-        user_switches = Cat(*[platform.request("user_sw", i) for i in range(16)])
+        user_switches = Cat(*[platform.request("user_sw", i) for i in range(4)])
         self.submodules.switches = Switch(user_switches)
         self.add_csr("switches")
 
         # Buttons
-        user_buttons = Cat(*[platform.request("user_btn", i) for i in range(5)])
+        user_buttons = Cat(*[platform.request("user_btn", i) for i in range(4)])
         self.submodules.buttons = Button(user_buttons)
         self.add_csr("buttons")
 

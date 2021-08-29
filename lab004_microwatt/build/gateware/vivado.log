@@ -1,82 +1,82 @@
 #-----------------------------------------------------------
-# Vivado v2020.2 (64-bit)
-# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
-# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Tue Jun 29 20:18:16 2021
-# Process ID: 25233
-# Current directory: /home/varun/coding/projects/openpower/openpower_x/lab004_v_sim/build/gateware
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Thu Aug  5 21:56:01 2021
+# Process ID: 5003
+# Current directory: /home/varun/coding/projects/openpower/openpower_x/lab004_microwatt/build/gateware
 # Command line: vivado -mode batch -source top.tcl
-# Log file: /home/varun/coding/projects/openpower/openpower_x/lab004_v_sim/build/gateware/vivado.log
-# Journal file: /home/varun/coding/projects/openpower/openpower_x/lab004_v_sim/build/gateware/vivado.jou
+# Log file: /home/varun/coding/projects/openpower/openpower_x/lab004_microwatt/build/gateware/vivado.log
+# Journal file: /home/varun/coding/projects/openpower/openpower_x/lab004_microwatt/build/gateware/vivado.jou
 #-----------------------------------------------------------
 source top.tcl
 # create_project -force -name top -part xc7a100t-csg324-1
 # set_msg_config -id {Common 17-55} -new_severity {Warning}
-# read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/decode_types.vhdl}
-# set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/decode_types.vhdl}]
-# read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/wishbone_types.vhdl}
-# set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/wishbone_types.vhdl}]
-# read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/utils.vhdl}
-# set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/utils.vhdl}]
-# read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/common.vhdl}
-# set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/common.vhdl}]
-# read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/helpers.vhdl}
-# set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/helpers.vhdl}]
-# read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/fetch1.vhdl}
-# set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/fetch1.vhdl}]
-# read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/cache_ram.vhdl}
-# set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/cache_ram.vhdl}]
-# read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/plru.vhdl}
-# set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/plru.vhdl}]
-# read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/dcache.vhdl}
-# set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/dcache.vhdl}]
-# read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/icache.vhdl}
-# set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/icache.vhdl}]
-# read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/insn_helpers.vhdl}
-# set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/insn_helpers.vhdl}]
-# read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/decode1.vhdl}
-# set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/decode1.vhdl}]
-# read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/gpr_hazard.vhdl}
-# set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/gpr_hazard.vhdl}]
-# read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/cr_hazard.vhdl}
-# set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/cr_hazard.vhdl}]
-# read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/control.vhdl}
-# set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/control.vhdl}]
-# read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/decode2.vhdl}
-# set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/decode2.vhdl}]
-# read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/register_file.vhdl}
-# set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/register_file.vhdl}]
-# read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/crhelpers.vhdl}
-# set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/crhelpers.vhdl}]
-# read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/cr_file.vhdl}
-# set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/cr_file.vhdl}]
-# read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/ppc_fx_insns.vhdl}
-# set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/ppc_fx_insns.vhdl}]
-# read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/logical.vhdl}
-# set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/logical.vhdl}]
-# read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/rotator.vhdl}
-# set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/rotator.vhdl}]
-# read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/countzero.vhdl}
-# set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/countzero.vhdl}]
-# read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/execute1.vhdl}
-# set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/execute1.vhdl}]
-# read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/loadstore1.vhdl}
-# set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/loadstore1.vhdl}]
-# read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/multiply.vhdl}
-# set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/multiply.vhdl}]
-# read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/divider.vhdl}
-# set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/divider.vhdl}]
-# read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/writeback.vhdl}
-# set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/writeback.vhdl}]
-# read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/mmu.vhdl}
-# set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/mmu.vhdl}]
-# read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/core_debug.vhdl}
-# set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/core_debug.vhdl}]
-# read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/core.vhdl}
-# set_property library work [get_files {/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/core.vhdl}]
-# read_vhdl -vhdl2008 {/home/varun/coding/projects/openpower/litex/litex/litex/soc/cores/cpu/microwatt/microwatt_wrapper.vhdl}
-# set_property library work [get_files {/home/varun/coding/projects/openpower/litex/litex/litex/soc/cores/cpu/microwatt/microwatt_wrapper.vhdl}]
-# read_verilog {/home/varun/coding/projects/openpower/openpower_x/lab004_v_sim/build/gateware/top.v}
+# read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/decode_types.vhdl}
+# set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/decode_types.vhdl}]
+# read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/wishbone_types.vhdl}
+# set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/wishbone_types.vhdl}]
+# read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/utils.vhdl}
+# set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/utils.vhdl}]
+# read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/common.vhdl}
+# set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/common.vhdl}]
+# read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/helpers.vhdl}
+# set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/helpers.vhdl}]
+# read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/fetch1.vhdl}
+# set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/fetch1.vhdl}]
+# read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/cache_ram.vhdl}
+# set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/cache_ram.vhdl}]
+# read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/plru.vhdl}
+# set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/plru.vhdl}]
+# read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/dcache.vhdl}
+# set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/dcache.vhdl}]
+# read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/icache.vhdl}
+# set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/icache.vhdl}]
+# read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/insn_helpers.vhdl}
+# set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/insn_helpers.vhdl}]
+# read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/decode1.vhdl}
+# set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/decode1.vhdl}]
+# read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/gpr_hazard.vhdl}
+# set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/gpr_hazard.vhdl}]
+# read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/cr_hazard.vhdl}
+# set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/cr_hazard.vhdl}]
+# read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/control.vhdl}
+# set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/control.vhdl}]
+# read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/decode2.vhdl}
+# set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/decode2.vhdl}]
+# read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/register_file.vhdl}
+# set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/register_file.vhdl}]
+# read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/crhelpers.vhdl}
+# set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/crhelpers.vhdl}]
+# read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/cr_file.vhdl}
+# set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/cr_file.vhdl}]
+# read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/ppc_fx_insns.vhdl}
+# set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/ppc_fx_insns.vhdl}]
+# read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/logical.vhdl}
+# set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/logical.vhdl}]
+# read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/rotator.vhdl}
+# set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/rotator.vhdl}]
+# read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/countzero.vhdl}
+# set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/countzero.vhdl}]
+# read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/execute1.vhdl}
+# set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/execute1.vhdl}]
+# read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/loadstore1.vhdl}
+# set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/loadstore1.vhdl}]
+# read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/multiply.vhdl}
+# set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/multiply.vhdl}]
+# read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/divider.vhdl}
+# set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/divider.vhdl}]
+# read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/writeback.vhdl}
+# set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/writeback.vhdl}]
+# read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/mmu.vhdl}
+# set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/mmu.vhdl}]
+# read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/core_debug.vhdl}
+# set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/core_debug.vhdl}]
+# read_vhdl -vhdl2008 {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/core.vhdl}
+# set_property library work [get_files {/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/core.vhdl}]
+# read_vhdl -vhdl2008 {/tmp/litex/litex/soc/cores/cpu/microwatt/microwatt_wrapper.vhdl}
+# set_property library work [get_files {/tmp/litex/litex/soc/cores/cpu/microwatt/microwatt_wrapper.vhdl}]
+# read_verilog {/home/varun/coding/projects/openpower/openpower_x/lab004_microwatt/build/gateware/top.v}
 # read_xdc top.xdc
 # set_property PROCESSING_ORDER EARLY [get_files top.xdc]
 # synth_design -directive default -top top -part xc7a100t-csg324-1
@@ -87,171 +87,153 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100
 INFO: [Device 21-403] Loading part xc7a100tcsg324-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 25260
+INFO: [Synth 8-7075] Helper process launched with PID 5022
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2348.188 ; gain = 0.000 ; free physical = 122 ; free virtual = 3349
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2544.805 ; gain = 0.000 ; free physical = 7510 ; free virtual = 13918
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'top' [/home/varun/coding/projects/openpower/openpower_x/lab004_v_sim/build/gateware/top.v:4]
-INFO: [Synth 8-3876] $readmem data file 'mem.init' is read successfully [/home/varun/coding/projects/openpower/openpower_x/lab004_v_sim/build/gateware/top.v:2093]
-INFO: [Synth 8-3876] $readmem data file 'mem_1.init' is read successfully [/home/varun/coding/projects/openpower/openpower_x/lab004_v_sim/build/gateware/top.v:2113]
-INFO: [Synth 8-3876] $readmem data file 'mem_2.init' is read successfully [/home/varun/coding/projects/openpower/openpower_x/lab004_v_sim/build/gateware/top.v:2133]
-INFO: [Synth 8-3876] $readmem data file 'mem_3.init' is read successfully [/home/varun/coding/projects/openpower/openpower_x/lab004_v_sim/build/gateware/top.v:2145]
-INFO: [Synth 8-155] case statement is not full and has no default [/home/varun/coding/projects/openpower/openpower_x/lab004_v_sim/build/gateware/top.v:1766]
-INFO: [Synth 8-155] case statement is not full and has no default [/home/varun/coding/projects/openpower/openpower_x/lab004_v_sim/build/gateware/top.v:1775]
-INFO: [Synth 8-155] case statement is not full and has no default [/home/varun/coding/projects/openpower/openpower_x/lab004_v_sim/build/gateware/top.v:1799]
-INFO: [Synth 8-155] case statement is not full and has no default [/home/varun/coding/projects/openpower/openpower_x/lab004_v_sim/build/gateware/top.v:1811]
-INFO: [Synth 8-155] case statement is not full and has no default [/home/varun/coding/projects/openpower/openpower_x/lab004_v_sim/build/gateware/top.v:1879]
-INFO: [Synth 8-155] case statement is not full and has no default [/home/varun/coding/projects/openpower/openpower_x/lab004_v_sim/build/gateware/top.v:1888]
-INFO: [Synth 8-155] case statement is not full and has no default [/home/varun/coding/projects/openpower/openpower_x/lab004_v_sim/build/gateware/top.v:1943]
-INFO: [Synth 8-638] synthesizing module 'microwatt_wrapper' [/home/varun/coding/projects/openpower/litex/litex/litex/soc/cores/cpu/microwatt/microwatt_wrapper.vhdl:60]
+INFO: [Synth 8-6157] synthesizing module 'top' [/home/varun/coding/projects/openpower/openpower_x/lab004_microwatt/build/gateware/top.v:4]
+INFO: [Synth 8-3876] $readmem data file 'mem.init' is read successfully [/home/varun/coding/projects/openpower/openpower_x/lab004_microwatt/build/gateware/top.v:2068]
+INFO: [Synth 8-3876] $readmem data file 'mem_1.init' is read successfully [/home/varun/coding/projects/openpower/openpower_x/lab004_microwatt/build/gateware/top.v:2088]
+INFO: [Synth 8-3876] $readmem data file 'mem_2.init' is read successfully [/home/varun/coding/projects/openpower/openpower_x/lab004_microwatt/build/gateware/top.v:2108]
+INFO: [Synth 8-3876] $readmem data file 'mem_3.init' is read successfully [/home/varun/coding/projects/openpower/openpower_x/lab004_microwatt/build/gateware/top.v:2120]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/varun/coding/projects/openpower/openpower_x/lab004_microwatt/build/gateware/top.v:1741]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/varun/coding/projects/openpower/openpower_x/lab004_microwatt/build/gateware/top.v:1750]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/varun/coding/projects/openpower/openpower_x/lab004_microwatt/build/gateware/top.v:1774]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/varun/coding/projects/openpower/openpower_x/lab004_microwatt/build/gateware/top.v:1786]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/varun/coding/projects/openpower/openpower_x/lab004_microwatt/build/gateware/top.v:1854]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/varun/coding/projects/openpower/openpower_x/lab004_microwatt/build/gateware/top.v:1863]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/varun/coding/projects/openpower/openpower_x/lab004_microwatt/build/gateware/top.v:1918]
+INFO: [Synth 8-638] synthesizing module 'microwatt_wrapper' [/tmp/litex/litex/soc/cores/cpu/microwatt/microwatt_wrapper.vhdl:60]
+INFO: [Synth 8-638] synthesizing module 'core' [/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/core.vhdl:44]
 	Parameter SIM bound to: 0 - type: bool 
 	Parameter DISABLE_FLATTEN bound to: 0 - type: bool 
-INFO: [Synth 8-638] synthesizing module 'core' [/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/core.vhdl:44]
-	Parameter SIM bound to: 0 - type: bool 
-	Parameter DISABLE_FLATTEN bound to: 0 - type: bool 
-	Parameter EX1_BYPASS bound to: 1 - type: bool 
-	Parameter ALT_RESET_ADDRESS bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
-	Parameter LOG_LENGTH bound to: 512 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'fetch1' [/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/fetch1.vhdl:37]
+INFO: [Synth 8-638] synthesizing module 'fetch1' [/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/fetch1.vhdl:37]
 	Parameter RESET_ADDRESS bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
 	Parameter ALT_RESET_ADDRESS bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
-INFO: [Synth 8-256] done synthesizing module 'fetch1' (1#1) [/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/fetch1.vhdl:37]
-INFO: [Synth 8-638] synthesizing module 'icache' [/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/icache.vhdl:73]
+INFO: [Synth 8-256] done synthesizing module 'fetch1' (1#1) [/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/fetch1.vhdl:37]
+INFO: [Synth 8-638] synthesizing module 'icache' [/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/icache.vhdl:73]
 	Parameter SIM bound to: 0 - type: bool 
 	Parameter LINE_SIZE bound to: 64 - type: integer 
-	Parameter ROW_SIZE bound to: 8 - type: integer 
 	Parameter NUM_LINES bound to: 64 - type: integer 
 	Parameter NUM_WAYS bound to: 2 - type: integer 
-	Parameter TLB_SIZE bound to: 64 - type: integer 
-	Parameter TLB_LG_PGSZ bound to: 12 - type: integer 
-	Parameter REAL_ADDR_BITS bound to: 56 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'cache_ram' [/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/cache_ram.vhdl:26]
+INFO: [Synth 8-638] synthesizing module 'cache_ram' [/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/cache_ram.vhdl:26]
 	Parameter ROW_BITS bound to: 9 - type: integer 
 	Parameter WIDTH bound to: 64 - type: integer 
-	Parameter TRACE bound to: 0 - type: bool 
-	Parameter ADD_BUF bound to: 0 - type: bool 
-INFO: [Synth 8-256] done synthesizing module 'cache_ram' (2#1) [/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/cache_ram.vhdl:26]
-INFO: [Synth 8-638] synthesizing module 'plru' [/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/plru.vhdl:21]
+INFO: [Synth 8-256] done synthesizing module 'cache_ram' (2#1) [/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/cache_ram.vhdl:26]
+INFO: [Synth 8-638] synthesizing module 'plru' [/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/plru.vhdl:21]
 	Parameter BITS bound to: 1 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'plru' (3#1) [/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/plru.vhdl:21]
-INFO: [Synth 8-256] done synthesizing module 'icache' (4#1) [/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/icache.vhdl:73]
-INFO: [Synth 8-638] synthesizing module 'decode1' [/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/decode1.vhdl:26]
-INFO: [Synth 8-256] done synthesizing module 'decode1' (5#1) [/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/decode1.vhdl:26]
-INFO: [Synth 8-638] synthesizing module 'decode2' [/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/decode2.vhdl:41]
+INFO: [Synth 8-256] done synthesizing module 'plru' (3#1) [/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/plru.vhdl:21]
+INFO: [Synth 8-256] done synthesizing module 'icache' (4#1) [/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/icache.vhdl:73]
+INFO: [Synth 8-638] synthesizing module 'decode1' [/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/decode1.vhdl:26]
+INFO: [Synth 8-256] done synthesizing module 'decode1' (5#1) [/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/decode1.vhdl:26]
+INFO: [Synth 8-638] synthesizing module 'decode2' [/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/decode2.vhdl:41]
 	Parameter EX1_BYPASS bound to: 1 - type: bool 
-INFO: [Synth 8-638] synthesizing module 'control' [/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/control.vhdl:54]
+INFO: [Synth 8-638] synthesizing module 'control' [/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/control.vhdl:54]
 	Parameter PIPELINE_DEPTH bound to: 1 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'gpr_hazard' [/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/gpr_hazard.vhdl:30]
+INFO: [Synth 8-638] synthesizing module 'gpr_hazard' [/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/gpr_hazard.vhdl:30]
 	Parameter PIPELINE_DEPTH bound to: 1 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'gpr_hazard' (6#1) [/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/gpr_hazard.vhdl:30]
-INFO: [Synth 8-638] synthesizing module 'cr_hazard' [/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/cr_hazard.vhdl:25]
+INFO: [Synth 8-256] done synthesizing module 'gpr_hazard' (6#1) [/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/gpr_hazard.vhdl:30]
+INFO: [Synth 8-638] synthesizing module 'cr_hazard' [/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/cr_hazard.vhdl:25]
 	Parameter PIPELINE_DEPTH bound to: 1 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'cr_hazard' (7#1) [/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/cr_hazard.vhdl:25]
-INFO: [Synth 8-256] done synthesizing module 'control' (8#1) [/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/control.vhdl:54]
-INFO: [Synth 8-256] done synthesizing module 'decode2' (9#1) [/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/decode2.vhdl:41]
-INFO: [Synth 8-638] synthesizing module 'register_file' [/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/register_file.vhdl:33]
+INFO: [Synth 8-256] done synthesizing module 'cr_hazard' (7#1) [/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/cr_hazard.vhdl:25]
+INFO: [Synth 8-256] done synthesizing module 'control' (8#1) [/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/control.vhdl:54]
+INFO: [Synth 8-256] done synthesizing module 'decode2' (9#1) [/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/decode2.vhdl:41]
+INFO: [Synth 8-638] synthesizing module 'register_file' [/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/register_file.vhdl:33]
 	Parameter SIM bound to: 0 - type: bool 
-INFO: [Synth 8-256] done synthesizing module 'register_file' (10#1) [/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/register_file.vhdl:33]
-INFO: [Synth 8-638] synthesizing module 'cr_file' [/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/cr_file.vhdl:27]
+INFO: [Synth 8-256] done synthesizing module 'register_file' (10#1) [/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/register_file.vhdl:33]
+INFO: [Synth 8-638] synthesizing module 'cr_file' [/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/cr_file.vhdl:27]
 	Parameter SIM bound to: 0 - type: bool 
-INFO: [Synth 8-256] done synthesizing module 'cr_file' (11#1) [/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/cr_file.vhdl:27]
-INFO: [Synth 8-638] synthesizing module 'execute1' [/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/execute1.vhdl:48]
+INFO: [Synth 8-256] done synthesizing module 'cr_file' (11#1) [/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/cr_file.vhdl:27]
+INFO: [Synth 8-638] synthesizing module 'execute1' [/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/execute1.vhdl:48]
 	Parameter EX1_BYPASS bound to: 1 - type: bool 
-INFO: [Synth 8-638] synthesizing module 'rotator' [/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/rotator.vhdl:24]
-INFO: [Synth 8-256] done synthesizing module 'rotator' (12#1) [/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/rotator.vhdl:24]
-INFO: [Synth 8-638] synthesizing module 'logical' [/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/logical.vhdl:21]
-INFO: [Synth 8-256] done synthesizing module 'logical' (13#1) [/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/logical.vhdl:21]
-INFO: [Synth 8-638] synthesizing module 'zero_counter' [/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/countzero.vhdl:17]
-INFO: [Synth 8-256] done synthesizing module 'zero_counter' (14#1) [/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/countzero.vhdl:17]
-INFO: [Synth 8-638] synthesizing module 'multiply' [/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/multiply.vhdl:20]
-	Parameter PIPELINE_DEPTH bound to: 4 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'multiply' (15#1) [/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/multiply.vhdl:20]
-INFO: [Synth 8-638] synthesizing module 'divider' [/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/divider.vhdl:18]
-INFO: [Synth 8-256] done synthesizing module 'divider' (16#1) [/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/divider.vhdl:18]
-INFO: [Synth 8-226] default block is never used [/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/crhelpers.vhdl:35]
-INFO: [Synth 8-226] default block is never used [/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/crhelpers.vhdl:35]
-INFO: [Synth 8-226] default block is never used [/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/crhelpers.vhdl:35]
-INFO: [Synth 8-226] default block is never used [/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/crhelpers.vhdl:35]
-INFO: [Synth 8-256] done synthesizing module 'execute1' (17#1) [/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/execute1.vhdl:48]
-INFO: [Synth 8-638] synthesizing module 'loadstore1' [/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/loadstore1.vhdl:37]
-INFO: [Synth 8-256] done synthesizing module 'loadstore1' (18#1) [/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/loadstore1.vhdl:37]
-INFO: [Synth 8-638] synthesizing module 'mmu' [/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/mmu.vhdl:27]
-INFO: [Synth 8-256] done synthesizing module 'mmu' (19#1) [/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/mmu.vhdl:27]
-INFO: [Synth 8-638] synthesizing module 'dcache' [/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/dcache.vhdl:55]
+INFO: [Synth 8-638] synthesizing module 'rotator' [/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/rotator.vhdl:24]
+INFO: [Synth 8-256] done synthesizing module 'rotator' (12#1) [/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/rotator.vhdl:24]
+INFO: [Synth 8-638] synthesizing module 'logical' [/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/logical.vhdl:21]
+INFO: [Synth 8-256] done synthesizing module 'logical' (13#1) [/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/logical.vhdl:21]
+INFO: [Synth 8-638] synthesizing module 'zero_counter' [/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/countzero.vhdl:17]
+INFO: [Synth 8-256] done synthesizing module 'zero_counter' (14#1) [/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/countzero.vhdl:17]
+INFO: [Synth 8-638] synthesizing module 'multiply' [/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/multiply.vhdl:20]
+INFO: [Synth 8-256] done synthesizing module 'multiply' (15#1) [/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/multiply.vhdl:20]
+INFO: [Synth 8-638] synthesizing module 'divider' [/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/divider.vhdl:18]
+INFO: [Synth 8-256] done synthesizing module 'divider' (16#1) [/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/divider.vhdl:18]
+INFO: [Synth 8-226] default block is never used [/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/crhelpers.vhdl:35]
+INFO: [Synth 8-226] default block is never used [/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/crhelpers.vhdl:35]
+INFO: [Synth 8-256] done synthesizing module 'execute1' (17#1) [/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/execute1.vhdl:48]
+INFO: [Synth 8-638] synthesizing module 'loadstore1' [/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/loadstore1.vhdl:37]
+INFO: [Synth 8-256] done synthesizing module 'loadstore1' (18#1) [/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/loadstore1.vhdl:37]
+INFO: [Synth 8-638] synthesizing module 'mmu' [/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/mmu.vhdl:27]
+INFO: [Synth 8-256] done synthesizing module 'mmu' (19#1) [/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/mmu.vhdl:27]
+INFO: [Synth 8-638] synthesizing module 'dcache' [/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/dcache.vhdl:55]
 	Parameter LINE_SIZE bound to: 64 - type: integer 
 	Parameter NUM_LINES bound to: 64 - type: integer 
 	Parameter NUM_WAYS bound to: 2 - type: integer 
-	Parameter TLB_SET_SIZE bound to: 64 - type: integer 
-	Parameter TLB_NUM_WAYS bound to: 2 - type: integer 
-	Parameter TLB_LG_PGSZ bound to: 12 - type: integer 
-INFO: [Synth 8-226] default block is never used [/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/dcache.vhdl:836]
-INFO: [Synth 8-638] synthesizing module 'cache_ram__parameterized0' [/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/cache_ram.vhdl:26]
+INFO: [Synth 8-226] default block is never used [/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/dcache.vhdl:836]
+INFO: [Synth 8-638] synthesizing module 'cache_ram__parameterized0' [/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/cache_ram.vhdl:26]
 	Parameter ROW_BITS bound to: 9 - type: integer 
 	Parameter WIDTH bound to: 64 - type: integer 
-	Parameter TRACE bound to: 0 - type: bool 
 	Parameter ADD_BUF bound to: 1 - type: bool 
-INFO: [Synth 8-256] done synthesizing module 'cache_ram__parameterized0' (19#1) [/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/cache_ram.vhdl:26]
-INFO: [Synth 8-256] done synthesizing module 'dcache' (20#1) [/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/dcache.vhdl:55]
-INFO: [Synth 8-638] synthesizing module 'writeback' [/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/writeback.vhdl:23]
-INFO: [Synth 8-256] done synthesizing module 'writeback' (21#1) [/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/writeback.vhdl:23]
-INFO: [Synth 8-638] synthesizing module 'core_debug' [/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/core_debug.vhdl:53]
+INFO: [Synth 8-256] done synthesizing module 'cache_ram__parameterized0' (19#1) [/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/cache_ram.vhdl:26]
+INFO: [Synth 8-256] done synthesizing module 'dcache' (20#1) [/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/dcache.vhdl:55]
+INFO: [Synth 8-638] synthesizing module 'writeback' [/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/writeback.vhdl:23]
+INFO: [Synth 8-256] done synthesizing module 'writeback' (21#1) [/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/writeback.vhdl:23]
+INFO: [Synth 8-638] synthesizing module 'core_debug' [/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/core_debug.vhdl:53]
 	Parameter LOG_LENGTH bound to: 512 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'core_debug' (22#1) [/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/core_debug.vhdl:53]
-INFO: [Synth 8-256] done synthesizing module 'core' (23#1) [/home/varun/coding/projects/openpower/litex/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/core.vhdl:44]
-INFO: [Synth 8-256] done synthesizing module 'microwatt_wrapper' (24#1) [/home/varun/coding/projects/openpower/litex/litex/litex/soc/cores/cpu/microwatt/microwatt_wrapper.vhdl:60]
-WARNING: [Synth 8-689] width (1) of port connection 'dmi_dout' does not match port width (64) of module 'microwatt_wrapper' [/home/varun/coding/projects/openpower/openpower_x/lab004_v_sim/build/gateware/top.v:2197]
-WARNING: [Synth 8-7071] port 'terminated_out' of module 'microwatt_wrapper' is unconnected for instance 'microwatt_wrapper' [/home/varun/coding/projects/openpower/openpower_x/lab004_v_sim/build/gateware/top.v:2182]
-WARNING: [Synth 8-7023] instance 'microwatt_wrapper' of module 'microwatt_wrapper' has 28 connections declared, but only 27 given [/home/varun/coding/projects/openpower/openpower_x/lab004_v_sim/build/gateware/top.v:2182]
-INFO: [Synth 8-6155] done synthesizing module 'top' (25#1) [/home/varun/coding/projects/openpower/openpower_x/lab004_v_sim/build/gateware/top.v:4]
+INFO: [Synth 8-256] done synthesizing module 'core_debug' (22#1) [/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/core_debug.vhdl:53]
+INFO: [Synth 8-256] done synthesizing module 'core' (23#1) [/tmp/pythondata-cpu-microwatt/pythondata_cpu_microwatt/vhdl/core.vhdl:44]
+INFO: [Synth 8-256] done synthesizing module 'microwatt_wrapper' (24#1) [/tmp/litex/litex/soc/cores/cpu/microwatt/microwatt_wrapper.vhdl:60]
+WARNING: [Synth 8-689] width (1) of port connection 'dmi_dout' does not match port width (64) of module 'microwatt_wrapper' [/home/varun/coding/projects/openpower/openpower_x/lab004_microwatt/build/gateware/top.v:2172]
+WARNING: [Synth 8-7071] port 'terminated_out' of module 'microwatt_wrapper' is unconnected for instance 'microwatt_wrapper' [/home/varun/coding/projects/openpower/openpower_x/lab004_microwatt/build/gateware/top.v:2157]
+WARNING: [Synth 8-7023] instance 'microwatt_wrapper' of module 'microwatt_wrapper' has 28 connections declared, but only 27 given [/home/varun/coding/projects/openpower/openpower_x/lab004_microwatt/build/gateware/top.v:2157]
+INFO: [Synth 8-6155] done synthesizing module 'top' (25#1) [/home/varun/coding/projects/openpower/openpower_x/lab004_microwatt/build/gateware/top.v:4]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 2541.176 ; gain = 192.988 ; free physical = 766 ; free virtual = 3603
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2544.805 ; gain = 0.000 ; free physical = 7842 ; free virtual = 14269
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 2558.988 ; gain = 210.801 ; free physical = 813 ; free virtual = 3649
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2544.805 ; gain = 0.000 ; free physical = 7894 ; free virtual = 14316
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 2558.988 ; gain = 210.801 ; free physical = 813 ; free virtual = 3649
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2544.805 ; gain = 0.000 ; free physical = 7894 ; free virtual = 14316
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00.26 ; elapsed = 00:00:00.27 . Memory (MB): peak = 2558.988 ; gain = 0.000 ; free physical = 781 ; free virtual = 3619
+Netlist sorting complete. Time (s): cpu = 00:00:00.12 ; elapsed = 00:00:00.12 . Memory (MB): peak = 2544.805 ; gain = 0.000 ; free physical = 7860 ; free virtual = 14287
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [/home/varun/coding/projects/openpower/openpower_x/lab004_v_sim/build/gateware/top.xdc]
-WARNING: [Vivado 12-180] No cells matched 'get_cells -hierarchical -filter {ars_ff1 == TRUE || ars_ff2 == TRUE}'. [/home/varun/coding/projects/openpower/openpower_x/lab004_v_sim/build/gateware/top.xdc:196]
-WARNING: [Vivado 12-508] No pins matched 'get_pins -filter {REF_PIN_NAME == PRE} -of_objects [get_cells -hierarchical -filter {ars_ff1 == TRUE || ars_ff2 == TRUE}]'. [/home/varun/coding/projects/openpower/openpower_x/lab004_v_sim/build/gateware/top.xdc:196]
-WARNING: [Vivado 12-180] No cells matched 'get_cells -hierarchical -filter {ars_ff1 == TRUE}'. [/home/varun/coding/projects/openpower/openpower_x/lab004_v_sim/build/gateware/top.xdc:198]
-WARNING: [Vivado 12-508] No pins matched 'get_pins -filter {REF_PIN_NAME == C} -of_objects [get_cells -hierarchical -filter {ars_ff1 == TRUE}]'. [/home/varun/coding/projects/openpower/openpower_x/lab004_v_sim/build/gateware/top.xdc:198]
-WARNING: [Vivado 12-180] No cells matched 'get_cells -hierarchical -filter {ars_ff2 == TRUE}'. [/home/varun/coding/projects/openpower/openpower_x/lab004_v_sim/build/gateware/top.xdc:198]
-WARNING: [Vivado 12-508] No pins matched 'get_pins -filter {REF_PIN_NAME == D} -of_objects [get_cells -hierarchical -filter {ars_ff2 == TRUE}]'. [/home/varun/coding/projects/openpower/openpower_x/lab004_v_sim/build/gateware/top.xdc:198]
-Finished Parsing XDC File [/home/varun/coding/projects/openpower/openpower_x/lab004_v_sim/build/gateware/top.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/varun/coding/projects/openpower/openpower_x/lab004_v_sim/build/gateware/top.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Parsing XDC File [/home/varun/coding/projects/openpower/openpower_x/lab004_microwatt/build/gateware/top.xdc]
+WARNING: [Vivado 12-180] No cells matched 'get_cells -hierarchical -filter {ars_ff1 == TRUE || ars_ff2 == TRUE}'. [/home/varun/coding/projects/openpower/openpower_x/lab004_microwatt/build/gateware/top.xdc:96]
+WARNING: [Vivado 12-508] No pins matched 'get_pins -filter {REF_PIN_NAME == PRE} -of_objects [get_cells -hierarchical -filter {ars_ff1 == TRUE || ars_ff2 == TRUE}]'. [/home/varun/coding/projects/openpower/openpower_x/lab004_microwatt/build/gateware/top.xdc:96]
+WARNING: [Vivado 12-180] No cells matched 'get_cells -hierarchical -filter {ars_ff1 == TRUE}'. [/home/varun/coding/projects/openpower/openpower_x/lab004_microwatt/build/gateware/top.xdc:98]
+WARNING: [Vivado 12-508] No pins matched 'get_pins -filter {REF_PIN_NAME == C} -of_objects [get_cells -hierarchical -filter {ars_ff1 == TRUE}]'. [/home/varun/coding/projects/openpower/openpower_x/lab004_microwatt/build/gateware/top.xdc:98]
+WARNING: [Vivado 12-180] No cells matched 'get_cells -hierarchical -filter {ars_ff2 == TRUE}'. [/home/varun/coding/projects/openpower/openpower_x/lab004_microwatt/build/gateware/top.xdc:98]
+WARNING: [Vivado 12-508] No pins matched 'get_pins -filter {REF_PIN_NAME == D} -of_objects [get_cells -hierarchical -filter {ars_ff2 == TRUE}]'. [/home/varun/coding/projects/openpower/openpower_x/lab004_microwatt/build/gateware/top.xdc:98]
+Finished Parsing XDC File [/home/varun/coding/projects/openpower/openpower_x/lab004_microwatt/build/gateware/top.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/varun/coding/projects/openpower/openpower_x/lab004_microwatt/build/gateware/top.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2710.832 ; gain = 0.000 ; free physical = 630 ; free virtual = 3486
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2699.555 ; gain = 0.000 ; free physical = 7698 ; free virtual = 14140
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.05 . Memory (MB): peak = 2710.832 ; gain = 0.000 ; free physical = 630 ; free virtual = 3485
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.03 . Memory (MB): peak = 2699.555 ; gain = 0.000 ; free physical = 7698 ; free virtual = 14140
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 2710.832 ; gain = 362.645 ; free physical = 767 ; free virtual = 3627
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 2699.555 ; gain = 154.750 ; free physical = 7839 ; free virtual = 14276
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a100tcsg324-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 2710.832 ; gain = 362.645 ; free physical = 768 ; free virtual = 3627
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 2699.555 ; gain = 154.750 ; free physical = 7839 ; free virtual = 14276
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:30 . Memory (MB): peak = 2710.832 ; gain = 362.645 ; free physical = 774 ; free virtual = 3630
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 2699.555 ; gain = 154.750 ; free physical = 7830 ; free virtual = 14272
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'r_int_reg[stop_state]' in module 'fetch1'
 INFO: [Synth 8-802] inferred FSM for state register 'r_reg[state]' in module 'icache'
@@ -297,7 +279,7 @@ INFO: [Synth 8-3354] encoded FSM with state register 'r_int_reg[state]' using en
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'r_reg[state]' using encoding 'sequential' in module 'mmu'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:48 ; elapsed = 00:00:53 . Memory (MB): peak = 2710.832 ; gain = 362.645 ; free physical = 709 ; free virtual = 3587
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 2699.555 ; gain = 154.750 ; free physical = 7783 ; free virtual = 14231
 ---------------------------------------------------------------------------------
 RAM Pipeline Warning: Read Address Register Found For RAM mem_1_reg. We will not be able to pipeline it. This may degrade performance. 
 RAM Pipeline Warning: Read Address Register Found For RAM mem_2_reg. We will not be able to pipeline it. This may degrade performance. 
@@ -349,7 +331,7 @@ Detailed RTL Component Info :
 	               43 Bit    Registers := 1     
 	               32 Bit    Registers := 31    
 	               20 Bit    Registers := 1     
-	               16 Bit    Registers := 5     
+	               16 Bit    Registers := 1     
 	               15 Bit    Registers := 1     
 	               13 Bit    Registers := 2     
 	               12 Bit    Registers := 1     
@@ -359,8 +341,8 @@ Detailed RTL Component Info :
 	                8 Bit    Registers := 15    
 	                7 Bit    Registers := 1     
 	                6 Bit    Registers := 28    
-	                5 Bit    Registers := 9     
-	                4 Bit    Registers := 11    
+	                5 Bit    Registers := 6     
+	                4 Bit    Registers := 18    
 	                3 Bit    Registers := 10    
 	                2 Bit    Registers := 400   
 	                1 Bit    Registers := 271   
@@ -407,7 +389,7 @@ Detailed RTL Component Info :
 	   2 Input   24 Bit        Muxes := 1     
 	   3 Input   24 Bit        Muxes := 1     
 	   4 Input   19 Bit        Muxes := 1     
-	   2 Input   16 Bit        Muxes := 3     
+	   2 Input   16 Bit        Muxes := 2     
 	   4 Input   16 Bit        Muxes := 2     
 	   2 Input   14 Bit        Muxes := 2     
 	   2 Input   12 Bit        Muxes := 3     
@@ -432,11 +414,11 @@ Detailed RTL Component Info :
 	   9 Input    6 Bit        Muxes := 1     
 	  16 Input    6 Bit        Muxes := 1     
 	   7 Input    6 Bit        Muxes := 1     
-	   2 Input    5 Bit        Muxes := 6     
+	   2 Input    5 Bit        Muxes := 5     
 	   4 Input    5 Bit        Muxes := 2     
 	  10 Input    5 Bit        Muxes := 1     
 	   6 Input    4 Bit        Muxes := 1     
-	   2 Input    4 Bit        Muxes := 34    
+	   2 Input    4 Bit        Muxes := 36    
 	   4 Input    4 Bit        Muxes := 3     
 	  25 Input    4 Bit        Muxes := 2     
 	  14 Input    4 Bit        Muxes := 1     
@@ -446,7 +428,7 @@ Detailed RTL Component Info :
 	   2 Input    3 Bit        Muxes := 13    
 	   5 Input    3 Bit        Muxes := 2     
 	  26 Input    3 Bit        Muxes := 1     
-	   7 Input    3 Bit        Muxes := 6     
+	   7 Input    3 Bit        Muxes := 4     
 	   9 Input    3 Bit        Muxes := 1     
 	   4 Input    3 Bit        Muxes := 3     
 	   3 Input    3 Bit        Muxes := 1     
@@ -606,13 +588,13 @@ RAM Pipeline Warning: Read Address Register Found For RAM mem_2_reg. We will not
 RAM Pipeline Warning: Read Address Register Found For RAM mem_1_reg. We will not be able to pipeline it. This may degrade performance. 
 RAM Pipeline Warning: Read Address Register Found For RAM mem_2_reg. We will not be able to pipeline it. This may degrade performance. 
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:05:31 ; elapsed = 00:05:43 . Memory (MB): peak = 3074.316 ; gain = 726.129 ; free physical = 621 ; free virtual = 3376
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:03 ; elapsed = 00:02:07 . Memory (MB): peak = 3063.938 ; gain = 519.133 ; free physical = 7534 ; free virtual = 14024
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
 ---------------------------------------------------------------------------------
 
-ROM: Preliminary Mapping	Report
+ROM: Preliminary Mapping Report
 +------------+--------------------------------------------------+---------------+----------------+
 |Module Name | RTL Object                                       | Depth x Width | Implemented As | 
 +------------+--------------------------------------------------+---------------+----------------+
@@ -672,7 +654,7 @@ ROM: Preliminary Mapping	Report
 +------------+--------------------------------------------------+---------------+----------------+
 
 
-Block RAM: Preliminary Mapping	Report (see note below)
+Block RAM: Preliminary Mapping Report (see note below)
 +---------------------------+---------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
 |Module Name                | RTL Object                      | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
 +---------------------------+---------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
@@ -687,24 +669,24 @@ Block RAM: Preliminary Mapping	Report (see note below)
 
 Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
 
-Distributed RAM: Preliminary Mapping	Report (see note below)
-+---------------------------+-------------------------------+----------------+----------------------+---------------------------+
-|Module Name                | RTL Object                    | Inference      | Size (Depth x Width) | Primitives                | 
-+---------------------------+-------------------------------+----------------+----------------------+---------------------------+
-|top                        | register_file_0/registers_reg | Implied        | 64 x 64              | RAM64X1D x 3	RAM64M x 63	 | 
-|microwatt_corei_2/icache_0 | itlb_ptes_reg                 | User Attribute | 64 x 56              | RAM64X1D x 2	RAM64M x 18	 | 
-|microwatt_corei_2/icache_0 | cache_tags_reg                | User Attribute | 64 x 88              | RAM64X1D x 88	            | 
-|microwatt_corei_2/icache_0 | itlb_tags_reg                 | User Attribute | 64 x 46              | RAM64X1D x 1	RAM64M x 15	 | 
-|microwatt_corei_4/dcache_0 | dtlb_tags_reg                 | User Attribute | 64 x 92              | RAM64X1D x 2	RAM64M x 30	 | 
-|microwatt_corei_4/dcache_0 | dtlb_ptes_reg                 | User Attribute | 64 x 128             | RAM64X1D x 2	RAM64M x 42	 | 
-|microwatt_corei_4/dcache_0 | cache_tags_reg                | User Attribute | 64 x 92              | RAM64X1D x 92	            | 
-|top                        | storage_reg                   | Implied        | 16 x 8               | RAM32M x 2	               | 
-|top                        | storage_1_reg                 | Implied        | 16 x 8               | RAM32M x 2	               | 
-+---------------------------+-------------------------------+----------------+----------------------+---------------------------+
+Distributed RAM: Preliminary Mapping Report (see note below)
++---------------------------+-------------------------------+----------------+----------------------+----------------+
+|Module Name                | RTL Object                    | Inference      | Size (Depth x Width) | Primitives     | 
++---------------------------+-------------------------------+----------------+----------------------+----------------+
+|top                        | register_file_0/registers_reg | Implied        | 64 x 64              | RAM64M x 66    | 
+|microwatt_corei_2/icache_0 | itlb_ptes_reg                 | User Attribute | 64 x 56              | RAM64M x 19    | 
+|microwatt_corei_2/icache_0 | cache_tags_reg                | User Attribute | 64 x 88              | RAM64X1D x 88  | 
+|microwatt_corei_2/icache_0 | itlb_tags_reg                 | User Attribute | 64 x 46              | RAM64M x 16    | 
+|microwatt_corei_4/dcache_0 | dtlb_tags_reg                 | User Attribute | 64 x 92              | RAM64M x 31    | 
+|microwatt_corei_4/dcache_0 | dtlb_ptes_reg                 | User Attribute | 64 x 128             | RAM64M x 43    | 
+|microwatt_corei_4/dcache_0 | cache_tags_reg                | User Attribute | 64 x 92              | RAM64X1D x 92  | 
+|top                        | storage_reg                   | Implied        | 16 x 8               | RAM32M x 2     | 
+|top                        | storage_1_reg                 | Implied        | 16 x 8               | RAM32M x 2     | 
++---------------------------+-------------------------------+----------------+----------------------+----------------+
 
 Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
 
-DSP: Preliminary Mapping	Report (see note below)
+DSP: Preliminary Mapping Report (see note below)
 +------------+---------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
 |Module Name | DSP Mapping         | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
 +------------+---------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
@@ -734,19 +716,19 @@ Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:05:40 ; elapsed = 00:05:53 . Memory (MB): peak = 3074.316 ; gain = 726.129 ; free physical = 452 ; free virtual = 3233
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:07 ; elapsed = 00:02:11 . Memory (MB): peak = 3063.938 ; gain = 519.133 ; free physical = 7377 ; free virtual = 13880
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:05:43 ; elapsed = 00:05:55 . Memory (MB): peak = 3074.316 ; gain = 726.129 ; free physical = 431 ; free virtual = 3214
+Finished Timing Optimization : Time (s): cpu = 00:02:08 ; elapsed = 00:02:12 . Memory (MB): peak = 3063.938 ; gain = 519.133 ; free physical = 7353 ; free virtual = 13852
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
 ---------------------------------------------------------------------------------
 
-Block RAM: Final Mapping	Report
+Block RAM: Final Mapping Report
 +---------------------------+---------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
 |Module Name                | RTL Object                      | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
 +---------------------------+---------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
@@ -760,20 +742,20 @@ Block RAM: Final Mapping	Report
 +---------------------------+---------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
 
 
-Distributed RAM: Final Mapping	Report
-+---------------------------+-------------------------------+----------------+----------------------+---------------------------+
-|Module Name                | RTL Object                    | Inference      | Size (Depth x Width) | Primitives                | 
-+---------------------------+-------------------------------+----------------+----------------------+---------------------------+
-|top                        | register_file_0/registers_reg | Implied        | 64 x 64              | RAM64X1D x 3	RAM64M x 63	 | 
-|microwatt_corei_2/icache_0 | itlb_ptes_reg                 | User Attribute | 64 x 56              | RAM64X1D x 2	RAM64M x 18	 | 
-|microwatt_corei_2/icache_0 | cache_tags_reg                | User Attribute | 64 x 88              | RAM64X1D x 88	            | 
-|microwatt_corei_2/icache_0 | itlb_tags_reg                 | User Attribute | 64 x 46              | RAM64X1D x 1	RAM64M x 15	 | 
-|microwatt_corei_4/dcache_0 | dtlb_tags_reg                 | User Attribute | 64 x 92              | RAM64X1D x 2	RAM64M x 30	 | 
-|microwatt_corei_4/dcache_0 | dtlb_ptes_reg                 | User Attribute | 64 x 128             | RAM64X1D x 2	RAM64M x 42	 | 
-|microwatt_corei_4/dcache_0 | cache_tags_reg                | User Attribute | 64 x 92              | RAM64X1D x 92	            | 
-|top                        | storage_reg                   | Implied        | 16 x 8               | RAM32M x 2	               | 
-|top                        | storage_1_reg                 | Implied        | 16 x 8               | RAM32M x 2	               | 
-+---------------------------+-------------------------------+----------------+----------------------+---------------------------+
+Distributed RAM: Final Mapping Report
++---------------------------+-------------------------------+----------------+----------------------+----------------+
+|Module Name                | RTL Object                    | Inference      | Size (Depth x Width) | Primitives     | 
++---------------------------+-------------------------------+----------------+----------------------+----------------+
+|top                        | register_file_0/registers_reg | Implied        | 64 x 64              | RAM64M x 66    | 
+|microwatt_corei_2/icache_0 | itlb_ptes_reg                 | User Attribute | 64 x 56              | RAM64M x 19    | 
+|microwatt_corei_2/icache_0 | cache_tags_reg                | User Attribute | 64 x 88              | RAM64X1D x 88  | 
+|microwatt_corei_2/icache_0 | itlb_tags_reg                 | User Attribute | 64 x 46              | RAM64M x 16    | 
+|microwatt_corei_4/dcache_0 | dtlb_tags_reg                 | User Attribute | 64 x 92              | RAM64M x 31    | 
+|microwatt_corei_4/dcache_0 | dtlb_ptes_reg                 | User Attribute | 64 x 128             | RAM64M x 43    | 
+|microwatt_corei_4/dcache_0 | cache_tags_reg                | User Attribute | 64 x 92              | RAM64X1D x 92  | 
+|top                        | storage_reg                   | Implied        | 16 x 8               | RAM32M x 2     | 
+|top                        | storage_1_reg                 | Implied        | 16 x 8               | RAM32M x 2     | 
++---------------------------+-------------------------------+----------------+----------------------+----------------+
 
 ---------------------------------------------------------------------------------
 Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -802,7 +784,7 @@ INFO: [Synth 8-7052] The timing for the instance memdat_reg_5 (implemented as a 
 INFO: [Synth 8-7052] The timing for the instance memdat_reg_6 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
 INFO: [Synth 8-7052] The timing for the instance memdat_reg_7 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:05:52 ; elapsed = 00:06:05 . Memory (MB): peak = 3074.316 ; gain = 726.129 ; free physical = 447 ; free virtual = 3228
+Finished Technology Mapping : Time (s): cpu = 00:02:12 ; elapsed = 00:02:16 . Memory (MB): peak = 3063.938 ; gain = 519.133 ; free physical = 7391 ; free virtual = 13893
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -820,37 +802,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:05:56 ; elapsed = 00:06:09 . Memory (MB): peak = 3074.316 ; gain = 726.129 ; free physical = 459 ; free virtual = 3240
+Finished IO Insertion : Time (s): cpu = 00:02:14 ; elapsed = 00:02:18 . Memory (MB): peak = 3063.938 ; gain = 519.133 ; free physical = 7402 ; free virtual = 13899
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:05:56 ; elapsed = 00:06:10 . Memory (MB): peak = 3074.316 ; gain = 726.129 ; free physical = 459 ; free virtual = 3240
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:14 ; elapsed = 00:02:18 . Memory (MB): peak = 3063.938 ; gain = 519.133 ; free physical = 7402 ; free virtual = 13899
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:05:58 ; elapsed = 00:06:11 . Memory (MB): peak = 3074.316 ; gain = 726.129 ; free physical = 458 ; free virtual = 3240
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:15 ; elapsed = 00:02:19 . Memory (MB): peak = 3063.938 ; gain = 519.133 ; free physical = 7397 ; free virtual = 13895
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:05:58 ; elapsed = 00:06:11 . Memory (MB): peak = 3074.316 ; gain = 726.129 ; free physical = 458 ; free virtual = 3240
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:15 ; elapsed = 00:02:19 . Memory (MB): peak = 3063.938 ; gain = 519.133 ; free physical = 7399 ; free virtual = 13898
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:05:59 ; elapsed = 00:06:12 . Memory (MB): peak = 3074.316 ; gain = 726.129 ; free physical = 460 ; free virtual = 3242
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:15 ; elapsed = 00:02:19 . Memory (MB): peak = 3063.938 ; gain = 519.133 ; free physical = 7380 ; free virtual = 13879
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:05:59 ; elapsed = 00:06:12 . Memory (MB): peak = 3074.316 ; gain = 726.129 ; free physical = 460 ; free virtual = 3242
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:15 ; elapsed = 00:02:19 . Memory (MB): peak = 3063.938 ; gain = 519.133 ; free physical = 7378 ; free virtual = 13877
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -884,60 +866,62 @@ Report Cell Usage:
 |2     |CARRY4   |   497|
 |3     |DSP48E1  |    16|
 |6     |LUT1     |   400|
-|7     |LUT2     |   660|
-|8     |LUT3     |  1956|
-|9     |LUT4     |   953|
-|10    |LUT5     |  2040|
-|11    |LUT6     |  5572|
-|12    |MUXF7    |   112|
-|13    |MUXF8    |    21|
-|14    |RAM32M   |     4|
-|15    |RAM64M   |   160|
-|16    |RAM64X1D |   184|
-|17    |RAMB18E1 |     1|
-|18    |RAMB36E1 |    21|
-|30    |SRL16E   |     3|
-|31    |FDRE     |  5869|
-|32    |FDSE     |   109|
-|33    |IBUF     |    24|
-|34    |OBUF     |    20|
+|7     |LUT2     |   663|
+|8     |LUT3     |  1926|
+|9     |LUT4     |   939|
+|10    |LUT5     |  2072|
+|11    |LUT6     |  5562|
+|12    |MUXF7    |   111|
+|13    |MUXF8    |    18|
+|14    |RAM32M   |     2|
+|15    |RAM32X1D |     4|
+|16    |RAM64M   |   162|
+|17    |RAM64X1D |   179|
+|18    |RAMB18E1 |     1|
+|19    |RAMB36E1 |    21|
+|31    |SRL16E   |     3|
+|32    |FDRE     |  5794|
+|33    |FDSE     |   111|
+|34    |IBUF     |    11|
+|35    |OBUF     |     8|
 +------+---------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:05:59 ; elapsed = 00:06:12 . Memory (MB): peak = 3074.316 ; gain = 726.129 ; free physical = 460 ; free virtual = 3242
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:15 ; elapsed = 00:02:19 . Memory (MB): peak = 3063.938 ; gain = 519.133 ; free physical = 7378 ; free virtual = 13877
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:05:53 ; elapsed = 00:06:07 . Memory (MB): peak = 3074.316 ; gain = 574.285 ; free physical = 517 ; free virtual = 3299
-Synthesis Optimization Complete : Time (s): cpu = 00:05:59 ; elapsed = 00:06:13 . Memory (MB): peak = 3074.324 ; gain = 726.129 ; free physical = 517 ; free virtual = 3299
+Synthesis Optimization Runtime : Time (s): cpu = 00:02:13 ; elapsed = 00:02:17 . Memory (MB): peak = 3063.938 ; gain = 364.383 ; free physical = 7436 ; free virtual = 13934
+Synthesis Optimization Complete : Time (s): cpu = 00:02:16 ; elapsed = 00:02:20 . Memory (MB): peak = 3063.945 ; gain = 519.133 ; free physical = 7436 ; free virtual = 13935
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00.21 ; elapsed = 00:00:00.22 . Memory (MB): peak = 3074.324 ; gain = 0.000 ; free physical = 591 ; free virtual = 3384
-INFO: [Netlist 29-17] Analyzing 1016 Unisim elements for replacement
+Netlist sorting complete. Time (s): cpu = 00:00:00.10 ; elapsed = 00:00:00.10 . Memory (MB): peak = 3063.945 ; gain = 0.000 ; free physical = 7520 ; free virtual = 14022
+INFO: [Netlist 29-17] Analyzing 1011 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
-Parsing XDC File [/home/varun/coding/projects/openpower/openpower_x/lab004_v_sim/build/gateware/top.xdc]
-WARNING: [Vivado 12-180] No cells matched 'get_cells -hierarchical -filter {ars_ff1 == TRUE || ars_ff2 == TRUE}'. [/home/varun/coding/projects/openpower/openpower_x/lab004_v_sim/build/gateware/top.xdc:196]
-WARNING: [Vivado 12-508] No pins matched 'get_pins -filter {REF_PIN_NAME == PRE} -of_objects [get_cells -hierarchical -filter {ars_ff1 == TRUE || ars_ff2 == TRUE}]'. [/home/varun/coding/projects/openpower/openpower_x/lab004_v_sim/build/gateware/top.xdc:196]
-WARNING: [Vivado 12-180] No cells matched 'get_cells -hierarchical -filter {ars_ff1 == TRUE}'. [/home/varun/coding/projects/openpower/openpower_x/lab004_v_sim/build/gateware/top.xdc:198]
-WARNING: [Vivado 12-508] No pins matched 'get_pins -filter {REF_PIN_NAME == C} -of_objects [get_cells -hierarchical -filter {ars_ff1 == TRUE}]'. [/home/varun/coding/projects/openpower/openpower_x/lab004_v_sim/build/gateware/top.xdc:198]
-WARNING: [Vivado 12-180] No cells matched 'get_cells -hierarchical -filter {ars_ff2 == TRUE}'. [/home/varun/coding/projects/openpower/openpower_x/lab004_v_sim/build/gateware/top.xdc:198]
-WARNING: [Vivado 12-508] No pins matched 'get_pins -filter {REF_PIN_NAME == D} -of_objects [get_cells -hierarchical -filter {ars_ff2 == TRUE}]'. [/home/varun/coding/projects/openpower/openpower_x/lab004_v_sim/build/gateware/top.xdc:198]
-Finished Parsing XDC File [/home/varun/coding/projects/openpower/openpower_x/lab004_v_sim/build/gateware/top.xdc]
+Parsing XDC File [/home/varun/coding/projects/openpower/openpower_x/lab004_microwatt/build/gateware/top.xdc]
+WARNING: [Vivado 12-180] No cells matched 'get_cells -hierarchical -filter {ars_ff1 == TRUE || ars_ff2 == TRUE}'. [/home/varun/coding/projects/openpower/openpower_x/lab004_microwatt/build/gateware/top.xdc:96]
+WARNING: [Vivado 12-508] No pins matched 'get_pins -filter {REF_PIN_NAME == PRE} -of_objects [get_cells -hierarchical -filter {ars_ff1 == TRUE || ars_ff2 == TRUE}]'. [/home/varun/coding/projects/openpower/openpower_x/lab004_microwatt/build/gateware/top.xdc:96]
+WARNING: [Vivado 12-180] No cells matched 'get_cells -hierarchical -filter {ars_ff1 == TRUE}'. [/home/varun/coding/projects/openpower/openpower_x/lab004_microwatt/build/gateware/top.xdc:98]
+WARNING: [Vivado 12-508] No pins matched 'get_pins -filter {REF_PIN_NAME == C} -of_objects [get_cells -hierarchical -filter {ars_ff1 == TRUE}]'. [/home/varun/coding/projects/openpower/openpower_x/lab004_microwatt/build/gateware/top.xdc:98]
+WARNING: [Vivado 12-180] No cells matched 'get_cells -hierarchical -filter {ars_ff2 == TRUE}'. [/home/varun/coding/projects/openpower/openpower_x/lab004_microwatt/build/gateware/top.xdc:98]
+WARNING: [Vivado 12-508] No pins matched 'get_pins -filter {REF_PIN_NAME == D} -of_objects [get_cells -hierarchical -filter {ars_ff2 == TRUE}]'. [/home/varun/coding/projects/openpower/openpower_x/lab004_microwatt/build/gateware/top.xdc:98]
+Finished Parsing XDC File [/home/varun/coding/projects/openpower/openpower_x/lab004_microwatt/build/gateware/top.xdc]
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 3106.332 ; gain = 0.000 ; free physical = 552 ; free virtual = 3347
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3095.953 ; gain = 0.000 ; free physical = 7470 ; free virtual = 13972
 INFO: [Project 1-111] Unisim Transformation Summary:
-  A total of 348 instances were transformed.
-  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 4 instances
-  RAM64M => RAM64M (RAMD64E(x4)): 160 instances
-  RAM64X1D => RAM64X1D (RAMD64E(x2)): 184 instances
+  A total of 347 instances were transformed.
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 2 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 4 instances
+  RAM64M => RAM64M (RAMD64E(x4)): 162 instances
+  RAM64X1D => RAM64X1D (RAMD64E(x2)): 179 instances
 
+Synth Design complete, checksum: 69dd6fc8
 INFO: [Common 17-83] Releasing license: Synthesis
-112 Infos, 15 Warnings, 0 Critical Warnings and 0 Errors encountered.
+110 Infos, 15 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:06:16 ; elapsed = 00:06:24 . Memory (MB): peak = 3106.332 ; gain = 758.297 ; free physical = 724 ; free virtual = 3519
+synth_design: Time (s): cpu = 00:02:23 ; elapsed = 00:02:24 . Memory (MB): peak = 3095.953 ; gain = 551.242 ; free physical = 7647 ; free virtual = 14149
 # report_timing_summary -file top_timing_synth.rpt
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
 INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs
-report_timing_summary: Time (s): cpu = 00:00:14 ; elapsed = 00:00:05 . Memory (MB): peak = 3177.391 ; gain = 71.059 ; free physical = 420 ; free virtual = 3241
 # report_utilization -hierarchical -file top_utilization_hierarchical_synth.rpt
 # report_utilization -file top_utilization_synth.rpt
 # opt_design -directive default
@@ -952,55 +936,55 @@ INFO: [DRC 23-27] Running DRC with 8 threads
 INFO: [Project 1-461] DRC finished with 0 Errors
 INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 3241.422 ; gain = 64.031 ; free physical = 407 ; free virtual = 3229
+Time (s): cpu = 00:00:00.77 ; elapsed = 00:00:00.29 . Memory (MB): peak = 3247.051 ; gain = 64.031 ; free physical = 7352 ; free virtual = 13871
 
 Starting Cache Timing Information Task
-Ending Cache Timing Information Task | Checksum: 16b726571
+Ending Cache Timing Information Task | Checksum: 195c51a2f
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3241.422 ; gain = 0.000 ; free physical = 407 ; free virtual = 3229
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3247.051 ; gain = 0.000 ; free physical = 7352 ; free virtual = 13871
 
 Starting Logic Optimization Task
 
 Phase 1 Retarget
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 INFO: [Opt 31-49] Retargeted 0 cell(s).
-Phase 1 Retarget | Checksum: 2453842bd
+Phase 1 Retarget | Checksum: 19b6191e2
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.81 . Memory (MB): peak = 3241.422 ; gain = 0.000 ; free physical = 309 ; free virtual = 3131
+Time (s): cpu = 00:00:00.60 ; elapsed = 00:00:00.32 . Memory (MB): peak = 3247.051 ; gain = 0.000 ; free physical = 7258 ; free virtual = 13776
 INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 11 cells
-INFO: [Opt 31-1021] In phase Retarget, 22 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+INFO: [Opt 31-1021] In phase Retarget, 9 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
 
 Phase 2 Constant propagation
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Phase 2 Constant propagation | Checksum: 2277a9c1e
+Phase 2 Constant propagation | Checksum: d6c62e71
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 3241.422 ; gain = 0.000 ; free physical = 309 ; free virtual = 3131
+Time (s): cpu = 00:00:00.69 ; elapsed = 00:00:00.41 . Memory (MB): peak = 3247.051 ; gain = 0.000 ; free physical = 7258 ; free virtual = 13776
 INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
 
 Phase 3 Sweep
-Phase 3 Sweep | Checksum: 162d3cb68
+Phase 3 Sweep | Checksum: 152a31ed7
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 3241.422 ; gain = 0.000 ; free physical = 308 ; free virtual = 3130
-INFO: [Opt 31-389] Phase Sweep created 16 cells and removed 0 cells
-INFO: [Opt 31-1021] In phase Sweep, 88 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+Time (s): cpu = 00:00:00.84 ; elapsed = 00:00:00.56 . Memory (MB): peak = 3247.051 ; gain = 0.000 ; free physical = 7258 ; free virtual = 13775
+INFO: [Opt 31-389] Phase Sweep created 4 cells and removed 0 cells
+INFO: [Opt 31-1021] In phase Sweep, 36 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
 
 Phase 4 BUFG optimization
-Phase 4 BUFG optimization | Checksum: 162d3cb68
+Phase 4 BUFG optimization | Checksum: 152a31ed7
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 3241.422 ; gain = 0.000 ; free physical = 308 ; free virtual = 3130
+Time (s): cpu = 00:00:00.99 ; elapsed = 00:00:00.71 . Memory (MB): peak = 3247.051 ; gain = 0.000 ; free physical = 7258 ; free virtual = 13776
 INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
 
 Phase 5 Shift Register Optimization
 INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
-Phase 5 Shift Register Optimization | Checksum: 1efd0d06c
+Phase 5 Shift Register Optimization | Checksum: f0d60398
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 3241.422 ; gain = 0.000 ; free physical = 308 ; free virtual = 3131
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.73 . Memory (MB): peak = 3247.051 ; gain = 0.000 ; free physical = 7258 ; free virtual = 13776
 INFO: [Opt 31-389] Phase Shift Register Optimization created 1 cells and removed 0 cells
 
 Phase 6 Post Processing Netlist
-Phase 6 Post Processing Netlist | Checksum: 1efd0d06c
+Phase 6 Post Processing Netlist | Checksum: f0d60398
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 3241.422 ; gain = 0.000 ; free physical = 308 ; free virtual = 3131
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.77 . Memory (MB): peak = 3247.051 ; gain = 0.000 ; free physical = 7258 ; free virtual = 13775
 INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
 Opt_design Change Summary
 =========================
@@ -1009,9 +993,9 @@ Opt_design Change Summary
 -------------------------------------------------------------------------------------------------------------------------
 |  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
 -------------------------------------------------------------------------------------------------------------------------
-|  Retarget                     |               0  |              11  |                                             22  |
+|  Retarget                     |               0  |              11  |                                              9  |
 |  Constant propagation         |               0  |               0  |                                              0  |
-|  Sweep                        |              16  |               0  |                                             88  |
+|  Sweep                        |               4  |               0  |                                             36  |
 |  BUFG optimization            |               0  |               0  |                                              0  |
 |  Shift Register Optimization  |               1  |               0  |                                              0  |
 |  Post Processing Netlist      |               0  |               0  |                                              0  |
@@ -1021,10 +1005,10 @@ Opt_design Change Summary
 
 Starting Connectivity Check Task
 
-Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.06 . Memory (MB): peak = 3241.422 ; gain = 0.000 ; free physical = 310 ; free virtual = 3132
-Ending Logic Optimization Task | Checksum: 1b76099e6
+Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 3247.051 ; gain = 0.000 ; free physical = 7258 ; free virtual = 13776
+Ending Logic Optimization Task | Checksum: 18d658aad
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 3241.422 ; gain = 0.000 ; free physical = 310 ; free virtual = 3132
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 3247.051 ; gain = 0.000 ; free physical = 7258 ; free virtual = 13776
 
 Starting Power Optimization Task
 INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
@@ -1042,27 +1026,27 @@ Starting PowerOpt Patch Enables Task
 INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 22 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
 INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
 Number of BRAM Ports augmented: 2 newly gated: 4 Total Ports: 44
-Ending PowerOpt Patch Enables Task | Checksum: 217427ae7
+Ending PowerOpt Patch Enables Task | Checksum: c566a730
 
-Time (s): cpu = 00:00:00.18 ; elapsed = 00:00:00.20 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 384 ; free virtual = 3219
-Ending Power Optimization Task | Checksum: 217427ae7
+Time (s): cpu = 00:00:00.09 ; elapsed = 00:00:00.14 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7360 ; free virtual = 13883
+Ending Power Optimization Task | Checksum: c566a730
 
-Time (s): cpu = 00:00:19 ; elapsed = 00:00:10 . Memory (MB): peak = 3491.328 ; gain = 249.906 ; free physical = 401 ; free virtual = 3236
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 3491.965 ; gain = 244.914 ; free physical = 7375 ; free virtual = 13899
 
 Starting Final Cleanup Task
-Ending Final Cleanup Task | Checksum: 217427ae7
+Ending Final Cleanup Task | Checksum: c566a730
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 401 ; free virtual = 3236
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7375 ; free virtual = 13899
 
 Starting Netlist Obfuscation Task
-Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 401 ; free virtual = 3236
-Ending Netlist Obfuscation Task | Checksum: 1e493a23a
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7375 ; free virtual = 13899
+Ending Netlist Obfuscation Task | Checksum: 165f5e307
 
-Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 401 ; free virtual = 3236
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7375 ; free virtual = 13899
 INFO: [Common 17-83] Releasing license: Implementation
 24 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
 opt_design completed successfully
-opt_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:17 . Memory (MB): peak = 3491.328 ; gain = 313.938 ; free physical = 401 ; free virtual = 3236
+opt_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 3491.965 ; gain = 308.945 ; free physical = 7375 ; free virtual = 13899
 # place_design -directive default
 Command: place_design -directive default
 Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
@@ -1083,102 +1067,107 @@ INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 
 Phase 1 Placer Initialization
 
 Phase 1.1 Placer Initialization Netlist Sorting
-Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 361 ; free virtual = 3198
-Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 13394311c
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7328 ; free virtual = 13853
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: b13a102f
 
-Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.05 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 361 ; free virtual = 3198
-Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 361 ; free virtual = 3198
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.03 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7328 ; free virtual = 13853
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7328 ; free virtual = 13853
 
 Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
-Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 19667e9c6
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 118ba182e
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:01 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 380 ; free virtual = 3221
+Time (s): cpu = 00:00:00.88 ; elapsed = 00:00:00.46 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7353 ; free virtual = 13881
 
 Phase 1.3 Build Placer Netlist Model
-Phase 1.3 Build Placer Netlist Model | Checksum: 28ddca17e
+Phase 1.3 Build Placer Netlist Model | Checksum: 1309fe530
 
-Time (s): cpu = 00:00:08 ; elapsed = 00:00:04 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 390 ; free virtual = 3233
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:01 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7361 ; free virtual = 13890
 
 Phase 1.4 Constrain Clocks/Macros
-Phase 1.4 Constrain Clocks/Macros | Checksum: 28ddca17e
+Phase 1.4 Constrain Clocks/Macros | Checksum: 1309fe530
 
-Time (s): cpu = 00:00:08 ; elapsed = 00:00:04 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 390 ; free virtual = 3233
-Phase 1 Placer Initialization | Checksum: 28ddca17e
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:01 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7361 ; free virtual = 13890
+Phase 1 Placer Initialization | Checksum: 1309fe530
 
-Time (s): cpu = 00:00:08 ; elapsed = 00:00:04 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 389 ; free virtual = 3232
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:01 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7361 ; free virtual = 13890
 
 Phase 2 Global Placement
 
 Phase 2.1 Floorplanning
-Phase 2.1 Floorplanning | Checksum: 28ddca17e
+Phase 2.1 Floorplanning | Checksum: 1309fe530
 
-Time (s): cpu = 00:00:08 ; elapsed = 00:00:04 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 386 ; free virtual = 3229
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:01 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7358 ; free virtual = 13888
 
 Phase 2.2 Update Timing before SLR Path Opt
-Phase 2.2 Update Timing before SLR Path Opt | Checksum: 28ddca17e
+Phase 2.2 Update Timing before SLR Path Opt | Checksum: 1309fe530
 
-Time (s): cpu = 00:00:08 ; elapsed = 00:00:04 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 386 ; free virtual = 3229
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:01 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7358 ; free virtual = 13887
 
-Phase 2.3 Global Placement Core
+Phase 2.3 Post-Processing in Floorplanning
+Phase 2.3 Post-Processing in Floorplanning | Checksum: 1309fe530
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:01 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7358 ; free virtual = 13887
+
+Phase 2.4 Global Placement Core
 WARNING: [Place 46-29] place_design is not in timing mode. Skip physical synthesis in placer
-Phase 2.3 Global Placement Core | Checksum: 1c2f8f292
+Phase 2.4 Global Placement Core | Checksum: e3ac5d3a
 
-Time (s): cpu = 00:00:36 ; elapsed = 00:00:11 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 333 ; free virtual = 3177
-Phase 2 Global Placement | Checksum: 1c2f8f292
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:05 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7289 ; free virtual = 13825
+Phase 2 Global Placement | Checksum: e3ac5d3a
 
-Time (s): cpu = 00:00:36 ; elapsed = 00:00:11 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 335 ; free virtual = 3180
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:05 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7292 ; free virtual = 13829
 
 Phase 3 Detail Placement
 
 Phase 3.1 Commit Multi Column Macros
-Phase 3.1 Commit Multi Column Macros | Checksum: 1c2f8f292
+Phase 3.1 Commit Multi Column Macros | Checksum: e3ac5d3a
 
-Time (s): cpu = 00:00:36 ; elapsed = 00:00:11 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 335 ; free virtual = 3180
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:05 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7292 ; free virtual = 13829
 
 Phase 3.2 Commit Most Macros & LUTRAMs
-Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 25e6cad89
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 150d9e40c
 
-Time (s): cpu = 00:00:37 ; elapsed = 00:00:12 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 335 ; free virtual = 3180
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:05 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7292 ; free virtual = 13828
 
 Phase 3.3 Area Swap Optimization
-Phase 3.3 Area Swap Optimization | Checksum: 1fe51e58c
+Phase 3.3 Area Swap Optimization | Checksum: 1d6f4f669
 
-Time (s): cpu = 00:00:38 ; elapsed = 00:00:12 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 335 ; free virtual = 3180
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:05 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7292 ; free virtual = 13829
 
 Phase 3.4 Pipeline Register Optimization
-Phase 3.4 Pipeline Register Optimization | Checksum: 1fe51e58c
+Phase 3.4 Pipeline Register Optimization | Checksum: 1d6f4f669
 
-Time (s): cpu = 00:00:38 ; elapsed = 00:00:12 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 335 ; free virtual = 3180
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:05 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7293 ; free virtual = 13829
 
 Phase 3.5 Small Shape Detail Placement
-Phase 3.5 Small Shape Detail Placement | Checksum: 257903a48
+Phase 3.5 Small Shape Detail Placement | Checksum: 115fbf591
 
-Time (s): cpu = 00:00:43 ; elapsed = 00:00:17 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 343 ; free virtual = 3188
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:07 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7291 ; free virtual = 13824
 
 Phase 3.6 Re-assign LUT pins
-Phase 3.6 Re-assign LUT pins | Checksum: 1f4cdde3c
+Phase 3.6 Re-assign LUT pins | Checksum: 100902b8a
 
-Time (s): cpu = 00:00:44 ; elapsed = 00:00:17 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 343 ; free virtual = 3188
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:07 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7291 ; free virtual = 13824
 
 Phase 3.7 Pipeline Register Optimization
-Phase 3.7 Pipeline Register Optimization | Checksum: 1f4cdde3c
+Phase 3.7 Pipeline Register Optimization | Checksum: 100902b8a
 
-Time (s): cpu = 00:00:44 ; elapsed = 00:00:18 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 343 ; free virtual = 3188
-Phase 3 Detail Placement | Checksum: 1f4cdde3c
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:07 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7293 ; free virtual = 13823
+Phase 3 Detail Placement | Checksum: 100902b8a
 
-Time (s): cpu = 00:00:44 ; elapsed = 00:00:18 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 343 ; free virtual = 3188
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:07 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7293 ; free virtual = 13823
 
 Phase 4 Post Placement Optimization and Clean-Up
 
 Phase 4.1 Post Commit Optimization
-Phase 4.1 Post Commit Optimization | Checksum: 1f4cdde3c
+Phase 4.1 Post Commit Optimization | Checksum: 100902b8a
 
-Time (s): cpu = 00:00:44 ; elapsed = 00:00:18 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 343 ; free virtual = 3188
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:07 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7293 ; free virtual = 13824
 
 Phase 4.2 Post Placement Cleanup
-Phase 4.2 Post Placement Cleanup | Checksum: 1f4cdde3c
+Phase 4.2 Post Placement Cleanup | Checksum: 100902b8a
 
-Time (s): cpu = 00:00:45 ; elapsed = 00:00:18 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 343 ; free virtual = 3188
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:07 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7293 ; free virtual = 13823
 
 Phase 4.3 Placer Reporting
 
@@ -1188,42 +1177,42 @@ INFO: [Place 30-612] Post-Placement Estimated Congestion
 |           | Global Congestion | Short Congestion  |
 | Direction | Region Size       | Region Size       |
 |___________|___________________|___________________|
-|      North|                1x1|                8x8|
+|      North|                1x1|                4x4|
 |___________|___________________|___________________|
 |      South|                1x1|                4x4|
 |___________|___________________|___________________|
-|       East|                4x4|                2x2|
+|       East|                1x1|                2x2|
 |___________|___________________|___________________|
 |       West|                1x1|                1x1|
 |___________|___________________|___________________|
 
-Phase 4.3.1 Print Estimated Congestion | Checksum: 1f4cdde3c
+Phase 4.3.1 Print Estimated Congestion | Checksum: 100902b8a
 
-Time (s): cpu = 00:00:45 ; elapsed = 00:00:18 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 343 ; free virtual = 3188
-Phase 4.3 Placer Reporting | Checksum: 1f4cdde3c
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:07 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7294 ; free virtual = 13824
+Phase 4.3 Placer Reporting | Checksum: 100902b8a
 
-Time (s): cpu = 00:00:45 ; elapsed = 00:00:18 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 342 ; free virtual = 3188
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:08 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7294 ; free virtual = 13824
 
 Phase 4.4 Final Placement Cleanup
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 342 ; free virtual = 3188
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7293 ; free virtual = 13824
 
-Time (s): cpu = 00:00:45 ; elapsed = 00:00:18 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 342 ; free virtual = 3188
-Phase 4 Post Placement Optimization and Clean-Up | Checksum: 1f19e06e5
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:08 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7293 ; free virtual = 13824
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 108388b5d
 
-Time (s): cpu = 00:00:45 ; elapsed = 00:00:18 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 342 ; free virtual = 3188
-Ending Placer Task | Checksum: 16ccde222
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:08 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7293 ; free virtual = 13823
+Ending Placer Task | Checksum: e544d767
 
-Time (s): cpu = 00:00:45 ; elapsed = 00:00:18 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 342 ; free virtual = 3188
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:08 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7292 ; free virtual = 13822
 INFO: [Common 17-83] Releasing license: Implementation
 12 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
 place_design completed successfully
-place_design: Time (s): cpu = 00:00:59 ; elapsed = 00:00:22 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 376 ; free virtual = 3221
+place_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:09 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7319 ; free virtual = 13849
 # report_utilization -hierarchical -file top_utilization_hierarchical_place.rpt
 # report_utilization -file top_utilization_place.rpt
 # report_io -file top_io.rpt
-report_io: Time (s): cpu = 00:00:00.11 ; elapsed = 00:00:00.18 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 365 ; free virtual = 3211
+report_io: Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.09 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7336 ; free virtual = 13866
 # report_control_sets -verbose -file top_control_sets.rpt
-report_control_sets: Time (s): cpu = 00:00:00.10 ; elapsed = 00:00:00.16 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 370 ; free virtual = 3216
+report_control_sets: Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.07 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7342 ; free virtual = 13872
 # report_clock_utilization -file top_clock_utilization.rpt
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 # route_design -directive default
@@ -1239,39 +1228,39 @@ INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more in
 Starting Routing Task
 INFO: [Route 35-270] Using Router directive 'default'.
 INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 8 CPUs
-Checksum: PlaceDB: 71d50f71 ConstDB: 0 ShapeSum: faf8d2b1 RouteDB: 0
+Checksum: PlaceDB: 7dde7d83 ConstDB: 0 ShapeSum: 676659e4 RouteDB: 0
 
 Phase 1 Build RT Design
-Phase 1 Build RT Design | Checksum: 151471afb
+Phase 1 Build RT Design | Checksum: 10e4e8f78
 
-Time (s): cpu = 00:00:29 ; elapsed = 00:00:20 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 192 ; free virtual = 3039
-Post Restoration Checksum: NetGraph: baa44a5d NumContArr: 96a2d09e Constraints: 0 Timing: 0
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7131 ; free virtual = 13665
+Post Restoration Checksum: NetGraph: 4141b009 NumContArr: cd0cdf6f Constraints: 0 Timing: 0
 
 Phase 2 Router Initialization
 
 Phase 2.1 Create Timer
-Phase 2.1 Create Timer | Checksum: 151471afb
+Phase 2.1 Create Timer | Checksum: 10e4e8f78
 
-Time (s): cpu = 00:00:29 ; elapsed = 00:00:20 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 193 ; free virtual = 3042
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7136 ; free virtual = 13670
 
 Phase 2.2 Fix Topology Constraints
-Phase 2.2 Fix Topology Constraints | Checksum: 151471afb
+Phase 2.2 Fix Topology Constraints | Checksum: 10e4e8f78
 
-Time (s): cpu = 00:00:29 ; elapsed = 00:00:20 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 158 ; free virtual = 3007
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7101 ; free virtual = 13635
 
 Phase 2.3 Pre Route Cleanup
-Phase 2.3 Pre Route Cleanup | Checksum: 151471afb
+Phase 2.3 Pre Route Cleanup | Checksum: 10e4e8f78
 
-Time (s): cpu = 00:00:29 ; elapsed = 00:00:20 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 158 ; free virtual = 3007
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7101 ; free virtual = 13635
  Number of Nodes with overlaps = 0
 
 Phase 2.4 Update Timing
-Phase 2.4 Update Timing | Checksum: 12d4983ed
+Phase 2.4 Update Timing | Checksum: 86fed7bf
 
-Time (s): cpu = 00:00:34 ; elapsed = 00:00:22 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 144 ; free virtual = 2965
-Phase 2 Router Initialization | Checksum: 12d4983ed
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7073 ; free virtual = 13609
+Phase 2 Router Initialization | Checksum: 86fed7bf
 
-Time (s): cpu = 00:00:34 ; elapsed = 00:00:23 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 144 ; free virtual = 2965
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7073 ; free virtual = 13608
 
 Router Utilization Summary
   Global Vertical Routing Utilization    = 0 %
@@ -1279,9 +1268,9 @@ Router Utilization Summary
   Routable Net Status*
   *Does not include unroutable nets such as driverless and loadless.
   Run report_route_status for detailed report.
-  Number of Failed Nets               = 16450
+  Number of Failed Nets               = 16346
     (Failed Nets is the sum of unrouted and partially routed nets)
-  Number of Unrouted Nets             = 16450
+  Number of Unrouted Nets             = 16346
   Number of Partially Routed Nets     = 0
   Number of Node Overlaps             = 0
 
@@ -1289,73 +1278,72 @@ Router Utilization Summary
 Phase 3 Initial Routing
 
 Phase 3.1 Global Routing
-Phase 3.1 Global Routing | Checksum: 12d4983ed
+Phase 3.1 Global Routing | Checksum: 86fed7bf
 
-Time (s): cpu = 00:00:35 ; elapsed = 00:00:23 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 146 ; free virtual = 2967
-Phase 3 Initial Routing | Checksum: 868eedc2
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7069 ; free virtual = 13605
+Phase 3 Initial Routing | Checksum: 137438ef9
 
-Time (s): cpu = 00:00:46 ; elapsed = 00:00:25 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 146 ; free virtual = 2967
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:10 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7076 ; free virtual = 13609
 
 Phase 4 Rip-up And Reroute
 
 Phase 4.1 Global Iteration 0
 
 Phase 4.1.1 Update Timing
-Phase 4.1.1 Update Timing | Checksum: 868eedc2
+Phase 4.1.1 Update Timing | Checksum: 137438ef9
 
-Time (s): cpu = 00:00:47 ; elapsed = 00:00:25 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 146 ; free virtual = 2967
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:10 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7074 ; free virtual = 13607
 WARNING: [Route 35-447] Congestion is preventing the router from routing all nets. The router will prioritize the successful completion of routing all nets over timing optimizations.
-Phase 4.1 Global Iteration 0 | Checksum: 868eedc2
+Phase 4.1 Global Iteration 0 | Checksum: 137438ef9
 
-Time (s): cpu = 00:00:48 ; elapsed = 00:00:26 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 151 ; free virtual = 2972
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:10 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7071 ; free virtual = 13605
 
 Phase 4.2 Global Iteration 1
- Number of Nodes with overlaps = 1951
- Number of Nodes with overlaps = 21
- Number of Nodes with overlaps = 3
+ Number of Nodes with overlaps = 1799
+ Number of Nodes with overlaps = 5
  Number of Nodes with overlaps = 0
-Phase 4.2 Global Iteration 1 | Checksum: 129f6c014
+Phase 4.2 Global Iteration 1 | Checksum: 190b601fb
 
-Time (s): cpu = 00:01:07 ; elapsed = 00:00:34 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 163 ; free virtual = 2967
-Phase 4 Rip-up And Reroute | Checksum: 129f6c014
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:13 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7069 ; free virtual = 13605
+Phase 4 Rip-up And Reroute | Checksum: 190b601fb
 
-Time (s): cpu = 00:01:07 ; elapsed = 00:00:34 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 163 ; free virtual = 2967
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:13 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7069 ; free virtual = 13605
 
 Phase 5 Delay and Skew Optimization
 
 Phase 5.1 Delay CleanUp
-Phase 5.1 Delay CleanUp | Checksum: 129f6c014
+Phase 5.1 Delay CleanUp | Checksum: 190b601fb
 
-Time (s): cpu = 00:01:07 ; elapsed = 00:00:35 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 162 ; free virtual = 2966
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:13 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7069 ; free virtual = 13605
 
 Phase 5.2 Clock Skew Optimization
-Phase 5.2 Clock Skew Optimization | Checksum: 129f6c014
+Phase 5.2 Clock Skew Optimization | Checksum: 190b601fb
 
-Time (s): cpu = 00:01:07 ; elapsed = 00:00:35 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 162 ; free virtual = 2966
-Phase 5 Delay and Skew Optimization | Checksum: 129f6c014
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:13 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7069 ; free virtual = 13605
+Phase 5 Delay and Skew Optimization | Checksum: 190b601fb
 
-Time (s): cpu = 00:01:07 ; elapsed = 00:00:35 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 162 ; free virtual = 2966
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:13 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7069 ; free virtual = 13606
 
 Phase 6 Post Hold Fix
 
 Phase 6.1 Hold Fix Iter
 
 Phase 6.1.1 Update Timing
-Phase 6.1.1 Update Timing | Checksum: 129f6c014
+Phase 6.1.1 Update Timing | Checksum: 190b601fb
 
-Time (s): cpu = 00:01:08 ; elapsed = 00:00:35 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 162 ; free virtual = 2966
-Phase 6.1 Hold Fix Iter | Checksum: 129f6c014
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:13 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7069 ; free virtual = 13605
+Phase 6.1 Hold Fix Iter | Checksum: 190b601fb
 
-Time (s): cpu = 00:01:08 ; elapsed = 00:00:35 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 162 ; free virtual = 2966
-Phase 6 Post Hold Fix | Checksum: 129f6c014
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:13 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7069 ; free virtual = 13606
+Phase 6 Post Hold Fix | Checksum: 190b601fb
 
-Time (s): cpu = 00:01:08 ; elapsed = 00:00:35 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 162 ; free virtual = 2966
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:13 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7069 ; free virtual = 13606
 
 Phase 7 Route finalize
 
 Router Utilization Summary
-  Global Vertical Routing Utilization    = 4.10519 %
-  Global Horizontal Routing Utilization  = 5.18656 %
+  Global Vertical Routing Utilization    = 3.91056 %
+  Global Horizontal Routing Utilization  = 4.94494 %
   Routable Net Status*
   *Does not include unroutable nets such as driverless and loadless.
   Run report_route_status for detailed report.
@@ -1365,35 +1353,35 @@ Router Utilization Summary
   Number of Partially Routed Nets     = 0
   Number of Node Overlaps             = 0
 
-Phase 7 Route finalize | Checksum: 129f6c014
+Phase 7 Route finalize | Checksum: 190b601fb
 
-Time (s): cpu = 00:01:08 ; elapsed = 00:00:35 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 162 ; free virtual = 2966
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:13 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7070 ; free virtual = 13606
 
 Phase 8 Verifying routed nets
 
  Verification completed successfully
-Phase 8 Verifying routed nets | Checksum: 129f6c014
+Phase 8 Verifying routed nets | Checksum: 190b601fb
 
-Time (s): cpu = 00:01:08 ; elapsed = 00:00:35 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 161 ; free virtual = 2965
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:13 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7068 ; free virtual = 13604
 
 Phase 9 Depositing Routes
-Phase 9 Depositing Routes | Checksum: 1718e0363
+Phase 9 Depositing Routes | Checksum: 11d76f737
 
-Time (s): cpu = 00:01:11 ; elapsed = 00:00:37 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 159 ; free virtual = 2964
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:14 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7068 ; free virtual = 13604
 
 Phase 10 Post Router Timing
-Phase 10 Post Router Timing | Checksum: 1718e0363
+Phase 10 Post Router Timing | Checksum: 11d76f737
 
-Time (s): cpu = 00:01:11 ; elapsed = 00:00:37 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 164 ; free virtual = 2968
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:14 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7068 ; free virtual = 13604
 INFO: [Route 35-16] Router Completed Successfully
 
-Time (s): cpu = 00:01:11 ; elapsed = 00:00:37 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 203 ; free virtual = 3008
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:14 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7112 ; free virtual = 13648
 
 Routing Is Done.
 INFO: [Common 17-83] Releasing license: Implementation
 8 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
 route_design completed successfully
-route_design: Time (s): cpu = 00:01:28 ; elapsed = 00:00:41 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 203 ; free virtual = 3008
+route_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:15 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7112 ; free virtual = 13648
 # phys_opt_design -directive default
 Command: phys_opt_design -directive default
 Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
@@ -1411,8 +1399,8 @@ Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:05 ; elapsed = 00:00:01 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 170 ; free virtual = 3004
-INFO: [Common 17-1381] The checkpoint '/home/varun/coding/projects/openpower/openpower_x/lab004_v_sim/build/gateware/top_route.dcp' has been generated.
+Write XDEF Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.52 . Memory (MB): peak = 3491.965 ; gain = 0.000 ; free physical = 7071 ; free virtual = 13631
+INFO: [Common 17-1381] The checkpoint '/home/varun/coding/projects/openpower/openpower_x/lab004_microwatt/build/gateware/top_route.dcp' has been generated.
 # report_timing_summary -no_header -no_detailed_paths
 INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
 INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs
@@ -1439,17 +1427,25 @@ INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum o
   Fast    Yes        Yes        
 
 
+------------------------------------------------------------------------------------------------
+| Report Methodology
+| ------------------
+------------------------------------------------------------------------------------------------
+
+No report available as report_methodology has not been run prior. Run report_methodology on the current design for the summary of methodology violations.
+
+
 
 check_timing report
 
 Table of Contents
 -----------------
-1. checking no_clock (7084)
+1. checking no_clock (6989)
 2. checking constant_clock (0)
 3. checking pulse_width_clock (0)
-4. checking unconstrained_internal_endpoints (22913)
-5. checking no_input_delay (23)
-6. checking no_output_delay (20)
+4. checking unconstrained_internal_endpoints (22689)
+5. checking no_input_delay (10)
+6. checking no_output_delay (8)
 7. checking multiple_clock (0)
 8. checking generated_clocks (0)
 9. checking loops (0)
@@ -1457,9 +1453,9 @@ Table of Contents
 11. checking partial_output_delay (0)
 12. checking latch_loops (0)
 
-1. checking no_clock (7084)
+1. checking no_clock (6989)
 ---------------------------
- There are 7084 register/latch pins with no clock driven by root clock pin: clk100 (HIGH)
+ There are 6989 register/latch pins with no clock driven by root clock pin: clk100 (HIGH)
 
 
 2. checking constant_clock (0)
@@ -1472,23 +1468,23 @@ Table of Contents
  There are 0 register/latch pins which need pulse_width check
 
 
-4. checking unconstrained_internal_endpoints (22913)
+4. checking unconstrained_internal_endpoints (22689)
 ----------------------------------------------------
- There are 22913 pins that are not constrained for maximum delay. (HIGH)
+ There are 22689 pins that are not constrained for maximum delay. (HIGH)
 
  There are 0 pins that are not constrained for maximum delay due to constant clock.
 
 
-5. checking no_input_delay (23)
+5. checking no_input_delay (10)
 -------------------------------
- There are 23 input ports with no input delay specified. (HIGH)
+ There are 10 input ports with no input delay specified. (HIGH)
 
  There are 0 input ports with no input delay but user has a false path constraint.
 
 
-6. checking no_output_delay (20)
---------------------------------
- There are 20 ports with no output delay specified. (HIGH)
+6. checking no_output_delay (8)
+-------------------------------
+ There are 8 ports with no output delay specified. (HIGH)
 
  There are 0 ports with no output delay but user has a false path constraint
 
@@ -1577,9 +1573,9 @@ Path Group    From Clock    To Clock          WNS(ns)      TNS(ns)  TNS Failing 
 Command: report_drc -file top_drc.rpt
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
-INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/varun/tools/XilinX/Vivado/2020.2/data/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2021.1/data/ip'.
 INFO: [DRC 23-27] Running DRC with 8 threads
-INFO: [Coretcl 2-168] The results of DRC are in file /home/varun/coding/projects/openpower/openpower_x/lab004_v_sim/build/gateware/top_drc.rpt.
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file /home/varun/coding/projects/openpower/openpower_x/lab004_microwatt/build/gateware/top_drc.rpt.
 report_drc completed successfully
 # report_timing_summary -datasheet -max_paths 10 -file top_timing.rpt
 INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
@@ -1595,7 +1591,6 @@ WARNING: [Power 33-332] Found switching activity that implies high-fanout reset 
 Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
 0 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
 report_power completed successfully
-report_power: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 3491.328 ; gain = 0.000 ; free physical = 217 ; free virtual = 2981
 # write_bitstream -force top.bit 
 Command: write_bitstream -force top.bit
 Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
@@ -1626,11 +1621,11 @@ Creating bitmap...
 Creating bitstream...
 Writing bitstream ./top.bit...
 INFO: [Vivado 12-1842] Bitgen Completed Successfully.
-INFO: [Project 1-120] WebTalk data collection is mandatory when using a WebPACK part without a full Vivado license. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
-INFO: [Common 17-186] '/home/varun/coding/projects/openpower/openpower_x/lab004_v_sim/build/gateware/usage_statistics_webtalk.xml' has been successfully sent to Xilinx on Tue Jun 29 20:27:14 2021. For additional details about this file, please refer to the WebTalk help file at /home/varun/tools/XilinX/Vivado/2020.2/doc/webtalk_introduction.html.
+INFO: [#UNDEF] WebTalk data collection is mandatory when using a WebPACK part without a full Vivado license. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
+INFO: [Common 17-186] '/home/varun/coding/projects/openpower/openpower_x/lab004_microwatt/build/gateware/usage_statistics_webtalk.xml' has been successfully sent to Xilinx on Thu Aug  5 21:59:26 2021. For additional details about this file, please refer to the WebTalk help file at /opt/Xilinx/Vivado/2021.1/doc/webtalk_introduction.html.
 INFO: [Common 17-83] Releasing license: Implementation
 10 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
 write_bitstream completed successfully
-write_bitstream: Time (s): cpu = 00:00:43 ; elapsed = 00:00:25 . Memory (MB): peak = 3645.766 ; gain = 154.438 ; free physical = 450 ; free virtual = 2943
+write_bitstream: Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 3621.570 ; gain = 129.605 ; free physical = 7056 ; free virtual = 13604
 # quit
-INFO: [Common 17-206] Exiting Vivado at Tue Jun 29 20:27:14 2021...
+INFO: [Common 17-206] Exiting Vivado at Thu Aug  5 21:59:27 2021...

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Jul 16 17:28:58 2021
+# Process ID: 6941
+# Current directory: /home/varun/coding/projects/openpower/openpower_x/lab004_microwatt/build/gateware
+# Command line: vivado -mode batch -source top.tcl
+# Log file: /home/varun/coding/projects/openpower/openpower_x/lab004_microwatt/build/gateware/vivado.log
+# Journal file: /home/varun/coding/projects/openpower/openpower_x/lab004_microwatt/build/gateware/vivado.jou
+#-----------------------------------------------------------
+source top.tcl

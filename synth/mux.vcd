@@ -1,0 +1,175 @@
+$date
+	Fri Jul 16 20:08:43 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb $end
+$var wire 1 ! y $end
+$var reg 1 " a $end
+$var reg 1 # b $end
+$var reg 1 $ s $end
+$scope module mux1 $end
+$var wire 1 % _0_ $end
+$var wire 1 & _1_ $end
+$var wire 1 ' _2_ $end
+$var wire 1 " a $end
+$var wire 1 # b $end
+$var wire 1 $ s $end
+$var wire 1 ! y $end
+$var wire 1 ( _3_ $end
+$scope module _4_ $end
+$var wire 1 & A0 $end
+$var wire 1 % A1 $end
+$var wire 1 ' S $end
+$var wire 1 ) VGND $end
+$var wire 1 * VNB $end
+$var wire 1 + VPB $end
+$var wire 1 , VPWR $end
+$var wire 1 ( X $end
+$scope module base $end
+$var wire 1 & A0 $end
+$var wire 1 % A1 $end
+$var wire 1 ' S $end
+$var wire 1 - VGND $end
+$var wire 1 . VNB $end
+$var wire 1 / VPB $end
+$var wire 1 0 VPWR $end
+$var wire 1 ( X $end
+$var wire 1 1 mux_2to10_out_X $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+01
+10
+1/
+0.
+0-
+1,
+1+
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+0#
+0"
+0!
+$end
+#5000000000000
+1%
+1"
+#10000000000000
+0%
+0"
+#15000000000000
+1%
+1"
+#20000000000000
+0%
+0"
+#25000000000000
+1!
+1(
+11
+1%
+1"
+1&
+1#
+#30000000000000
+0%
+0"
+#35000000000000
+1%
+1"
+#40000000000000
+0%
+0"
+#45000000000000
+1%
+1"
+#50000000000000
+0!
+0(
+01
+0%
+0"
+0&
+0#
+1'
+1$
+#55000000000000
+1!
+1(
+11
+1%
+1"
+#60000000000000
+0!
+0(
+01
+0%
+0"
+#65000000000000
+1!
+1(
+11
+1%
+1"
+#70000000000000
+0!
+0(
+01
+0%
+0"
+#75000000000000
+1!
+1(
+11
+1%
+1"
+1&
+1#
+#80000000000000
+0!
+0(
+01
+0%
+0"
+#85000000000000
+1!
+1(
+11
+1%
+1"
+#90000000000000
+0!
+0(
+01
+0%
+0"
+#95000000000000
+1!
+1(
+11
+1%
+1"
+#100000000000000
+0!
+0(
+01
+0%
+0"
+0&
+0#
+0'
+0$

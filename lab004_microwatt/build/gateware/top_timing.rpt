@@ -1,8 +1,8 @@
-Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------
-| Tool Version : Vivado v.2020.2 (lin64) Build 3064766 Wed Nov 18 09:12:47 MST 2020
-| Date         : Tue Jun 29 20:26:42 2021
-| Host         : varun-UX430UNR running 64-bit Ubuntu 20.04.2 LTS
+| Tool Version : Vivado v.2021.1 (lin64) Build 3247384 Thu Jun 10 19:36:07 MDT 2021
+| Date         : Thu Aug  5 21:59:11 2021
+| Host         : varuns5600x running 64-bit Ubuntu 20.04.2 LTS
 | Command      : report_timing_summary -datasheet -max_paths 10 -file top_timing.rpt
 | Design       : top
 | Device       : 7a100t-csg324
@@ -34,17 +34,25 @@ Timing Summary Report
   Fast    Yes        Yes        
 
 
+------------------------------------------------------------------------------------------------
+| Report Methodology
+| ------------------
+------------------------------------------------------------------------------------------------
+
+No report available as report_methodology has not been run prior. Run report_methodology on the current design for the summary of methodology violations.
+
+
 
 check_timing report
 
 Table of Contents
 -----------------
-1. checking no_clock (7084)
+1. checking no_clock (6989)
 2. checking constant_clock (0)
 3. checking pulse_width_clock (0)
-4. checking unconstrained_internal_endpoints (22913)
-5. checking no_input_delay (23)
-6. checking no_output_delay (20)
+4. checking unconstrained_internal_endpoints (22689)
+5. checking no_input_delay (10)
+6. checking no_output_delay (8)
 7. checking multiple_clock (0)
 8. checking generated_clocks (0)
 9. checking loops (0)
@@ -52,9 +60,9 @@ Table of Contents
 11. checking partial_output_delay (0)
 12. checking latch_loops (0)
 
-1. checking no_clock (7084)
+1. checking no_clock (6989)
 ---------------------------
- There are 7084 register/latch pins with no clock driven by root clock pin: clk100 (HIGH)
+ There are 6989 register/latch pins with no clock driven by root clock pin: clk100 (HIGH)
 
 
 2. checking constant_clock (0)
@@ -67,23 +75,23 @@ Table of Contents
  There are 0 register/latch pins which need pulse_width check
 
 
-4. checking unconstrained_internal_endpoints (22913)
+4. checking unconstrained_internal_endpoints (22689)
 ----------------------------------------------------
- There are 22913 pins that are not constrained for maximum delay. (HIGH)
+ There are 22689 pins that are not constrained for maximum delay. (HIGH)
 
  There are 0 pins that are not constrained for maximum delay due to constant clock.
 
 
-5. checking no_input_delay (23)
+5. checking no_input_delay (10)
 -------------------------------
- There are 23 input ports with no input delay specified. (HIGH)
+ There are 10 input ports with no input delay specified. (HIGH)
 
  There are 0 input ports with no input delay but user has a false path constraint.
 
 
-6. checking no_output_delay (20)
---------------------------------
- There are 20 ports with no output delay specified. (HIGH)
+6. checking no_output_delay (8)
+-------------------------------
+ There are 8 ports with no output delay specified. (HIGH)
 
  There are 0 ports with no output delay but user has a false path constraint
 
