@@ -1,0 +1,75 @@
+$date
+	Sun Aug 29 19:38:23 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb $end
+$var wire 1 ! y $end
+$var reg 1 " a $end
+$var reg 1 # b $end
+$scope module g1 $end
+$var wire 1 $ _0_ $end
+$var wire 1 % _1_ $end
+$var wire 1 " a $end
+$var wire 1 # b $end
+$var wire 1 ! y $end
+$var wire 1 & _2_ $end
+$scope module _3_ $end
+$var wire 1 % A $end
+$var wire 1 $ B $end
+$var wire 1 ' VGND $end
+$var wire 1 ( VNB $end
+$var wire 1 ) VPB $end
+$var wire 1 * VPWR $end
+$var wire 1 & X $end
+$scope module base $end
+$var wire 1 % A $end
+$var wire 1 $ B $end
+$var wire 1 + VGND $end
+$var wire 1 , VNB $end
+$var wire 1 - VPB $end
+$var wire 1 . VPWR $end
+$var wire 1 & X $end
+$var wire 1 / and0_out_X $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0/
+1.
+1-
+0,
+0+
+1*
+1)
+0(
+0'
+0&
+0%
+0$
+0#
+0"
+0!
+$end
+#10000000000000
+1%
+1#
+#20000000000000
+0%
+0#
+1$
+1"
+#30000000000000
+1!
+1&
+1/
+1%
+1#
+#40000000000000

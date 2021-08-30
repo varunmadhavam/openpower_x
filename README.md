@@ -80,5 +80,20 @@
             
 3. Simulate SOC with microwatt core
     1. git clone https://github.com/varunmadhavam/openpower_x.git
-    1. cd openpower_x/microwatt_sim
-    2. ./runsim.sh
+    2. cd openpower_x/microwatt_sim
+    3. ./runsim.sh
+4. Installing the Lattice FPGA tool chain
+    1. sudo apt-get install build-essential clang bison flex libreadline-dev gawk tcl-dev libffi-dev git mercurial graphviz xdot pkg-config python python3 libftdi-dev qt5-default python3-dev libboost-all-dev cmake libeigen3-dev
+    2. cd /tmp
+    3. git clone https://github.com/YosysHQ/icestorm.git icestorm
+    4. cd icestorm
+    5. make
+    6. sudo make install
+    7. cd /tmp
+    8. git clone https://github.com/YosysHQ/nextpnr nextpnr
+    9. cd nextpnr
+    10. cmake -DARCH=ice40 -DCMAKE_INSTALL_PREFIX=/usr/local .
+    11. make
+    12. sudo make install
+    
+   
